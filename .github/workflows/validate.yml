@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   validate:
-    name: Build and validate
+    name: release-gate
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -18,6 +18,12 @@ jobs:
       - name: Install dependencies
         run: |
           if test -f package-lock.json; then npm ci; else npm install --no-audit --no-fund; fi
+      - name: Capture initial dependency lock
+        if: hashFiles('package-lock.json') != ''
+        run: |
+          if ! git ls-files --error-unmatch package-lock.json >/dev/null 2>&1; then
+            node -e "const s=require('fs').readFileSync('package-lock.json','utf8'); for(let i=0;i<s.length;i+=1000) console.log('LOCKFILE '+JSON.stringify(s.slice(i,i+1000)));"
+          fi
       - run: npm test
       - run: npm run check
       - run: npm run build

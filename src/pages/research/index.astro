@@ -1,0 +1,8 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+---
+<Site title="Research archive" description="Biblical demonology research entries with transparent citations and evidence classifications.">
+<section class="wrap archive"><p class="eyebrow">THE RESEARCH ARCHIVE</p><h1>Research entries</h1><p class="lead">Scripture, context and evidence. All current entries are editorial drafts.</p>
+<div class="topics">{entries.map(e=><article class="topic"><span class="status">{e.id} · {e.reviewStatus}</span><h2><a href={`/research/${e.slug}/`}>{e.title}</a></h2><p>{e.summary}</p><p>{e.claims.length} attributed claims</p></article>)}</div></section>
+</Site>

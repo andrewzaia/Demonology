@@ -1,16 +1,159 @@
 [
   {
     "id": "DOC-0001",
+    "slug": "spiritual-warfare",
     "title": "Spiritual warfare in Ephesians 6",
-    "summary": "Ephesians 6:12 describes the struggle as not against flesh and blood, but against spiritual powers. The surrounding passage presents the armour of God (Ephesians 6:10-18).",
-    "evidence": "Scripturally Attested",
-    "confidence": "high",
+    "summary": "The passage describes spiritual struggle and directs believers towards God's strength and armour.",
     "reviewStatus": "draft - owner review pending",
-    "citations": [
+    "claims": [
       {
-        "ref": "REF-0001",
-        "locator": "Ephesians 6:12"
+        "text": "Ephesians 6:12 distinguishes the struggle against spiritual powers from conflict against flesh and blood. The surrounding passage directs believers towards God's strength, faith, righteousness, salvation, Scripture and prayer.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:10-18",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A10-18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The text does not supply a named demonic hierarchy or a technique for diagnosing spiritual causes in other people. Its practical emphasis is faithful resistance rather than speculation about particular entities.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:10-18",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A10-18&version=KJV"
+          }
+        ]
       }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0010"
+    ]
+  },
+  {
+    "id": "DOC-0002",
+    "slug": "authority-of-christ",
+    "title": "The authority of Jesus Christ over demons",
+    "summary": "The Gospel of Mark presents Jesus' authority over unclean spirits as part of the revelation of his identity and teaching.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "In the Capernaum synagogue, an unclean spirit recognises Jesus. Jesus commands it to be silent and to leave the man; the narrative describes its departure and the onlookers' astonishment.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:21-28",
+            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative places the emphasis on Jesus' authority, not on an independent power held by the spirit or an elaborate ritual. The recognition of Jesus by an evil spirit does not constitute faithful discipleship.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:21-28",
+            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+          }
+        ]
+      },
+      {
+        "text": "This account cannot establish that modern symptoms of distress have the same cause. It should not be used as a diagnostic checklist.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:21-28",
+            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0001",
+      "DOC-0010"
+    ]
+  },
+  {
+    "id": "DOC-0010",
+    "slug": "victory-over-evil",
+    "title": "Christ's victory over the devil and spiritual powers",
+    "summary": "New Testament teaching places Christ's saving work at the centre of the defeat of evil.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Hebrews connects Christ's sharing in human nature and his death with the defeat of the devil and liberation from the fear of death.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Hebrews 2:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14-15&version=NIV%3BESV%3BKJV"
+          }
+        ]
+      },
+      {
+        "text": "First John describes the destruction of the devil's works as a purpose of the Son of God's manifestation.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 3:8",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14%2C1+John+3%3A8&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Colossians places the triumph over principalities and powers alongside forgiveness and the cancellation of the record of debt at the cross.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 2:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians+2%3A13-15&version=KJV%3BNKJV"
+          }
+        ]
+      },
+      {
+        "text": "Taken together, these passages provide a Christ-centred framework for demonology; they do not provide a complete chronology of spiritual rebellion or a comprehensive classification of demonic beings.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Hebrews 2:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14-15&version=NIV%3BESV%3BKJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 3:8",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14%2C1+John+3%3A8&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 2:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians+2%3A13-15&version=KJV%3BNKJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0001",
+      "DOC-0002"
     ]
   }
 ]

@@ -1,0 +1,9 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+import refs from '../../data/references.json';
+---
+<Site title="Reference library" description="Source register and citations for the Demonology archive.">
+<section class="wrap archive methodology"><p class="eyebrow">SOURCE LIBRARY</p><h1>References</h1><p class="lead">Sources are registered independently of research entries. Individual claims link to precise passages.</p>
+{refs.map(r=><section class="claim" id={r.id}><p class="status">{r.id} · {r.type}</p><h2>{r.title}</h2><p>{r.edition}</p><p>{r.rightsNote}</p><h3>Citing entries</h3><ul>{entries.filter(e=>e.claims.some(c=>c.citations.some(s=>s.ref===r.id))).map(e=><li><a href={`/research/${e.slug}/`}>{e.title}</a></li>)}</ul></section>)}
+</section></Site>

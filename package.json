@@ -11,7 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test"
+    "test": "node --test test/references.test.mjs"
   },
   "dependencies": {
     "astro": "^6.0.0"
