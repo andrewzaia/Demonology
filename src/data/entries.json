@@ -14,7 +14,7 @@
           {
             "ref": "REF-0001",
             "locator": "Ephesians 6:10-18",
-            "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A10-18&version=KJV"
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A10-18&version=KJV"
           }
         ]
       },
@@ -26,7 +26,7 @@
           {
             "ref": "REF-0001",
             "locator": "Ephesians 6:10-18",
-            "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A10-18&version=KJV"
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A10-18&version=KJV"
           }
         ]
       }
@@ -51,7 +51,7 @@
           {
             "ref": "REF-0001",
             "locator": "Mark 1:21-28",
-            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A21-28&version=KJV"
           }
         ]
       },
@@ -63,7 +63,7 @@
           {
             "ref": "REF-0001",
             "locator": "Mark 1:21-28",
-            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A21-28&version=KJV"
           }
         ]
       },
@@ -75,14 +75,16 @@
           {
             "ref": "REF-0001",
             "locator": "Mark 1:21-28",
-            "url": "https://www.biblegateway.com/passage/?search=mark+1%3A21-28&version=KJV%3BNIV"
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A21-28&version=KJV"
           }
         ]
       }
     ],
     "related": [
       "DOC-0001",
-      "DOC-0010"
+      "DOC-0010",
+      "DOC-0003",
+      "DOC-0007"
     ]
   },
   {
@@ -100,7 +102,7 @@
           {
             "ref": "REF-0001",
             "locator": "Hebrews 2:14-15",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14-15&version=NIV%3BESV%3BKJV"
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
           }
         ]
       },
@@ -112,7 +114,7 @@
           {
             "ref": "REF-0001",
             "locator": "1 John 3:8",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14%2C1+John+3%3A8&version=KJV"
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
           }
         ]
       },
@@ -124,7 +126,7 @@
           {
             "ref": "REF-0001",
             "locator": "Colossians 2:13-15",
-            "url": "https://www.biblegateway.com/passage/?search=Colossians+2%3A13-15&version=KJV%3BNKJV"
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
           }
         ]
       },
@@ -136,24 +138,250 @@
           {
             "ref": "REF-0001",
             "locator": "Hebrews 2:14-15",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14-15&version=NIV%3BESV%3BKJV"
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
           },
           {
             "ref": "REF-0001",
             "locator": "1 John 3:8",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews+2%3A14%2C1+John+3%3A8&version=KJV"
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
           },
           {
             "ref": "REF-0001",
             "locator": "Colossians 2:13-15",
-            "url": "https://www.biblegateway.com/passage/?search=Colossians+2%3A13-15&version=KJV%3BNKJV"
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
           }
         ]
       }
     ],
     "related": [
       "DOC-0001",
-      "DOC-0002"
+      "DOC-0002",
+      "DOC-0004"
+    ]
+  },
+  {
+    "id": "DOC-0003",
+    "slug": "nature-and-origin-of-demons",
+    "title": "The nature and origin of demons",
+    "summary": "What Scripture establishes about demons and rebellious angels, and what it leaves unresolved.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Mark and Luke describe a man afflicted by many demons, using the language of unclean spirits and devils in the same account. The narratives present these as personal spiritual agents subject to Christ's authority.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:1-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A1-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:26-39",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A26-39&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Matthew 25:41 associates the devil with his angels. Second Peter and Jude describe angels who sinned or abandoned their appointed habitation and are held for judgement. These passages establish rebellion and accountability but do not identify every unclean spirit as one of those imprisoned angels.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 25:41",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A41&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Peter 2:4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The identification of demons with fallen angels is a theological synthesis rather than an explicit universal definition in these passages. Their exact origin, the relationship between active demons and imprisoned angels, and a detailed chronology of rebellion remain unresolved by these texts.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:1-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A1-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 25:41",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A41&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Peter 2:4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "A responsible Biblical account begins with the authority of God over spiritual evil. Speculation about the composition of the unseen realm must not obscure the central narrative of Christ restoring the afflicted man.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:15-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A15-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:35-39",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A35-39&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0004",
+      "DOC-0007"
+    ]
+  },
+  {
+    "id": "DOC-0004",
+    "slug": "angelic-rebellion",
+    "title": "Angelic rebellion and judgement",
+    "summary": "The Biblical testimony concerning angels who sinned and their accountability before God.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Second Peter invokes the judgement of sinful angels as a precedent for divine judgement. Jude describes angels who abandoned their appointed place and are kept for the day of judgement.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Peter 2:4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jesus' discourse on final judgement identifies everlasting fire as prepared for the devil and his angels. The passage places these spiritual beings under divine judgement, rather than portraying them as independent rulers of a rival eternal kingdom.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 25:41",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A41&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The two epistles describe sinful angels in comparable terms, but neither passage expressly identifies them with every demon in the Gospel narratives. A complete chronology or identification with the sons of God in Genesis 6 requires separate contextual analysis.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Peter 2:4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:1-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A1-20&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0010"
+    ]
+  },
+  {
+    "id": "DOC-0007",
+    "slug": "unclean-spirits",
+    "title": "Unclean spirits in the Gospel narratives",
+    "summary": "The Gospel accounts' terminology, the plurality of spirits and Christ's restoration of the afflicted.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Mark 5 refers to an unclean spirit and then to multiple spirits speaking through the afflicted man. Luke's parallel explicitly explains the designation Legion by reference to the many demons that had entered him.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:2-13",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A2-13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:27-33",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A27-33&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The term Legion is a collective designation in these narratives. Although Mark records a herd of about two thousand pigs, the text does not establish the exact number of spirits or a named commander in an organised demonic hierarchy.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:9-13",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A9-13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:30-33",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A30-33&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The restoration of the afflicted man, and his subsequent testimony about what God had done for him, are central to both accounts. The narratives do not warrant diagnosing present-day distress as possession on the basis of similar symptoms.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:15-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A15-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:35-39",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A35-39&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0003"
     ]
   }
 ]

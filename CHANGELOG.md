@@ -1,10 +1,12 @@
 # Changelog
 
-## 0.1.0 - Foundation draft
-- Establish project governance, evidence policy, roadmap and Gothic layout.
-- Add protected-branch release-gate validation and strict generated-page checks.
-- Add research entry routes, claim-level citations, reciprocal cross-references, source library and Scripture index.
-- Add draft studies on Christ's authority and victory over evil; retain the initial spiritual warfare study.
-- Keep indexing disabled pending owner approval.
+## 0.1.0 - Development edition (unreleased)
 
-Dependency lock, latest validation, visual review and Cloudflare deployment remain outstanding.
+- Introduced the Demonology archive and its Christian research methodology.
+- Established an initial collection of Biblical studies on Christ's authority, spiritual warfare, angelic rebellion and the nature of unclean spirits.
+- Added a Scripture index, reference library and related research links.
+- Introduced evidence classifications and clearly identified editorial drafts.
+- Added an About page explaining the archive's purpose and future research direction.
+- Improved public documentation for clarity and readability.
+
+The archive remains under development and awaits final editorial approval.

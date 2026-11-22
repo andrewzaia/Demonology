@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 const entries=JSON.parse(readFileSync('src/data/entries.json','utf8'));
 test('all generated pages exist and prohibit indexing',()=>{
-  const paths=['','methodology/','research/','references/','scripture/',...entries.map(e=>'research/'+e.slug+'/')];
+  const paths=['','methodology/','about/','research/','references/','scripture/',...entries.map(e=>'research/'+e.slug+'/')];
   for(const p of paths){const html=readFileSync('dist/'+p+'index.html','utf8');assert.match(html,/<meta[^>]+name="robots"[^>]+content="noindex,nofollow"/);}
   assert.match(readFileSync('dist/_headers','utf8'),/X-Robots-Tag: noindex, nofollow/);
   assert.match(readFileSync('dist/robots.txt','utf8'),/Disallow: \//);
