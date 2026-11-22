@@ -8,5 +8,7 @@
 - Introduced evidence classifications and clearly identified editorial drafts.
 - Added an About page explaining the archive's purpose and future research direction.
 - Improved public documentation for clarity and readability.
+- Added dedicated studies on the Nephilim, the sons of God in Genesis 6, and principalities and powers.
+- Expanded related research links and Scripture references.
 
 The archive remains under development and awaits final editorial approval.
