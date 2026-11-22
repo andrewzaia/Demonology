@@ -1,0 +1,24 @@
+---
+import Site from '../layouts/Site.astro';
+import entries from '../data/entries.json';
+const topics = [
+{title:'Biblical foundations',text:'The nature of spiritual evil and the authority of Christ.',num:'01'},
+{title:'Demonic encyclopaedia',text:'Names, entities, earliest attestations and disputed identifications.',num:'02'},
+{title:'Fallen angels',text:'Angelic rebellion, judgement and related interpretations.',num:'03'},
+{title:'Spiritual warfare',text:'Temptation, faith, deception and the armour of God.',num:'04'},
+{title:'Historical archive',text:'Ancient texts, ecclesiastical accounts and attributed reports.',num:'05'},
+{title:'Reference library',text:'Primary sources, manuscripts and scholarly research.',num:'06'}
+];
+---
+<Site title="A Biblical Study of the Unseen Realm" description="Explore Biblical demonology, spiritual warfare, fallen angels and historical Christian research.">
+<section class="hero"><div class="arch" aria-hidden="true"></div><div class="wrap hero-content">
+<p class="eyebrow">A CHRISTIAN THEOLOGICAL ARCHIVE</p>
+<h1>The Unseen<br/><em>Realm</em></h1>
+<p class="lead">Exploring the darkness through the light of Scripture.</p>
+<p class="hero-copy">A research archive examining demonic entities, fallen angels and spiritual warfare through Biblical teaching, historical sources and Christian theology.</p>
+<div class="actions"><a class="primary" href="#archive">Explore the archive</a><a class="secondary" href="/methodology/">Research methodology</a></div>
+</div></section>
+<section class="wrap scripture" id="scripture"><p class="eyebrow">THE SCRIPTURAL FOUNDATION</p><blockquote>For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.</blockquote><p class="citation">Ephesians 6:12 · KJV</p></section>
+<section class="wrap archive" id="archive"><p class="eyebrow">THE RESEARCH ARCHIVE</p><h2>Fields of study</h2><p class="muted">Planned research collections, developed with transparent evidence and citations.</p><div class="topics">{topics.map(t=><article class="topic"><span class="numeral">{t.num}</span><h3>{t.title}</h3><p>{t.text}</p><span class="status">In development</span></article>)}</div></section>
+<section class="wrap archive"><p class="eyebrow">SCRIPTURE INDEX</p><h2>Initial research text</h2>{entries.map(e=><article class="topic"><span class="status">{e.id} · {e.reviewStatus}</span><h3>{e.title}</h3><p>{e.summary}</p><p class="citation">{e.citations.map(c=>c.locator).join(', ')}</p><p class="muted">{e.evidence}</p></article>)}</section>
+</Site>

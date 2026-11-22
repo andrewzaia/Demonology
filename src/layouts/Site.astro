@@ -1,0 +1,23 @@
+---
+import '../styles/global.css';
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="description" content={description} />
+<title>{title} | Demonology</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="/"><span aria-hidden="true" class="brand-mark">✝</span><span>DEMONOLOGY<small>THE UNSEEN REALM</small></span></a>
+<nav aria-label="Main navigation"><a href="/#archive">Archive</a><a href="/#scripture">Scripture</a><a href="/methodology/">Methodology</a></nav>
+</div></header>
+<main id="main"><slot /></main>
+<footer class="site-footer"><div class="wrap"><strong>Demonology</strong><p>A Biblical study of the unseen realm.</p><a href="/methodology/">Editorial methodology</a><p class="status">Development edition · v0.1.0</p></div></footer>
+</body>
+</html>
