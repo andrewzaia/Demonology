@@ -1,0 +1,9 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+const passages=Array.from(new Map(entries.flatMap(e=>e.claims.flatMap(c=>c.citations)).map(c=>[c.locator,c])).values()).sort((a,b)=>a.locator.localeCompare(b.locator));
+---
+<Site title="Scripture index" description="Biblical passages cited by the Demonology archive.">
+<section class="wrap archive methodology"><p class="eyebrow">SCRIPTURE INDEX</p><h1>Biblical passages</h1><p>Browse passages actually cited in the archive. This is a developing index, not a claim of comprehensive coverage.</p>
+{passages.map(p=><section class="claim"><h2><a href={p.url}>{p.locator}</a></h2><ul>{entries.filter(e=>e.claims.some(c=>c.citations.some(s=>s.locator===p.locator))).map(e=><li><a href={`/research/${e.slug}/`}>{e.title}</a></li>)}</ul></section>)}
+</section></Site>

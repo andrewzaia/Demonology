@@ -1,0 +1,23 @@
+name: Validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: release-gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+      - run: npm ci
+      - run: npm test
+      - run: npm run check
+      - run: npm run build
+      - name: Validate generated pages
+        run: node --test test/build.test.mjs
