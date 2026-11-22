@@ -15,4 +15,7 @@
 - Added search by title, topic and passage reference.
 - Added studies on Satan, spiritual deception and final judgement.
 
+- Added original AI-generated illustrations to six studies, with captions distinguishing artwork from historical evidence.
+- Introduced illustrated reading collections and article covers.
+
 The archive remains under development and awaits final editorial approval.

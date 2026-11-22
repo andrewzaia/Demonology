@@ -1,12 +1,13 @@
 ---
 import Site from '../../layouts/Site.astro';
+import ArticleArt from '../../components/ArticleArt.astro';
 import entries from '../../data/entries.json';
 import collections from '../../data/collections.json';
 ---
 <Site title="Research archive" description="Explore Biblical demonology by theme, passage and research topic.">
 <section class="wrap archive"><p class="eyebrow">THE READING ROOM</p><h1>Research archive</h1><p class="lead">Explore the unseen realm through Scripture, one subject at a time.</p><p class="status">{entries.length} studies · Editorial drafts awaiting review</p>
 <div class="archive-search" hidden><label for="entry-search">Find a study</label><input type="search" id="entry-search" placeholder="Search titles, topics or Scripture passages"/><p id="search-count" role="status" aria-live="polite"></p></div>
-{collections.map(g=><section class="reading-group" data-collection><h2>{g.title}</h2><p class="muted">{g.description}</p><div class="reading-list">{entries.filter(e=>g.ids.includes(e.id)).map(e=><article class="reading-entry" data-entry data-search={[e.title,e.summary,e.id,...e.claims.flatMap(c=>c.citations.map(s=>s.locator))].join(' ').toLowerCase()}><div><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p></div><span class="status">{e.id} · {e.claims.length} claims</span></article>)}</div></section>)}
+{collections.map(g=><section class="reading-group" data-collection><h2>{g.title}</h2><p class="muted">{g.description}</p><div class="reading-list">{entries.filter(e=>g.ids.includes(e.id)).map(e=><article class="reading-entry" data-entry data-search={[e.title,e.summary,e.id,...e.claims.flatMap(c=>c.citations.map(s=>s.locator))].join(' ').toLowerCase()}><ArticleArt slug={e.slug} compact /><div class="reading-entry-copy"><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p></div><span class="status">{e.id} · {e.claims.length} claims</span></article>)}</div></section>)}
 <p id="empty-results" hidden>No studies match your search. Try another term or Scripture reference.</p></section>
 <script>
 const box=document.querySelector<HTMLElement>('.archive-search');
