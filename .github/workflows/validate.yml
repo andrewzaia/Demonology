@@ -15,10 +15,6 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version-file: .nvmrc
-      - name: Resolve updated dependency lock
-        run: npm install --package-lock-only --ignore-scripts --no-audit
-      - name: Capture resolved lock
-        run: node -e "const s=require('fs').readFileSync('package-lock.json','utf8'); for(let i=0;i<s.length;i+=1000) console.log('LOCKFILE '+JSON.stringify(s.slice(i,i+1000)));"
       - run: npm ci --no-audit
       - name: Dependency safety
         run: npm audit --audit-level=high --json > /tmp/dependency-review.json
