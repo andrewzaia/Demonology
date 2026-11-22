@@ -9,3 +9,5 @@ test('all generated pages exist and prohibit indexing',()=>{
   assert.match(readFileSync('dist/robots.txt','utf8'),/Disallow: \//);
 });
 test('entry and source links resolve in built output',()=>{for(const e of entries){const html=readFileSync('dist/research/'+e.slug+'/index.html','utf8');for(const r of e.related){const target=entries.find(x=>x.id===r);assert.ok(html.includes('/research/'+target.slug+'/'));}for(const c of e.claims)for(const s of c.citations){assert.ok(html.includes('/references/#'+s.ref));assert.ok(readFileSync('dist/references/index.html','utf8').includes('id="'+s.ref+'"'));}}});
+
+test('homepage and reading room link to every study',()=>{for(const path of ['dist/index.html','dist/research/index.html']){const html=readFileSync(path,'utf8');for(const e of entries)assert.ok(html.includes('/research/'+e.slug+'/'),path+' missing '+e.id);}});

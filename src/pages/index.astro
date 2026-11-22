@@ -1,24 +1,18 @@
 ---
 import Site from '../layouts/Site.astro';
 import entries from '../data/entries.json';
-const topics = [
-{title:'Biblical foundations',text:'The nature of spiritual evil and the authority of Christ.',num:'01'},
-{title:'Demonic encyclopaedia',text:'Names, entities, earliest attestations and disputed identifications.',num:'02'},
-{title:'Fallen angels',text:'Angelic rebellion, judgement and related interpretations.',num:'03'},
-{title:'Spiritual warfare',text:'Temptation, faith, deception and the armour of God.',num:'04'},
-{title:'Historical archive',text:'Ancient texts, ecclesiastical accounts and attributed reports.',num:'05'},
-{title:'Reference library',text:'Primary sources, manuscripts and scholarly research.',num:'06'}
-];
+import collections from '../data/collections.json';
+const featured=entries.find(e=>e.id==='DOC-0002')!;
+const passages=new Set(entries.flatMap(e=>e.claims.flatMap(c=>c.citations.map(s=>s.locator)))).size;
 ---
 <Site title="A Biblical Study of the Unseen Realm" description="Explore Biblical demonology, spiritual warfare, fallen angels and historical Christian research.">
-<section class="hero"><div class="arch" aria-hidden="true"></div><div class="wrap hero-content">
-<p class="eyebrow">A CHRISTIAN THEOLOGICAL ARCHIVE</p>
-<h1>The Unseen<br/><em>Realm</em></h1>
-<p class="lead">Exploring the darkness through the light of Scripture.</p>
-<p class="hero-copy">A research archive examining demonic entities, fallen angels and spiritual warfare through Biblical teaching, historical sources and Christian theology.</p>
-<div class="actions"><a class="primary" href="/research/">Explore the archive</a><a class="secondary" href="/methodology/">Research methodology</a></div>
-</div></section>
-<section class="wrap scripture" id="scripture"><p class="eyebrow">THE SCRIPTURAL FOUNDATION</p><blockquote>For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.</blockquote><p class="citation">Ephesians 6:12 · KJV</p></section>
-<section class="wrap archive" id="archive"><p class="eyebrow">THE RESEARCH ARCHIVE</p><h2>Fields of study</h2><p class="muted">Planned research collections, developed with transparent evidence and citations.</p><div class="topics">{topics.map(t=><article class="topic"><span class="numeral">{t.num}</span><h3>{t.title}</h3><p>{t.text}</p><span class="status">In development</span></article>)}</div></section>
-<section class="wrap archive"><p class="eyebrow">SCRIPTURE INDEX</p><h2>Initial research entries</h2>{entries.map(e=><article class="topic"><span class="status">{e.id} · {e.reviewStatus}</span><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p><p class="muted">{e.claims.length} attributed claims</p></article>)}</section>
+<section class="hero library-hero"><div class="arch" aria-hidden="true"></div><div class="wrap hero-content">
+<p class="eyebrow">A BIBLICAL STUDY OF THE UNSEEN REALM</p><h1>Exploring the darkness<br/><em>through the light of Scripture.</em></h1>
+<p class="hero-copy">What does Scripture actually reveal about spiritual evil? Discover the Biblical accounts, the questions they raise, and the authority of Jesus Christ over the unseen realm.</p>
+<div class="actions"><a class="primary" href="/research/">Enter the archive</a><a class="secondary" href="/about/">About this study</a></div></div></section>
+<section class="wrap scripture" id="scripture"><p class="eyebrow">A PASSAGE TO REFLECT ON</p><blockquote>For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.</blockquote><p class="citation"><a href="https://www.biblegateway.com/passage/?search=Ephesians+6%3A12&version=KJV">Ephesians 6:12</a> · KJV</p></section>
+<section class="wrap archive" id="archive"><div class="section-heading"><div><p class="eyebrow">THE READING ROOM</p><h2>Where to begin</h2></div><a href="/research/">Browse all studies</a></div>
+<article class="featured-study"><div><p class="eyebrow">FOUNDATIONAL READING</p><h3><a href={`/research/${featured.slug}/`}>{featured.title}</a></h3><p>{featured.summary}</p><p class="status">{featured.reviewStatus}</p></div><a class="reading-link" href={`/research/${featured.slug}/`}>Read the study &rarr;</a></article>
+<div class="collection-grid">{collections.map(g=><section class="collection"><h3>{g.title}</h3><p>{g.description}</p><ul>{entries.filter(e=>g.ids.includes(e.id)).map(e=><li><a href={`/research/${e.slug}/`}>{e.title}</a></li>)}</ul></section>)}</div></section>
+<section class="wrap archive discovery"><p class="eyebrow">EXPLORE FURTHER</p><h2>Follow the evidence</h2><div class="collection-grid"><section class="collection"><h3><a href="/scripture/">Scripture index</a></h3><p>{passages} cited passage references across the collection.</p></section><section class="collection"><h3><a href="/references/">Reference library</a></h3><p>Trace each study back to the sources that support it.</p></section><section class="collection"><h3><a href="/methodology/">How we study</a></h3><p>Understand evidence, interpretation and the limits of certainty.</p></section><section class="collection"><h3><a href="/about/">The next chapters</a></h3><p>{entries.length} studies in development, with ancient literature and individual entity entries to follow.</p></section></div></section>
 </Site>

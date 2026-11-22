@@ -11,4 +11,8 @@
 - Added dedicated studies on the Nephilim, the sons of God in Genesis 6, and principalities and powers.
 - Expanded related research links and Scripture references.
 
+- Refined the reading room and grouped studies by theme.
+- Added search by title, topic and passage reference.
+- Added studies on Satan, spiritual deception and final judgement.
+
 The archive remains under development and awaits final editorial approval.

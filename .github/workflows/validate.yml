@@ -16,6 +16,10 @@ jobs:
         with:
           node-version-file: .nvmrc
       - run: npm ci
+      - name: Review dependencies
+        run: npm audit --json > /tmp/dependency-review.json || true
+      - name: Report advisory identifiers
+        run: node -e "const a=require('/tmp/dependency-review.json'); if(a.error) console.log('Audit unavailable'); else for(const [name,v] of Object.entries(a.vulnerabilities||{})) console.log(JSON.stringify({name,severity:v.severity,range:v.range,via:v.via,fixAvailable:v.fixAvailable}));"
       - run: npm test
       - run: npm run check
       - run: npm run build

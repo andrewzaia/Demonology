@@ -34,7 +34,8 @@
     "related": [
       "DOC-0002",
       "DOC-0010",
-      "DOC-0006"
+      "DOC-0006",
+      "DOC-0008"
     ]
   },
   {
@@ -85,7 +86,8 @@
       "DOC-0001",
       "DOC-0010",
       "DOC-0003",
-      "DOC-0007"
+      "DOC-0007",
+      "DOC-0008"
     ]
   },
   {
@@ -183,7 +185,8 @@
       "DOC-0002",
       "DOC-0004",
       "DOC-0007",
-      "DOC-0005"
+      "DOC-0005",
+      "DOC-0012"
     ]
   },
   {
@@ -250,7 +253,9 @@
       "DOC-0010",
       "DOC-0005",
       "DOC-0006",
-      "DOC-0011"
+      "DOC-0011",
+      "DOC-0009",
+      "DOC-0012"
     ]
   },
   {
@@ -506,6 +511,140 @@
     ]
   },
   {
+    "id": "DOC-0008",
+    "slug": "spiritual-deception",
+    "title": "Spiritual deception and false teaching",
+    "summary": "Biblical warnings about false apostles, misleading appearances and teachings that depart from the faith.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Paul warns the Corinthians against deceptive workers presenting themselves as apostles of Christ. He compares their conduct with Satan's appearance as an angel of light. The immediate context concerns false claims to apostolic authority.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 11:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2011%3A13-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "First Timothy warns that some will abandon the faith through deceptive spiritual influence and false teachings. The passage gives specific examples and contrasts them with gratitude for God's creation.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 Timothy 4:1-5",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A1-5&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "A religious appearance is therefore not sufficient evidence of divine authority. The Christian evaluation of a teaching requires attention to its message and conformity with Scripture, rather than the impressiveness of its messenger.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 11:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2011%3A13-15&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 Timothy 4:1-5",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A1-5&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "These warnings do not establish that every mistaken teaching has a demonstrable supernatural origin. The text's theological claims should not be converted into accusations about named contemporary individuals without evidence.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 11:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2011%3A13-15&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 Timothy 4:1-5",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%204%3A1-5&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0001",
+      "DOC-0002",
+      "DOC-0012"
+    ]
+  },
+  {
+    "id": "DOC-0009",
+    "slug": "final-judgement-of-evil",
+    "title": "The final judgement of Satan and evil",
+    "summary": "Revelation's account of Satan's defeat, final judgement and the limits of chronological speculation.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Revelation 20 depicts Satan being released, deceiving the nations and gathering them against the saints. Their assault ends with divine judgement, and the devil is consigned to the lake of fire.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:7-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A7-10&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The subsequent vision describes judgement before the great white throne, the opening of books and the defeat of death and hell. The lake of fire is also identified as the second death.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:11-15",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A11-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative does not portray Satan as the sovereign of hell. He is himself subject to punishment. The central emphasis is God's ultimate authority over evil and death.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:10-15",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A10-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Christian traditions interpret the chronology and literary symbolism of Revelation differently. The stated judgement is distinguished here from disputed reconstructions of the end times.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:7-15",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A7-15&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0004",
+      "DOC-0010",
+      "DOC-0012"
+    ]
+  },
+  {
     "id": "DOC-0010",
     "slug": "victory-over-evil",
     "title": "Christ's victory over the devil and spiritual powers",
@@ -575,7 +714,9 @@
       "DOC-0001",
       "DOC-0002",
       "DOC-0004",
-      "DOC-0006"
+      "DOC-0006",
+      "DOC-0009",
+      "DOC-0012"
     ]
   },
   {
@@ -679,6 +820,75 @@
     "related": [
       "DOC-0005",
       "DOC-0004"
+    ]
+  },
+  {
+    "id": "DOC-0012",
+    "slug": "satan-in-scripture",
+    "title": "Satan in Scripture: adversary and accuser",
+    "summary": "The Biblical portrayal of Satan as an adversary under God's authority, from Job to Revelation.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Job 1 depicts Satan questioning Job's motives before God. The permission granted to test Job includes an explicit limit concerning harm to Job's person.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 12 identifies the dragon with the ancient serpent, the devil and Satan, and describes him as a deceiver and accuser. The vision portrays his defeat and the triumph of the faithful through the Lamb.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The two passages portray opposition to God and accusation of the faithful, while locating the adversary within the limits of divine authority. Neither supplies a complete biography or an exhaustive account of his origin.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation's dragon is presented in an apocalyptic vision. Its imagery should not be treated as evidence of a physical appearance outside that literary setting.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0004",
+      "DOC-0008",
+      "DOC-0009",
+      "DOC-0010"
     ]
   }
 ]
