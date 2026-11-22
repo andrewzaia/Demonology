@@ -33,7 +33,8 @@
     ],
     "related": [
       "DOC-0002",
-      "DOC-0010"
+      "DOC-0010",
+      "DOC-0006"
     ]
   },
   {
@@ -85,78 +86,6 @@
       "DOC-0010",
       "DOC-0003",
       "DOC-0007"
-    ]
-  },
-  {
-    "id": "DOC-0010",
-    "slug": "victory-over-evil",
-    "title": "Christ's victory over the devil and spiritual powers",
-    "summary": "New Testament teaching places Christ's saving work at the centre of the defeat of evil.",
-    "reviewStatus": "draft - owner review pending",
-    "claims": [
-      {
-        "text": "Hebrews connects Christ's sharing in human nature and his death with the defeat of the devil and liberation from the fear of death.",
-        "evidence": "Scripturally Attested",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "Hebrews 2:14-15",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
-          }
-        ]
-      },
-      {
-        "text": "First John describes the destruction of the devil's works as a purpose of the Son of God's manifestation.",
-        "evidence": "Scripturally Attested",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "1 John 3:8",
-            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
-          }
-        ]
-      },
-      {
-        "text": "Colossians places the triumph over principalities and powers alongside forgiveness and the cancellation of the record of debt at the cross.",
-        "evidence": "Scripturally Attested",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "Colossians 2:13-15",
-            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
-          }
-        ]
-      },
-      {
-        "text": "Taken together, these passages provide a Christ-centred framework for demonology; they do not provide a complete chronology of spiritual rebellion or a comprehensive classification of demonic beings.",
-        "evidence": "Theological Interpretation",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "Hebrews 2:14-15",
-            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
-          },
-          {
-            "ref": "REF-0001",
-            "locator": "1 John 3:8",
-            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
-          },
-          {
-            "ref": "REF-0001",
-            "locator": "Colossians 2:13-15",
-            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
-          }
-        ]
-      }
-    ],
-    "related": [
-      "DOC-0001",
-      "DOC-0002",
-      "DOC-0004"
     ]
   },
   {
@@ -253,7 +182,8 @@
     "related": [
       "DOC-0002",
       "DOC-0004",
-      "DOC-0007"
+      "DOC-0007",
+      "DOC-0005"
     ]
   },
   {
@@ -317,7 +247,198 @@
     ],
     "related": [
       "DOC-0003",
-      "DOC-0010"
+      "DOC-0010",
+      "DOC-0005",
+      "DOC-0006",
+      "DOC-0011"
+    ]
+  },
+  {
+    "id": "DOC-0005",
+    "slug": "nephilim",
+    "title": "The Nephilim: Genesis and Numbers",
+    "summary": "A study of the two Biblical passages that name the Nephilim, distinguishing the narrative from later claims about their origins.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Genesis 6:1-4 places the Nephilim in the period associated with the sons of God and the daughters of men. The King James Version renders the term as giants. The passage also refers to mighty men of old and men of renown.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Numbers 13 records the spies' report concerning the inhabitants of Canaan. In verse 33 the spies connect the giants with the sons of Anak and describe their own apparent smallness.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Numbers 13:30-33",
+            "url": "https://www.biblegateway.com/passage/?search=Numbers%2013%3A30-33&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The report in Numbers belongs to the fearful response of the spies, not to an independent description of the exact height or ancestry of these inhabitants. The narrative distinguishes Caleb's confidence from the other spies' discouraging report.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Numbers 13:30-33",
+            "url": "https://www.biblegateway.com/passage/?search=Numbers%2013%3A30-33&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Numbers 14:6-9",
+            "url": "https://www.biblegateway.com/passage/?search=Numbers%2014%3A6-9&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Genesis 6 does not explicitly call the Nephilim demons or state that their spirits become demons after death. Numerical estimates, descriptions of supernatural powers and a precise account of their ancestry cannot be established from these passages alone.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Numbers 13:33",
+            "url": "https://www.biblegateway.com/passage/?search=Numbers%2013%3A33&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The interpretation of the sons of God is relevant but should be investigated separately from the identification of the Nephilim. Later traditions may explain the relationship in greater detail, but those explanations require their own sources and evidence classifications.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0004",
+      "DOC-0011"
+    ]
+  },
+  {
+    "id": "DOC-0006",
+    "slug": "principalities-and-powers",
+    "title": "Principalities, powers and spiritual authorities",
+    "summary": "Paul's descriptions of spiritual powers within the wider Biblical teaching of Christ's supremacy.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Ephesians 6 contrasts the believer's struggle against spiritual forces with warfare against flesh and blood. Its list includes principalities, powers, rulers of darkness and spiritual wickedness.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:10-18",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A10-18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Ephesians 1 places the risen Christ above every principality and power, might and dominion. Colossians 1 states that all things, visible and invisible, including thrones and authorities, were created through and for Christ.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 1:20-23",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%201%3A20-23&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 1:15-17",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A15-17&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Because the terminology also occurs in statements concerning creation and Christ's supremacy, the words principality and power cannot be treated as universally demonic titles without considering the context of each passage.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 1:20-23",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%201%3A20-23&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:12",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 1:16",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Colossians 2 presents Christ's triumph over powers in connection with forgiveness and the cross. A Christian study should give this victory priority over constructing speculative chains of demonic command.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 2:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The lists do not supply names, territorial assignments or a complete hierarchy. The texts establish spiritual opposition and Christ's supremacy, not a comprehensive taxonomy of ranks.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:10-18",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A10-18&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 1:15-17",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A15-17&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 1:20-23",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%201%3A20-23&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0001",
+      "DOC-0010",
+      "DOC-0004"
     ]
   },
   {
@@ -382,6 +503,182 @@
     "related": [
       "DOC-0002",
       "DOC-0003"
+    ]
+  },
+  {
+    "id": "DOC-0010",
+    "slug": "victory-over-evil",
+    "title": "Christ's victory over the devil and spiritual powers",
+    "summary": "New Testament teaching places Christ's saving work at the centre of the defeat of evil.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Hebrews connects Christ's sharing in human nature and his death with the defeat of the devil and liberation from the fear of death.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Hebrews 2:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "First John describes the destruction of the devil's works as a purpose of the Son of God's manifestation.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 3:8",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Colossians places the triumph over principalities and powers alongside forgiveness and the cancellation of the record of debt at the cross.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 2:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Taken together, these passages provide a Christ-centred framework for demonology; they do not provide a complete chronology of spiritual rebellion or a comprehensive classification of demonic beings.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Hebrews 2:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 3:8",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%203%3A8&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 2:13-15",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%202%3A13-15&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0001",
+      "DOC-0002",
+      "DOC-0004",
+      "DOC-0006"
+    ]
+  },
+  {
+    "id": "DOC-0011",
+    "slug": "sons-of-god-genesis-six",
+    "title": "The sons of God in Genesis 6",
+    "summary": "The identity of the sons of God in Genesis 6 and the main interpretative questions.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Genesis describes the sons of God seeing the daughters of men and taking wives. The passage occurs before the description of widespread wickedness and the flood narrative.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-8",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-8&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The heavenly-being interpretation draws support from the phrase sons of God in Job, where the narrative depicts a heavenly assembly. Genesis itself does not explicitly name the sons as angels or describe the mechanism of their union.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 2:1",
+            "url": "https://www.biblegateway.com/passage/?search=Job%202%3A1&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "A human-lineage interpretation reads the passage in relation to the preceding genealogies, particularly the lines of Cain and Seth. Genesis 6 does not explicitly identify the sons with Seth's descendants or the daughters with Cain's descendants.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 4:17-26",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%204%3A17-26&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 5:1-32",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%205%3A1-32&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Another interpretation relates the sons of God to powerful human rulers. The taking of wives and the reference to renowned mighty men are relevant to that reading, but the passage does not explicitly identify the sons as kings.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The heavenly-being reading has a meaningful textual parallel in Job; the competing readings require different contextual inferences. The present entry treats the identification as a disputed interpretation and reserves the treatment of the Watchers in ancient literature for a separately sourced study.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 2:1",
+            "url": "https://www.biblegateway.com/passage/?search=Job%202%3A1&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0005",
+      "DOC-0004"
     ]
   }
 ]
