@@ -4,7 +4,7 @@
     "slug": "satan",
     "title": "Satan",
     "summary": "The adversary, devil and accuser identified in Scripture, whose power remains subject to God's authority.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Job 1:6-12 presents Satan questioning the motives of a righteous man in the heavenly assembly. God permits a limited test but does not grant unrestricted authority. The Hebrew title in this passage is explained as the adversary or accuser in the ESV translation note.",
@@ -99,14 +99,15 @@
       "TXT-0004",
       "TXT-0005",
       "HIS-0005"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0002",
     "slug": "beelzebul",
     "title": "Beelzebul (Beelzebub)",
     "summary": "A designation used in accusations against Jesus, with a debated relationship to the god of Ekron and to Satan.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Matthew records the Pharisees attributing Jesus' exorcisms to Beelzebub. Mark attributes a similar charge to scribes from Jerusalem, and Luke records an accusation by some of those present. The King James Version uses Beelzebub while the NIV uses Beelzebul.",
@@ -204,14 +205,15 @@
       "DOC-0006",
       "DEM-0001",
       "DEM-0006"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0003",
     "slug": "legion",
     "title": "Legion",
     "summary": "The collective designation of many demons in the Gospel accounts of the man restored by Jesus near the Sea of Galilee.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Mark describes a man living among tombs, whom Jesus encounters after crossing the sea. In the narrative, the response to Jesus' question about the spirit's name identifies a plurality of beings under the designation Legion.",
@@ -310,14 +312,15 @@
       "DOC-0002",
       "DOC-0003",
       "DOC-0007"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0004",
     "slug": "abaddon-apollyon",
     "title": "Abaddon (Apollyon)",
     "summary": "The angel of the abyss named in Revelation 9:11, whose designation and role must be read within the fifth trumpet vision.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Revelation 9 introduces a fallen star given a key to the abyss. Smoke emerges and visionary locusts are released. Their power is expressly limited in its duration and its permitted effects.",
@@ -414,14 +417,15 @@
       "DOC-0004",
       "DOC-0006",
       "DOC-0009"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0005",
     "slug": "azazel",
     "title": "Azazel",
     "summary": "The disputed designation in Leviticus 16 and the rebellious figure called Azazel in the Book of Enoch.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Leviticus 16:7-10 describes two goats presented before the Lord. One is designated for the Lord and the other for Azazel in the ESV; the KJV uses scapegoat. The second animal is sent into the wilderness alive.",
@@ -500,14 +504,15 @@
       "DOC-0014",
       "TXT-0001",
       "DEM-0008"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0006",
     "slug": "belial",
     "title": "Belial (Beliar)",
     "summary": "A term associated with wickedness in the Old Testament and contrasted with Christ in Paul's correspondence.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "In Deuteronomy 13:13 and 1 Samuel 2:12, the KJV uses expressions involving Belial for wicked people. The ESV renders the relevant descriptions in terms of worthlessness rather than a named spiritual being.",
@@ -592,14 +597,15 @@
       "DEM-0001",
       "DEM-0002",
       "DOC-0008"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0007",
     "slug": "prince-of-persia",
     "title": "The prince of Persia",
     "summary": "The opposing prince described in Daniel 10, considered within the angelic conflict of the vision.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Daniel 10:13 records the heavenly messenger's explanation that the prince of the kingdom of Persia resisted him for twenty-one days, until Michael, described as one of the chief princes, came to assist him.",
@@ -678,14 +684,15 @@
       "DEM-0001",
       "DEM-0009",
       "DOC-0021"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0008",
     "slug": "semjaza",
     "title": "Semjaza",
     "summary": "The leader named in the Enochic account of the Watchers' descent, distinguished from figures explicitly named in Scripture.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "First Enoch 6 presents Semjaza as the leader of heavenly beings who desire human wives. He fears bearing the consequences alone; the others agree to share responsibility. The narrative locates their descent at Mount Hermon and describes a company of two hundred.",
@@ -758,14 +765,15 @@
       "DOC-0015",
       "DEM-0011",
       "DEM-0012"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0009",
     "slug": "prince-of-greece",
     "title": "The prince of Greece",
     "summary": "The second opposing prince mentioned in Daniel 10 and the limits of identifying spiritual counterparts to earthly kingdoms.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "At the end of Daniel 10, the heavenly messenger announces renewed conflict with the prince of Persia and the coming of the prince of Greece (Grecia in the KJV). The following verse names Michael as Daniel's people's prince.",
@@ -831,14 +839,15 @@
       "DOC-0006",
       "DOC-0004",
       "DOC-0021"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0010",
     "slug": "asmodeus",
     "title": "Asmodeus",
     "summary": "The demon named in Tobit, studied within the book's narrative and its differing canonical reception.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Tobit 3 identifies Asmodeus as the cause of the deaths of Sarah's seven husbands. The narrative distinguishes this attribution from the unjust accusation made against Sarah and presents her appeal to God in distress.",
@@ -926,14 +935,15 @@
       "DOC-0007",
       "DOC-0003",
       "HIS-0002"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0011",
     "slug": "armaros",
     "title": "Armaros",
     "summary": "A named Watcher in the Book of Enoch, examined through the text's limited attributed role.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "The leaders listed in 1 Enoch 6 include Armaros. The narrative identifies the group as leaders of the company of heavenly beings that descends in the days of Jared.",
@@ -999,14 +1009,15 @@
       "DOC-0014",
       "TXT-0001",
       "DEM-0012"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DEM-0012",
     "slug": "baraqijal",
     "title": "Baraqijal",
     "summary": "A Watcher named in Enochic literature and associated there with knowledge of astrology.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Baraqijal is named among the leaders in 1 Enoch 6:7. The Charles translation subsequently associates the name with astrology in chapter 8.",
@@ -1072,14 +1083,15 @@
       "DEM-0011",
       "DOC-0014",
       "TXT-0001"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0001",
     "slug": "spiritual-warfare",
     "title": "Spiritual warfare in Ephesians 6",
     "summary": "The passage describes spiritual struggle and directs believers towards God's strength and armour.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Ephesians 6:12 distinguishes the struggle against spiritual powers from conflict against flesh and blood. The surrounding passage directs believers towards God's strength, faith, righteousness, salvation, Scripture and prayer.",
@@ -1111,14 +1123,15 @@
       "DOC-0010",
       "DOC-0006",
       "DOC-0008"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0002",
     "slug": "authority-of-christ",
     "title": "The authority of Jesus Christ over demons",
     "summary": "The Gospel of Mark presents Jesus' authority over unclean spirits as part of the revelation of his identity and teaching.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "In the Capernaum synagogue, an unclean spirit recognises Jesus. Jesus commands it to be silent and to leave the man; the narrative describes its departure and the onlookers' astonishment.",
@@ -1170,14 +1183,15 @@
       "DOC-0024",
       "DOC-0027",
       "DOC-0028"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0003",
     "slug": "nature-and-origin-of-demons",
     "title": "The nature and origin of demons",
     "summary": "What Scripture establishes about demons and rebellious angels, and what it leaves unresolved.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Mark and Luke describe a man afflicted by many demons, using the language of unclean spirits and devils in the same account. The narratives present these as personal spiritual agents subject to Christ's authority.",
@@ -1276,14 +1290,15 @@
       "TXT-0002",
       "TXT-0003",
       "TXT-0004"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0004",
     "slug": "angelic-rebellion",
     "title": "Angelic rebellion and judgement",
     "summary": "The Biblical testimony concerning angels who sinned and their accountability before God.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Second Peter invokes the judgement of sinful angels as a precedent for divine judgement. Jude describes angels who abandoned their appointed place and are kept for the day of judgement.",
@@ -1352,14 +1367,15 @@
       "DOC-0014",
       "DEM-0009",
       "DOC-0021"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0005",
     "slug": "nephilim",
     "title": "The Nephilim: Genesis and Numbers",
     "summary": "A study of the two Biblical passages that name the Nephilim, distinguishing the narrative from later claims about their origins.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Genesis 6:1-4 places the Nephilim in the period associated with the sons of God and the daughters of men. The King James Version renders the term as giants. The passage also refers to mighty men of old and men of renown.",
@@ -1446,14 +1462,15 @@
       "DOC-0015",
       "TXT-0003",
       "TXT-0006"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0006",
     "slug": "principalities-and-powers",
     "title": "Principalities, powers and spiritual authorities",
     "summary": "Paul's descriptions of spiritual powers within the wider Biblical teaching of Christ's supremacy.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Ephesians 6 contrasts the believer's struggle against spiritual forces with warfare against flesh and blood. Its list includes principalities, powers, rulers of darkness and spiritual wickedness.",
@@ -1550,14 +1567,15 @@
       "DEM-0007",
       "DEM-0009",
       "DOC-0021"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0007",
     "slug": "unclean-spirits",
     "title": "Unclean spirits in the Gospel narratives",
     "summary": "The Gospel accounts' terminology, the plurality of spirits and Christ's restoration of the afflicted.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Mark 5 refers to an unclean spirit and then to multiple spirits speaking through the afflicted man. Luke's parallel explicitly explains the designation Legion by reference to the many demons that had entered him.",
@@ -1618,14 +1636,15 @@
       "DEM-0010",
       "DOC-0024",
       "DOC-0028"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0008",
     "slug": "spiritual-deception",
     "title": "Spiritual deception and false teaching",
     "summary": "Biblical warnings about false apostles, misleading appearances and teachings that depart from the faith.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Paul warns the Corinthians against deceptive workers presenting themselves as apostles of Christ. He compares their conduct with Satan's appearance as an angel of light. The immediate context concerns false claims to apostolic authority.",
@@ -1699,14 +1718,15 @@
       "DOC-0023",
       "DOC-0025",
       "DOC-0026"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0009",
     "slug": "final-judgement-of-evil",
     "title": "The final judgement of Satan and evil",
     "summary": "Revelation's account of Satan's defeat, final judgement and the limits of chronological speculation.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Revelation 20 depicts Satan being released, deceiving the nations and gathering them against the saints. Their assault ends with divine judgement, and the devil is consigned to the lake of fire.",
@@ -1768,14 +1788,15 @@
       "DOC-0020",
       "HIS-0003",
       "HIS-0004"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0010",
     "slug": "victory-over-evil",
     "title": "Christ's victory over the devil and spiritual powers",
     "summary": "New Testament teaching places Christ's saving work at the centre of the defeat of evil.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Hebrews connects Christ's sharing in human nature and his death with the defeat of the devil and liberation from the fear of death.",
@@ -1845,14 +1866,15 @@
       "DOC-0012",
       "DEM-0001",
       "TXT-0005"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0011",
     "slug": "sons-of-god-genesis-six",
     "title": "The sons of God in Genesis 6",
     "summary": "The identity of the sons of God in Genesis 6 and the main interpretative questions.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Genesis describes the sons of God seeing the daughters of men and taking wives. The passage occurs before the description of widespread wickedness and the flood narrative.",
@@ -1951,14 +1973,15 @@
       "DOC-0014",
       "TXT-0001",
       "TXT-0006"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0012",
     "slug": "satan-in-scripture",
     "title": "Satan in Scripture: adversary and accuser",
     "summary": "The Biblical portrayal of Satan as an adversary under God's authority, from Job to Revelation.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Job 1 depicts Satan questioning Job's motives before God. The permission granted to test Job includes an explicit limit concerning harm to Job's person.",
@@ -2023,14 +2046,15 @@
       "DEM-0001",
       "DOC-0013",
       "DOC-0016"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0013",
     "slug": "lucifer-isaiah-fourteen",
     "title": "Lucifer and Isaiah 14",
     "summary": "The morning-star imagery in Isaiah's taunt against Babylon and its traditional interpretation in relation to Satan.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Isaiah 14:4 introduces a taunt against the king of Babylon. The following poetic passage describes his downfall and the collapse of his claims to exalted power.",
@@ -2117,14 +2141,15 @@
       "DEM-0001",
       "DOC-0012",
       "DOC-0004"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0014",
     "slug": "watchers",
     "title": "The Watchers in Daniel and Enoch",
     "summary": "A comparative study distinguishing the holy messengers in Daniel from the rebellious Watchers of ancient Enochic literature.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Nebuchadnezzar's dream in Daniel 4 describes a watcher and holy one who descends from heaven and announces judgement. Verse 17 associates the proclamation of the watchers with the sovereignty of the Most High.",
@@ -2231,14 +2256,15 @@
       "DEM-0012",
       "TXT-0002",
       "HIS-0001"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0015",
     "slug": "enochic-origin-of-evil-spirits",
     "title": "The Enochic account of the origin of evil spirits",
     "summary": "A study of 1 Enoch 15-16 as an ancient explanation of evil spirits, compared with the limits of Biblical testimony.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "First Enoch 15:3-7 contrasts the heavenly Watchers' former spiritual condition with their unions with mortal women. The narrative treats their conduct as a transgression of the boundaries of their appointed existence.",
@@ -2331,14 +2357,15 @@
       "TXT-0003",
       "TXT-0004",
       "HIS-0001"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0016",
     "slug": "serpent-in-genesis",
     "title": "The serpent in Genesis",
     "summary": "The temptation narrative in Genesis 3 and the identification of the ancient serpent with Satan in Revelation.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Genesis 3 describes the serpent questioning God's command, contradicting the warning of death and presenting disobedience as desirable. The narrative subsequently records human disobedience and God's judgement.",
@@ -2410,14 +2437,15 @@
       "DOC-0008",
       "DOC-0022",
       "TXT-0005"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0017",
     "slug": "antichrist",
     "title": "Antichrist in the Johannine letters",
     "summary": "The Biblical meaning of antichrist, its present manifestations and the distinction between Satan and eschatological opposition to Christ.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "First John 2:18 speaks both of an anticipated antichrist and of many antichrists already present. Verse 22 associates the designation with denial of Jesus as the Christ and denial of the Father and Son.",
@@ -2516,14 +2544,15 @@
       "DOC-0019",
       "DOC-0020",
       "DOC-0023"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0018",
     "slug": "beast-from-the-sea",
     "title": "The beast from the sea",
     "summary": "A study of Revelation 13:1-10, including its distinction between the dragon and the beast.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Revelation 13 describes a beast rising from the sea, combining features of several animals and receiving authority from the dragon. The text presents the dragon and the recipient of its authority as distinct figures within the vision.",
@@ -2608,14 +2637,15 @@
       "DOC-0019",
       "DOC-0020",
       "HIS-0003"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0019",
     "slug": "beast-from-the-earth",
     "title": "The beast from the earth and the false prophet",
     "summary": "A study of deceptive religious authority in Revelation 13 and the later description of the false prophet.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Revelation 13:11-15 introduces a second beast, rising from the earth, with lamb-like horns and a voice likened to a dragon. Its signs direct inhabitants towards worship of the first beast.",
@@ -2696,14 +2726,15 @@
       "DOC-0020",
       "DOC-0023",
       "HIS-0003"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0020",
     "slug": "man-of-lawlessness",
     "title": "The man of lawlessness",
     "summary": "Paul's description of the adversary in 2 Thessalonians 2, distinguished from Satan and compared with other eschatological texts.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Second Thessalonians 2:3-4 describes a figure associated with rebellion, self-exaltation and opposition to what is worshipped. The KJV renders the designation man of sin; the NIV uses man of lawlessness and notes the variant reading.",
@@ -2776,14 +2807,15 @@
       "DOC-0018",
       "DOC-0019",
       "DOC-0023"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0021",
     "slug": "michael-and-spiritual-conflict",
     "title": "Michael and spiritual conflict",
     "summary": "The Biblical descriptions of Michael's assistance, contention and role in the heavenly conflict.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Daniel 10 names Michael among the chief princes and describes his intervention on behalf of the heavenly messenger. Daniel 12 associates him with protection of Daniel's people in a time of distress.",
@@ -2873,14 +2905,15 @@
       "DOC-0004",
       "DOC-0006",
       "HIS-0005"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0022",
     "slug": "temptation-of-christ",
     "title": "The temptation of Jesus Christ",
     "summary": "A comparative study of the wilderness temptation accounts and Christ's rejection of the adversary's offers.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Matthew and Luke describe Jesus fasting and being tempted in the wilderness. The tempter challenges his sonship in connection with physical hunger and proposes a demonstration of divine protection.",
@@ -2991,14 +3024,15 @@
       "DOC-0008",
       "DOC-0016",
       "TXT-0005"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0023",
     "slug": "false-prophets-and-signs",
     "title": "False prophets and deceptive signs",
     "summary": "Biblical criteria for discernment when religious claims are accompanied by extraordinary signs.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Deuteronomy 13 warns Israel against abandoning God even if a sign announced by a prophet comes to pass. The covenant's demand for faithfulness is not made conditional on the success of a sign.",
@@ -3094,14 +3128,15 @@
       "DOC-0024",
       "DOC-0025",
       "DOC-0026"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0024",
     "slug": "divination",
     "title": "Divination and the spirit of divination",
     "summary": "Biblical prohibitions of divination and the account of the exploited woman in Acts 16.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Deuteronomy 18:9-14 prohibits divination and related practices within Israel's covenant setting. The passage contrasts seeking such knowledge with faithfulness to the Lord.",
@@ -3176,14 +3211,15 @@
       "DOC-0025",
       "DOC-0026",
       "DOC-0027"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0025",
     "slug": "necromancy-and-endor",
     "title": "Necromancy and the medium at Endor",
     "summary": "The consultation at Endor in 1 Samuel 28, its judgement in Chronicles and the dispute over the apparition.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "First Samuel 28 places Saul's consultation with the medium at Endor in the context of military fear, Samuel's death and the absence of an answer from the Lord.",
@@ -3256,14 +3292,15 @@
       "DOC-0008",
       "DOC-0023",
       "DOC-0026"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0026",
     "slug": "sorcery-in-acts",
     "title": "Sorcery and the gift of God in Acts",
     "summary": "The encounters with Simon and Elymas and the abandonment of magic in Ephesus.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Acts 8 describes Simon's former sorcery and the attention it attracted in Samaria. After hearing Philip's proclamation, Simon is baptised and later offers money for the ability associated with the apostles' ministry.",
@@ -3342,14 +3379,15 @@
       "DOC-0025",
       "DOC-0008",
       "DOC-0027"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0027",
     "slug": "sons-of-sceva",
     "title": "The sons of Sceva and the authority of Christ",
     "summary": "The unsuccessful attempt to invoke Jesus' name in Acts 19 and its contrast with the Christian proclamation.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Acts 19:13-14 identifies itinerant Jewish exorcists, including the seven sons of Sceva, who attempted to invoke Jesus' name with reference to Paul's preaching.",
@@ -3417,14 +3455,15 @@
       "DOC-0002",
       "DOC-0024",
       "DOC-0028"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "DOC-0028",
     "slug": "deliverance-in-mark-nine",
     "title": "Christ and the afflicted boy in Mark 9",
     "summary": "A study of Christ's compassion, the disciples' inability and the textual variation concerning prayer in Mark 9:29.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Mark 9 describes a father bringing his son to Jesus after the disciples were unable to help him. The narrative presents the father's plea in terms of compassion, faith and his struggle with unbelief.",
@@ -3501,7 +3540,8 @@
       "DOC-0002",
       "DOC-0007",
       "DOC-0027"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "HIS-0001",
@@ -3551,7 +3591,8 @@
       "DOC-0014",
       "DOC-0015"
     ],
-    "reviewStatus": "draft - owner review pending"
+    "reviewStatus": "Owner approved",
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "HIS-0002",
@@ -3615,14 +3656,15 @@
       "DEM-0010",
       "TXT-0001"
     ],
-    "reviewStatus": "draft - owner review pending"
+    "reviewStatus": "Owner approved",
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "HIS-0003",
     "slug": "beatus-manuscript",
     "title": "The Beatus Apocalypse: an illuminated manuscript leaf",
     "summary": "A medieval Spanish witness to the artistic interpretation of Revelation 8.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "The Metropolitan Museum of Art catalogues this parchment leaf as Spanish, dating it to approximately 1180. It is painted in tempera with gold and ink, and is identified by accession number 1991.232.9.",
@@ -3670,14 +3712,15 @@
       "DOC-0018",
       "DOC-0019",
       "DOC-0009"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "HIS-0004",
     "slug": "last-judgement-book-of-hours",
     "title": "Final judgement in a medieval Book of Hours",
     "summary": "A Parisian manuscript miniature documenting medieval devotional representations of judgement.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "The Metropolitan Museum of Art dates this French miniature to approximately 1400 and locates its production in Paris. The work is painted in tempera and gold on parchment and catalogued as accession 1998.179.",
@@ -3723,14 +3766,15 @@
     ],
     "related": [
       "DOC-0009"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "HIS-0005",
     "slug": "michael-choir-book",
     "title": "The Archangel Michael in a medieval choir book",
     "summary": "A Lombard manuscript cutting illustrating the historical reception of Michael as a heavenly warrior.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "The Metropolitan Museum of Art identifies the cutting as a choir-book illumination produced in Lombardy in the second half of the fifteenth century. The decorated initial is made with tempera, gold, silver and ink on parchment, accession 23.21.11.",
@@ -3777,14 +3821,15 @@
     "related": [
       "DOC-0021",
       "DEM-0001"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0001",
     "slug": "book-of-enoch",
     "title": "1 Enoch: the Book of the Watchers",
     "summary": "An introduction to the opening section of Ethiopic Enoch, its account of angelic rebellion and its place in Christian reception.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "The 1917 English translation by R. H. Charles presents chapters 1-36 as the opening division of 1 Enoch. This entry focuses on the narratives in chapters 6-10 rather than treating every section of the composite work as one continuous account.",
@@ -3880,14 +3925,15 @@
       "TXT-0003",
       "HIS-0001",
       "HIS-0002"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0002",
     "slug": "justin-martyr-second-apology",
     "title": "Justin Martyr: the Second Apology",
     "summary": "An early Christian account of angelic rebellion and the origin of demons, written in an apologetic context.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "In chapter 5, Justin explains human wickedness partly through a narrative of angels failing in their appointed responsibilities. He describes their unions with women and identifies their offspring as demons.",
@@ -3956,14 +4002,15 @@
       "TXT-0003",
       "TXT-0004",
       "TXT-0006"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0003",
     "slug": "athenagoras-plea-for-christians",
     "title": "Athenagoras: A Plea for the Christians",
     "summary": "The early Christian distinction between fallen angels and the wandering souls of the giants.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Chapter 24 argues that angels possess freedom of choice and that some abandoned their appointed responsibilities. It describes the giants as the offspring of transgressing heavenly beings and women.",
@@ -4027,14 +4074,15 @@
       "TXT-0002",
       "TXT-0004",
       "TXT-0006"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0004",
     "slug": "tertullian-apology",
     "title": "Tertullian: Apology",
     "summary": "A study of Tertullian's attributed origins of demons in the context of his defence of Christians.",
-    "reviewStatus": "draft - owner review pending",
+    "reviewStatus": "Owner approved",
     "claims": [
       {
         "text": "Chapter 22 discusses angels and demons as spiritual beings and describes a demonic offspring arising from angels who fell through their own choice.",
@@ -4111,7 +4159,8 @@
       "DEM-0001",
       "TXT-0002",
       "TXT-0003"
-    ]
+    ],
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0005",
@@ -4177,7 +4226,8 @@
       "DOC-0016",
       "DEM-0001"
     ],
-    "reviewStatus": "draft - owner review pending"
+    "reviewStatus": "Owner approved",
+    "reviewDate": "2026-11-23"
   },
   {
     "id": "TXT-0006",
@@ -4243,6 +4293,7 @@
       "TXT-0002",
       "TXT-0003"
     ],
-    "reviewStatus": "draft - owner review pending"
+    "reviewStatus": "Owner approved",
+    "reviewDate": "2026-11-23"
   }
 ]

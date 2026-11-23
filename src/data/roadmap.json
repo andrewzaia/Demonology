@@ -2,61 +2,71 @@
   {
     "version": "0.1.0",
     "title": "Archive foundations",
-    "description": "Initial website and editorial methodology",
-    "status": "Delivered"
+    "description": "Site foundations, evidence methodology and reference register are available.",
+    "status": "Delivered",
+    "next": "Maintain accessibility, source integrity and correction handling."
   },
   {
     "version": "0.2.0",
     "title": "Biblical foundations",
-    "description": "Individual studies, Scripture references and source library",
-    "status": "In development"
+    "description": "Individual Biblical studies, passage citations and thematic reading collections are available.",
+    "status": "Delivered",
+    "next": "Expand contextual analysis and Scripture coverage."
   },
   {
     "version": "0.3.0",
     "title": "Demonic encyclopaedia",
-    "description": "Named and attributed entities with evidence classifications",
-    "status": "In development"
+    "description": "Illustrated entity profiles, search, classifications and original-language terminology are available.",
+    "status": "Delivered",
+    "next": "Develop additional profiles with verified individual attestations."
   },
   {
     "version": "0.4.0",
     "title": "Fallen angels and spiritual hierarchies",
-    "description": "Rebellion, judgement and disputed interpretations",
-    "status": "In development"
+    "description": "Studies of rebellion, Genesis 6, Watchers and spiritual powers are available.",
+    "status": "In development",
+    "next": "Deepen comparative readings and Aramaic manuscript research."
   },
   {
     "version": "0.5.0",
     "title": "Historical research archive",
-    "description": "Historical records and attributed accounts",
-    "status": "In development"
+    "description": "Manuscript records, historical timeline and illuminated manuscripts are available.",
+    "status": "In development",
+    "next": "Add historical literature and documented historical accounts."
   },
   {
     "version": "0.6.0",
     "title": "Ancient literature and early Church",
-    "description": "Apocryphal texts, manuscripts and patristic writings",
-    "status": "In development"
+    "description": "Enochic literature, early Church writings and medieval illuminations are available.",
+    "status": "In development",
+    "next": "Expand ancient textual witnesses, patristic comparisons and manuscript metadata."
   },
   {
     "version": "0.7.0",
     "title": "Spiritual warfare and deliverance",
-    "description": "Biblical teachings and historical Christian perspectives",
-    "status": "In development"
+    "description": "Individual studies of temptation, discernment, deliverance and prohibited practices are available.",
+    "status": "In development",
+    "next": "Expand Gospel accounts and pastoral context without unsafe practice instructions."
   },
   {
     "version": "0.8.0",
     "title": "Connection atlas",
-    "description": "Explore relationships between passages, sources and topics",
-    "status": "In development"
+    "description": "Interactive connection atlas with shared sources, relationship filters and fullscreen exploration is available.",
+    "status": "Delivered",
+    "next": "Improve visual navigation and illustrated related studies."
   },
   {
     "version": "0.9.0",
     "title": "Scripture explorer",
-    "description": "Search, passage navigation and cross-references",
-    "status": "In development"
+    "description": "Searchable Scripture index grouped by Biblical book, translation links and cross-references are available.",
+    "status": "Delivered",
+    "next": "Improve passage normalisation and coverage."
   },
   {
     "version": "1.0.0",
     "title": "Public release",
-    "description": "Editorial review and public launch",
-    "status": "Planned"
+    "description": "Editorial publication is authorised; the archive remains in development.",
+    "status": "Planned",
+    "next": "Complete release-quality accessibility, link, metadata and deployment verification; public search indexing remains a separate release decision."
   }
 ]

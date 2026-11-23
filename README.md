@@ -18,7 +18,7 @@ The archive approaches these subjects from a Biblical, Trinitarian Christian per
 - Historical records, ancient literature and early Church writings
 - Spiritual warfare and Christian responses to evil
 
-The collection is under development. Research drafts are clearly identified and do not represent final editorial approval.
+The collection is expanding. Research is published under owner authorisation, with evidence classifications, confidence assessments and source references. Corrections and contributions are welcome through the [public issue tracker](https://github.com/andrewzaia/Demonology/issues).
 
 Read the [research methodology](docs/research-methodology.md), [roadmap](docs/roadmap.md) and [changelog](CHANGELOG.md) for further information.
 
