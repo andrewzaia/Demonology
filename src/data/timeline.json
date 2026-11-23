@@ -54,5 +54,19 @@
     "kind": "Manuscript illumination",
     "ref": "REF-0026",
     "locator": "Object information, date"
+  },
+  {
+    "entryId": "TXT-0008",
+    "period": "1577 CE",
+    "kind": "Historical publication",
+    "ref": "REF-0028",
+    "locator": "Editor's introduction"
+  },
+  {
+    "entryId": "TXT-0009",
+    "period": "1863 CE",
+    "kind": "Historical publication",
+    "ref": "REF-0030",
+    "locator": "Publication"
   }
 ]

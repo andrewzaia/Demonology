@@ -208,5 +208,44 @@
     "edition": "The Metropolitan Museum of Art, accession 23.21.11, online object record (accessed 2026-11-23)",
     "rightsNote": "Public Domain. Catalogue metadata and original paraphrase; image reproduced from the institutional Open Access collection.",
     "url": "https://www.metmuseum.org/art/collection/search/32839"
+  },
+  {
+    "id": "REF-0027",
+    "type": "Patristic writing",
+    "title": "Origen: Contra Celsum",
+    "author": "Origen",
+    "edition": "Frederick Crombie, trans., Ante-Nicene Fathers, vol. 4 (1885), New Advent online edition, book VIII",
+    "rightsNote": "Original paraphrases and chapter-specific references.",
+    "url": "https://www.newadvent.org/fathers/04168.htm",
+    "accessed": "2026-11-23"
+  },
+  {
+    "id": "REF-0028",
+    "type": "Historical demonological literature",
+    "title": "Johann Weyer: Pseudomonarchia Daemonum",
+    "author": "Johann Weyer",
+    "edition": "Appendix to the fifth edition of De praestigiis daemonum (1577); Joseph H. Peterson, digital edition, 2000",
+    "rightsNote": "Original paraphrase of the reader's note and editor's introduction; modern editorial material is copyrighted. No practical procedures reproduced.",
+    "url": "https://esotericarchives.com/solomon/weyer.htm",
+    "accessed": "2026-11-23"
+  },
+  {
+    "id": "REF-0029",
+    "type": "Historical demonological literature",
+    "title": "Jacques Collin de Plancy: Dictionnaire infernal",
+    "author": "Jacques Collin de Plancy",
+    "edition": "6th edition, Paris: Henri Plon, 1863; Wikisource transcription of title page and preface",
+    "rightsNote": "Historical public-domain text; original paraphrase. No ritual instructions reproduced.",
+    "url": "https://fr.wikisource.org/wiki/Dictionnaire_infernal/6e_%C3%A9d.%2C_1863/Texte_entier",
+    "accessed": "2026-11-23"
+  },
+  {
+    "id": "REF-0030",
+    "type": "Library catalogue",
+    "title": "Dictionnaire infernal, 6th edition",
+    "edition": "Bibliothèque nationale de France, catalogue notice FRBNF36576801, ark:/12148/cb36576801h",
+    "rightsNote": "Catalogue metadata and link; no catalogue images reproduced.",
+    "url": "https://catalogue.bnf.fr/ark:/12148/cb36576801h",
+    "accessed": "2026-11-23"
   }
 ]

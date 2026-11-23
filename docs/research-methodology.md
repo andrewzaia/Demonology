@@ -15,7 +15,7 @@ The reference register records source type, author or responsible body, title, e
 - Extra-Biblical Tradition: non-canonical tradition or folklore.
 - Unverified Report: attributed allegation without sufficient corroboration.
 
-Confidence is a separate field. Draft content is not owner-reviewed. Never use a review label without actual review.
+Confidence is a separate field. Owner-approved content is identified as such where approval has been given. Subsequent research may be published under standing authorisation without claiming an individual owner review. Correct errors transparently; publication approval does not alter evidence classifications or confidence.
 
 ## Publication
 Provide context, alternative interpretations where material, and a bibliography. Protect privacy and distinguish medical diagnoses from theological claims. Do not publish practical occult procedures or dangerous exorcism instructions. Verify rights before reproducing copyrighted text or imagery.

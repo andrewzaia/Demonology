@@ -67,4 +67,10 @@
 - Introduced three illustrated historical records for medieval manuscript illuminations, with institutional provenance and Biblical context.
 - Added a dedicated illuminated-manuscript collection, gallery filter and illustrated chronology.
 
-The archive remains under development and awaits final editorial approval.
+- Updated publication status and removed outdated editorial approval notices.
+- Refreshed the roadmap to distinguish delivered features from ongoing research.
+- Added corrections and contributions guidance.
+
+- Added individual studies of Origen, Weyer and Collin de Plancy, with a dedicated historical literature collection.
+
+The archive continues to expand under publication authorisation.

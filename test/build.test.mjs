@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 const entries=JSON.parse(readFileSync('src/data/entries.json','utf8'));
 test('all generated pages exist and prohibit indexing',()=>{
-  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/','atlas/','library/','timeline/','terminology/',...entries.map(e=>'research/'+e.slug+'/')];
+  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/','atlas/','library/','timeline/','terminology/','corrections/',...entries.map(e=>'research/'+e.slug+'/')];
   for(const p of paths){const html=readFileSync('dist/'+p+'index.html','utf8');assert.match(html,/<meta[^>]+name="robots"[^>]+content="noindex,nofollow"/);}
   assert.match(readFileSync('dist/_headers','utf8'),/X-Robots-Tag: noindex, nofollow/);
   assert.match(readFileSync('dist/robots.txt','utf8'),/Disallow: \//);
@@ -37,3 +37,7 @@ test('homepage artwork does not repeat and historical gallery attribution is vis
 test('new illustrated collections display their designated artwork',()=>{const html=readFileSync('dist/index.html','utf8');for(const [id,slug] of [['DOC-0024','necromancy-and-endor'],['DOC-0027','deliverance-in-mark-nine']]){const start=html.indexOf('data-home-collection="'+id+'"');assert.ok(start>=0);const block=html.slice(start,html.indexOf('</section>',start));assert.ok(block.includes('/media/'+slug+'.webp'));}});
 
 test('illuminated manuscript collection links its historical records and local artwork',()=>{const library=readFileSync('dist/library/index.html','utf8'),timeline=readFileSync('dist/timeline/index.html','utf8'),gallery=readFileSync('dist/media/index.html','utf8');assert.ok(gallery.includes('value="illumination"'));const items=artwork.filter(a=>a.entryId.startsWith('HIS-')&&a.origin==='Historical artwork');assert.ok(items.length>=3);for(const a of items){assert.ok(library.includes('data-illumination="'+a.entryId+'"'));assert.ok(library.includes(a.src));assert.ok(timeline.includes(a.src));assert.ok(gallery.includes(a.sourceUrl));}});
+
+test('publication status and corrections are available throughout the archive',()=>{for(const p of ['','about/','methodology/','research/','encyclopaedia/','library/']){const html=readFileSync('dist/'+p+'index.html','utf8');assert.doesNotMatch(html,/editorial review pending|awaiting review|await final editorial review|not received final editorial approval/i);assert.ok(html.includes('/corrections/'));}for(const e of entries){const html=readFileSync('dist/research/'+e.slug+'/index.html','utf8');assert.ok(html.includes(e.reviewStatus));assert.ok(html.includes('/corrections/'));}});
+
+test('historical literature and chronology are connected',()=>{const library=readFileSync('dist/library/index.html','utf8'),timeline=readFileSync('dist/timeline/index.html','utf8');assert.ok(library.includes('Historical demonological literature'));for(const slug of ['pseudomonarchia-daemonum','dictionnaire-infernal']){assert.ok(library.includes('/research/'+slug+'/'));assert.ok(timeline.includes('/research/'+slug+'/'));}});
