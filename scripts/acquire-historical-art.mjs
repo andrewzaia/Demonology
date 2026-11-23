@@ -1,6 +1,6 @@
 import sharp from 'sharp';
 import {createHash} from 'node:crypto';
-const targets=[['necromancy-and-endor',884929,2167169],['sorcery-in-acts',436563,1991222],['satan',383458,767032],['deliverance-in-mark-nine',340574,748874],['victory-over-evil',361988,770846],['lucifer-isaiah-fourteen',383508,767043]];
+const targets=[['beatus-manuscript',466204,2024323],['michael-choir-book',32839,61351],['last-judgement-book-of-hours',469963,951512]];
 for(const [slug,id,image] of targets){try{
 const res=await fetch('https://collectionapi.metmuseum.org/api/collection/v1/iiif/'+id+'/'+image+'/main-image',{headers:{Accept:'image/jpeg,image/png,image/*;q=0.9'},signal:AbortSignal.timeout(25000)});if(!res.ok)throw Error('HTTP '+res.status);
 const bytes=Buffer.from(await res.arrayBuffer());
