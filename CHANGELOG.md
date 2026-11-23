@@ -60,4 +60,8 @@
 - Replaced repeated homepage imagery with distinct collection covers and curated illustrated studies.
 - Added gallery filters for historical and original artwork, preserving the original proportions of historical prints.
 
+- Added six historical Christian artworks, expanding the range of media to include tempera painting, chalk, wash, coloured woodcut and engraving.
+- Gave Satan a dedicated historical illustration and added distinct covers to two more homepage collections.
+- Distinguished later artistic traditions from the Biblical narratives they accompany.
+
 The archive remains under development and awaits final editorial approval.

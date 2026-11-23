@@ -6,8 +6,8 @@ import refs from '../data/references.json';
 const scriptureRefs=new Set(refs.filter(r=>r.type==='Scripture').map(r=>r.id));
 import collections from '../data/collections.json';
 import artwork from '../data/artwork.json';
-const visualStudies=['legion','prince-of-persia','nephilim','asmodeus'].map(slug=>artwork.find(a=>a.slug===slug)!);
-const collectionCovers:Record<string,string>={'Begin with Scripture':'spiritual-warfare','The unseen realm':'michael-and-spiritual-conflict','Ancient questions':'serpent-in-genesis','Discernment and judgement':'final-judgement-of-evil','Demonic encyclopaedia':'abaddon-apollyon','Ancient literature':'semjaza','Apocalyptic studies':'beast-from-the-sea','Early Church writings':'augustine-city-of-god'};
+const visualStudies=['legion','prince-of-persia','victory-over-evil','satan'].map(slug=>artwork.find(a=>a.slug===slug)!);
+const collectionCovers:Record<string,string>={'Begin with Scripture':'spiritual-warfare','The unseen realm':'michael-and-spiritual-conflict','Ancient questions':'serpent-in-genesis','Discernment and judgement':'final-judgement-of-evil','Demonic encyclopaedia':'abaddon-apollyon','Ancient literature':'semjaza','Apocalyptic studies':'beast-from-the-sea','Early Church writings':'augustine-city-of-god','Discernment and prohibited practices':'necromancy-and-endor',"Deliverance and Christ's authority":'deliverance-in-mark-nine'};
 const featured=entries.find(e=>e.id==='DOC-0022')!;
 const passages=new Set(entries.flatMap(e=>e.claims.flatMap(c=>c.citations.filter(s=>scriptureRefs.has(s.ref)).map(s=>s.locator)))).size;
 ---
