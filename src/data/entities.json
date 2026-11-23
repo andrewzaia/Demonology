@@ -44,5 +44,58 @@
     "attestation": "Revelation 9:11",
     "identity": "Same figure under two names; wider identity disputed",
     "artSlug": null
+  },
+  {
+    "entryId": "DEM-0005",
+    "classification": "Disputed Biblical designation and Enochic figure",
+    "names": [
+      "Azazel",
+      "scapegoat (traditional translation in Leviticus)"
+    ],
+    "attestation": "Leviticus 16:8-10; 1 Enoch 9-10 (ancient literature)",
+    "identity": "Meaning in Leviticus disputed; personally named in Enoch",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0006",
+    "classification": "Designation of wickedness and opposition",
+    "names": [
+      "Belial",
+      "Beliar (Greek variant)"
+    ],
+    "attestation": "Deuteronomy 13:13; 2 Corinthians 6:15",
+    "identity": "Relationship to Satan interpreted rather than explicitly defined",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0007",
+    "classification": "Spiritual opponent in a prophetic vision",
+    "names": [
+      "Prince of the kingdom of Persia"
+    ],
+    "attestation": "Daniel 10:13; 10:20",
+    "identity": "Personal name and wider hierarchy not stated",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0008",
+    "classification": "Enochic Watcher",
+    "names": [
+      "Semjaza"
+    ],
+    "attestation": "1 Enoch 6:3-8; 10:11-15 (ancient literature)",
+    "identity": "Named in 1 Enoch; not named in Genesis 6 or Jude 6",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0009",
+    "classification": "Spiritual opponent in a prophetic vision",
+    "names": [
+      "Prince of Greece",
+      "Prince of Grecia (KJV)"
+    ],
+    "attestation": "Daniel 10:20-21",
+    "identity": "Personal name and wider hierarchy not stated",
+    "artSlug": null
   }
 ]

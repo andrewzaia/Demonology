@@ -19,5 +19,21 @@
     "title": "The Holy Bible",
     "edition": "English Standard Version (ESV)",
     "rightsNote": "Translation and translation footnotes consulted for terminology. Copyright Crossway; link and paraphrase rather than reproducing passages."
+  },
+  {
+    "id": "REF-0004",
+    "type": "Ancient literature",
+    "title": "The Book of Enoch",
+    "edition": "R. H. Charles, trans., London: Society for Promoting Christian Knowledge, 1917",
+    "rightsNote": "Historical translation; cite the relevant chapter and verse. The text is treated as ancient literature in this archive, recognising its canonical status in the Ethiopian Orthodox tradition.",
+    "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+  },
+  {
+    "id": "REF-0005",
+    "type": "Scholarship",
+    "title": "The Biblical Canon of the Ethiopian Orthodox Tawāhǝdo Church (EOTC)",
+    "edition": "Daniel Assefa, The Oxford Handbook of the Bible in Orthodox Christianity, 2022, pp. 211-226",
+    "rightsNote": "Oxford University Press. Refer to the published chapter; no reproduction.",
+    "url": "https://doi.org/10.1093/oxfordhb/9780190948658.013.22"
   }
 ]

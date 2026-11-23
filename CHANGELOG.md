@@ -22,4 +22,12 @@
 - Added an illustration gallery and a new artwork accompanying the Legion study.
 - Expanded Scripture references and related reading, including translation comparisons.
 
+- Expanded the encyclopaedia with Azazel, Belial and the prince of Persia.
+- Added comparative studies of Lucifer, the Watchers and the Book of Enoch.
+- Distinguished ancient literature and scholarly references from the Scripture index.
+
+- Added profiles of Semjaza and the prince of Greece, alongside an Enochic study of evil spirits.
+- Added separate studies of the Genesis serpent, Antichrist, the two beasts of Revelation and the man of lawlessness.
+- Improved source navigation and Scripture translation comparisons.
+
 The archive remains under development and awaits final editorial approval.
