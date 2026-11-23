@@ -3,5 +3,6 @@ import artwork from '../data/artwork.json';
 interface Props {slug: string; compact?: boolean; eager?: boolean;}
 const {slug,compact=false,eager=false}=Astro.props;
 const art=artwork.find(a=>a.slug===slug);
+const historical=art?.origin==='Historical artwork';
 ---
-{art && <figure class:list={['article-art',{'article-art-compact':compact}]}><a class="art-image-link" href={art.src} aria-label={`View full illustration: ${art.alt}`}><img src={art.src} width={art.width} height={art.height} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async" /></a><figcaption><span class="art-origin">{art.origin}</span>{!compact && <span> · {art.caption} Illustrative artwork, not historical evidence.</span>}</figcaption></figure>}
+{art && <figure class:list={['article-art',{'article-art-compact':compact,'historical-art':historical}]}><a class="art-image-link" href={art.src} aria-label={`View full illustration: ${art.alt}`}><img src={art.src} width={art.width} height={art.height} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async" /></a><figcaption><span class="art-origin">{art.origin}</span>{historical&&'artist' in art&&<span> · {art.artist}, {art.artDate}{!compact&&<span> · <a href={art.sourceUrl}>{art.title}</a> · {art.medium} · {art.collection}, {art.accession} · {art.rights} · {art.credit}.</span>}</span>}{!compact && <span> · {art.caption} {historical?'Historical artistic interpretation, not evidence of supernatural appearance.':'Illustrative artwork, not historical evidence.'}</span>}</figcaption></figure>}

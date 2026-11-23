@@ -56,4 +56,8 @@
 - Added original-language terminology, transliterations and passage-level references to the encyclopaedia.
 - Introduced a terminology index and extended search to include source-language forms.
 
+- Introduced five public-domain historical artworks with original collection records and attribution.
+- Replaced repeated homepage imagery with distinct collection covers and curated illustrated studies.
+- Added gallery filters for historical and original artwork, preserving the original proportions of historical prints.
+
 The archive remains under development and awaits final editorial approval.
