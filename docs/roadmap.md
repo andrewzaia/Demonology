@@ -40,15 +40,15 @@ Next: Expand ancient textual witnesses, patristic comparisons and manuscript met
 
 ## v0.7.0: Spiritual warfare and deliverance
 
-**In development.** Individual studies of temptation, discernment, deliverance and prohibited practices are available.
+**Delivered.** Individual studies of spiritual warfare, discernment, prohibited practices and Biblical deliverance are available.
 
-Next: Expand Gospel accounts and pastoral context without unsafe practice instructions.
+Next: Expand remaining Gospel and Acts accounts and deepen pastoral and historical context.
 
 ## v0.8.0: Connection atlas
 
-**Delivered.** Interactive connection atlas with shared sources, relationship filters and fullscreen exploration is available.
+**Delivered.** Interactive connection atlas with illustrated study cards, shared sources, relationship filters and fullscreen exploration is available.
 
-Next: Improve visual navigation and illustrated related studies.
+Next: Refine graph navigation and verify accessibility across screen sizes.
 
 ## v0.9.0: Scripture explorer
 

@@ -73,4 +73,8 @@
 
 - Added individual studies of Origen, Weyer and Collin de Plancy, with a dedicated historical literature collection.
 
+- Added four individual studies of Gospel deliverance and the returning unclean spirit.
+- Added illustrated focus cards and research thumbnails to the connection atlas.
+- Updated the spiritual warfare and deliverance milestone to reflect its available collection.
+
 The archive continues to expand under publication authorisation.
