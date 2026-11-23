@@ -44,16 +44,16 @@
   {
     "version": "0.7.0",
     "title": "Spiritual warfare and deliverance",
-    "description": "Individual studies of temptation, discernment, deliverance and prohibited practices are available.",
-    "status": "In development",
-    "next": "Expand Gospel accounts and pastoral context without unsafe practice instructions."
+    "description": "Individual studies of spiritual warfare, discernment, prohibited practices and Biblical deliverance are available.",
+    "status": "Delivered",
+    "next": "Expand remaining Gospel and Acts accounts and deepen pastoral and historical context."
   },
   {
     "version": "0.8.0",
     "title": "Connection atlas",
-    "description": "Interactive connection atlas with shared sources, relationship filters and fullscreen exploration is available.",
+    "description": "Interactive connection atlas with illustrated study cards, shared sources, relationship filters and fullscreen exploration is available.",
     "status": "Delivered",
-    "next": "Improve visual navigation and illustrated related studies."
+    "next": "Refine graph navigation and verify accessibility across screen sizes."
   },
   {
     "version": "0.9.0",

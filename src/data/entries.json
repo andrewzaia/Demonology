@@ -98,7 +98,8 @@
       "DOC-0022",
       "TXT-0004",
       "TXT-0005",
-      "HIS-0005"
+      "HIS-0005",
+      "DOC-0031"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1126,7 +1127,8 @@
       "DOC-0010",
       "DOC-0006",
       "DOC-0008",
-      "TXT-0007"
+      "TXT-0007",
+      "DOC-0032"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1186,7 +1188,10 @@
       "DOC-0022",
       "DOC-0024",
       "DOC-0027",
-      "DOC-0028"
+      "DOC-0028",
+      "DOC-0029",
+      "DOC-0030",
+      "DOC-0031"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1643,7 +1648,11 @@
       "DEM-0003",
       "DEM-0010",
       "DOC-0024",
-      "DOC-0028"
+      "DOC-0028",
+      "DOC-0029",
+      "DOC-0030",
+      "DOC-0031",
+      "DOC-0032"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1726,7 +1735,8 @@
       "DOC-0023",
       "DOC-0025",
       "DOC-0026",
-      "TXT-0009"
+      "TXT-0009",
+      "DOC-0032"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -3550,9 +3560,424 @@
     "related": [
       "DOC-0002",
       "DOC-0007",
-      "DOC-0027"
+      "DOC-0027",
+      "DOC-0029",
+      "DOC-0030",
+      "DOC-0032"
     ],
     "reviewDate": "2026-11-23"
+  },
+  {
+    "id": "DOC-0029",
+    "slug": "deliverance-at-capernaum",
+    "title": "The unclean spirit in the Capernaum synagogue",
+    "summary": "A comparative study of Christ's teaching and authority in the parallel accounts of Mark 1 and Luke 4.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "Mark locates the encounter in the synagogue at Capernaum on the Sabbath, immediately after describing the congregation's astonishment at Jesus' teaching.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:21-22",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A21-22&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The spirit recognises Jesus as the Holy One of God and questions whether he has come to destroy them. Jesus silences it and commands it to leave the man.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:23-26",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A23-26&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:33-35",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A33-35&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Luke specifically records that the man was thrown down but was not harmed. The narrative therefore draws attention to the man's safety as well as the departure of the spirit.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:35",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A35&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Both accounts connect the observers' amazement with Jesus' authority over unclean spirits. Mark additionally associates this authority with his teaching.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:27-28",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A27-28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:36-37",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A36-37&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The recognition expressed by the spirit does not constitute faithful worship. The encounter presents Christ as the authoritative speaker, rather than presenting the spirit's testimony as a source of revelation.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:24-27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A24-27&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative neither identifies the spirit by a personal name nor assigns it a rank. Its primary theological emphasis is Christ's authority; it is not a diagnostic or procedural guide for contemporary readers.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 1:23-28",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%201%3A23-28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:33-37",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A33-37&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0028",
+      "DOC-0030",
+      "DOC-0031"
+    ]
+  },
+  {
+    "id": "DOC-0030",
+    "slug": "syrophoenician-womans-daughter",
+    "title": "Christ and the Syrophoenician woman's daughter",
+    "summary": "The parallel Gospel accounts of a mother's appeal to Jesus, the priority of his mission to Israel and deliverance at a distance.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "Matthew describes the mother as Canaanite and Mark identifies her as Greek and Syrophoenician by birth. Both record her request that Jesus deliver her daughter.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:21-22",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A21-22&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:24-26",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A24-26&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Matthew provides the initial silence, the disciples' response and Jesus' statement about the lost sheep of Israel. Mark records the priority of feeding the children first.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:23-26",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A23-26&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A27&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The mother answers using Jesus' imagery of children and crumbs. Matthew records Jesus commending her faith; Mark connects his response with her answer.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:27-28",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A27-28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:28-29",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A28-29&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Matthew places the daughter's restoration at that hour, while Mark describes the mother returning home and finding the child on the bed and the demon gone.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:28",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:30",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A30&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative records deliverance without Jesus being physically present with the daughter. The emphasis is his authority rather than a technique involving physical contact.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:28",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:29-30",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A29-30&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The mother's ethnicity is relevant to the encounter's mission context, not evidence that particular ethnic groups are specially susceptible to demonic activity. The child receives mercy and restoration.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 15:21-28",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2015%3A21-28&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 7:24-30",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%207%3A24-30&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0028",
+      "DOC-0029"
+    ]
+  },
+  {
+    "id": "DOC-0031",
+    "slug": "daughter-of-abraham-luke-thirteen",
+    "title": "The daughter of Abraham and the spirit of infirmity",
+    "summary": "Luke's account of an eighteen-year infirmity, liberation and the controversy over healing on the Sabbath.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "Luke describes a woman unable to straighten herself who had suffered for eighteen years. Jesus calls her, declares her released and lays his hands on her; she is restored and glorifies God.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:10-13",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A10-13&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The synagogue ruler objects to the healing taking place on the Sabbath. Jesus answers by comparing ordinary Sabbath care for animals with the release of the woman.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:14-16",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A14-16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jesus identifies her as a daughter of Abraham and attributes her bondage to Satan. The narrative ends with his opponents ashamed and the crowd rejoicing.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:16-17",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A16-17&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Luke presents this particular healing through the imagery of release from bondage. The woman's standing as a daughter of Abraham is affirmed rather than denied by her suffering.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:11-16",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A11-16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Unlike the Capernaum account, Luke does not record a dialogue with a named demon or an explicit command directed at a spirit. The literary differences between the accounts must be preserved.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:10-17",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A10-17&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:33-36",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A33-36&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The spiritual attribution in this account does not establish that disability or chronic illness in general is demonic. Contemporary patients should receive appropriate medical assessment and care without stigma.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 13:10-17",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2013%3A10-17&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0029"
+    ]
+  },
+  {
+    "id": "DOC-0032",
+    "slug": "returning-unclean-spirit",
+    "title": "The returning unclean spirit",
+    "summary": "The parallel sayings in Matthew 12 and Luke 11, examining the warning about a worsening condition and its wider context.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "Both sayings describe an unclean spirit leaving a person, seeking rest and returning to its former dwelling. It finds the dwelling in order and brings seven other spirits more wicked than itself.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:43-45",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A43-45&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:24-26",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A24-26&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Matthew explicitly applies the warning to the wicked generation addressed in the surrounding discourse. Luke presents the saying within a sequence of teachings concerning Jesus' ministry.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:45",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A45&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:24-26",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A24-26&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The comparison of Matthew's empty dwelling and Luke's ordered dwelling is best understood with attention to the narrative context. The warning is not a warrant for inventing distinct supernatural entry points or a mechanical system of possession.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:43-45",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A43-45&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:24-26",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A24-26&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The description of other spirits as more wicked indicates differing degrees of wickedness in the saying. It does not supply a universal hierarchy of demons or establish named ranks.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:45",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A45&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:26",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A26&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The worsening condition is part of a theological warning. Readers should not treat a recurrence of psychological or physical symptoms as proof that multiple spirits have entered a person.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:43-45",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A43-45&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:24-26",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A24-26&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0007",
+      "DOC-0008",
+      "DOC-0001",
+      "DOC-0028"
+    ]
   },
   {
     "id": "HIS-0001",
