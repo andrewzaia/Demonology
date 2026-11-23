@@ -1,18 +1,11 @@
 import sharp from 'sharp';
 import {createHash} from 'node:crypto';
-const targets=[
-['michael-and-spiritual-conflict','https://collectionapi.metmuseum.org/api/collection/v1/iiif/386222/765784/main-image'],
-['beast-from-the-sea','https://collectionapi.metmuseum.org/api/collection/v1/iiif/397141/767073/main-image'],
-['serpent-in-genesis','https://collectionapi.metmuseum.org/api/collection/v1/iiif/387388/749233/main-image'],
-
-
-['augustine-city-of-god','https://iiif.wellcomecollection.org/image/V0031638/full/760%2C/0/default.jpg']
-];
-for(const [slug,url] of targets){try{
-const res=await fetch(url,{headers:{Accept:'image/jpeg,image/png,image/*;q=0.9'},signal:AbortSignal.timeout(25000)});if(!res.ok)throw Error('HTTP '+res.status);
+const targets=[['necromancy-and-endor',884929,2167169],['sorcery-in-acts',436563,1991222],['satan',383458,767032],['deliverance-in-mark-nine',340574,748874],['victory-over-evil',361988,770846],['lucifer-isaiah-fourteen',383508,767043]];
+for(const [slug,id,image] of targets){try{
+const res=await fetch('https://collectionapi.metmuseum.org/api/collection/v1/iiif/'+id+'/'+image+'/main-image',{headers:{Accept:'image/jpeg,image/png,image/*;q=0.9'},signal:AbortSignal.timeout(25000)});if(!res.ok)throw Error('HTTP '+res.status);
 const bytes=Buffer.from(await res.arrayBuffer());
-const {data,info}=await sharp(bytes,{limitInputPixels:25000000}).rotate().resize({width:820,height:820,fit:'inside',withoutEnlargement:true}).webp({quality:53}).toBuffer({resolveWithObject:true});
-if(data.length>245000)throw Error('Image exceeds budget');
+let converted;for(const size of [1000,820,680]){converted=await sharp(bytes,{limitInputPixels:50000000}).rotate().resize({width:size,height:size,fit:'inside',withoutEnlargement:true}).webp({quality:62}).toBuffer({resolveWithObject:true});if(converted.data.length<245000)break;}
+const {data,info}=converted;if(data.length>245000)throw Error('Image exceeds budget');
 console.log('ARTMETA '+JSON.stringify({slug,width:info.width,height:info.height,bytes:data.length,sha256:createHash('sha256').update(data).digest('hex'),git:createHash('sha1').update('blob '+data.length+'\0').update(data).digest('hex')}));
 const b64=data.toString('base64');for(let i=0;i<b64.length;i+=768)console.log('ARTDATA '+slug+' '+b64.slice(i,i+768));
 }catch(e){console.log('ARTFAIL '+slug+' '+e.message);}}
