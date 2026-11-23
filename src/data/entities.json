@@ -1,0 +1,48 @@
+[
+  {
+    "entryId": "DEM-0001",
+    "classification": "Personal adversary",
+    "names": [
+      "Satan",
+      "devil",
+      "accuser",
+      "ancient serpent",
+      "dragon (visionary image)"
+    ],
+    "attestation": "Job 1:6-12; Revelation 12:7-12",
+    "identity": "Scripturally attested designations; chronology of origin not established",
+    "artSlug": "satan-in-scripture"
+  },
+  {
+    "entryId": "DEM-0002",
+    "classification": "Disputed designation",
+    "names": [
+      "Beelzebul (NIV)",
+      "Beelzebub (KJV)"
+    ],
+    "attestation": "Matthew 12:24; Mark 3:22; Luke 11:15",
+    "identity": "Relationship to Satan and Baalzebub requires interpretation",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0003",
+    "classification": "Collective designation",
+    "names": [
+      "Legion"
+    ],
+    "attestation": "Mark 5:9; Luke 8:30",
+    "identity": "Plurality explicitly attested; individual identities and number unknown",
+    "artSlug": "legion"
+  },
+  {
+    "entryId": "DEM-0004",
+    "classification": "Apocalyptic angelic figure",
+    "names": [
+      "Abaddon (Hebrew name)",
+      "Apollyon (Greek name)"
+    ],
+    "attestation": "Revelation 9:11",
+    "identity": "Same figure under two names; wider identity disputed",
+    "artSlug": null
+  }
+]

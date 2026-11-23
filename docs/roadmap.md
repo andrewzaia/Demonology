@@ -2,9 +2,9 @@
 
 The archive is under development. Planned features are subject to editorial review.
 
-- v0.1.0: Archive foundations - In development. Initial website and editorial methodology.
+- v0.1.0: Archive foundations - Delivered. Initial website and editorial methodology.
 - v0.2.0: Biblical foundations - In development. Individual studies, Scripture references and source library.
-- v0.3.0: Demonic encyclopaedia - Planned. Named and attributed entities with evidence classifications.
+- v0.3.0: Demonic encyclopaedia - In development. Named and attributed entities with evidence classifications.
 - v0.4.0: Fallen angels and spiritual hierarchies - Planned. Rebellion, judgement and disputed interpretations.
 - v0.5.0: Historical research archive - Planned. Historical records and attributed accounts.
 - v0.6.0: Ancient literature and early Church - Planned. Apocryphal texts, manuscripts and patristic writings.

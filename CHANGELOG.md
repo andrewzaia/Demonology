@@ -18,4 +18,8 @@
 - Added original AI-generated illustrations to six studies, with captions distinguishing artwork from historical evidence.
 - Introduced illustrated reading collections and article covers.
 
+- Introduced the demonic encyclopaedia with profiles for Satan, Beelzebul, Legion and Abaddon.
+- Added an illustration gallery and a new artwork accompanying the Legion study.
+- Expanded Scripture references and related reading, including translation comparisons.
+
 The archive remains under development and awaits final editorial approval.
