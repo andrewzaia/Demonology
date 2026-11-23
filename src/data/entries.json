@@ -1690,7 +1690,8 @@
       "DOC-0019",
       "DOC-0022",
       "DOC-0023",
-      "DOC-0025"
+      "DOC-0025",
+      "DOC-0026"
     ]
   },
   {
@@ -3073,7 +3074,8 @@
       "DOC-0019",
       "DOC-0020",
       "DOC-0024",
-      "DOC-0025"
+      "DOC-0025",
+      "DOC-0026"
     ]
   },
   {
@@ -3153,7 +3155,8 @@
       "DOC-0002",
       "DOC-0007",
       "DOC-0023",
-      "DOC-0025"
+      "DOC-0025",
+      "DOC-0026"
     ]
   },
   {
@@ -3232,7 +3235,8 @@
     "related": [
       "DOC-0024",
       "DOC-0008",
-      "DOC-0023"
+      "DOC-0023",
+      "DOC-0026"
     ]
   },
   {
@@ -3563,6 +3567,91 @@
       "DEM-0001",
       "TXT-0002",
       "TXT-0003"
+    ]
+  },
+  {
+    "id": "DOC-0026",
+    "slug": "sorcery-in-acts",
+    "title": "Sorcery and the gift of God in Acts",
+    "summary": "The encounters with Simon and Elymas and the abandonment of magic in Ephesus.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Acts 8 describes Simon's former sorcery and the attention it attracted in Samaria. After hearing Philip's proclamation, Simon is baptised and later offers money for the ability associated with the apostles' ministry.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:9-19",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-19&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Peter rejects Simon's offer and calls him to repentance rather than treating the gift of God as a commodity.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:20-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A20-24&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Acts 13 describes Elymas opposing the proclamation to the proconsul. Paul rebukes him and the narrative records a temporary loss of sight.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 13:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Acts 19 describes believers confessing their former practices and some publicly destroying books connected with magic.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:17-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "These episodes contrast manipulation, deception and the buying of spiritual authority with the Christian proclamation and repentance. They do not establish the efficacy of every practice described as sorcery or authorise coercion against its practitioners.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:9-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-24&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 13:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:17-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0023",
+      "DOC-0024",
+      "DOC-0025",
+      "DOC-0008"
     ]
   }
 ]

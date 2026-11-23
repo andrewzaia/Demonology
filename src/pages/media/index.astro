@@ -5,5 +5,23 @@ import artwork from '../../data/artwork.json';
 import entries from '../../data/entries.json';
 ---
 <Site title="Illustration gallery" description="Original interpretative artwork for the Demonology research archive.">
-<section class="wrap archive"><p class="eyebrow">THE ILLUSTRATED ARCHIVE</p><h1>Illustration gallery</h1><p class="lead">Art can help readers reflect on a Biblical narrative, but it cannot establish historical facts or the appearance of unseen beings.</p><p class="status">{artwork.length} original AI-generated illustrations · Each image links to its research context.</p><div class="entity-grid">{artwork.map(art=>{const entry=entries.find(e=>e.id===art.entryId)!;return <article class="entity-card media-card"><ArticleArt slug={art.slug}/><div class="entity-card-copy"><h2><a href={`/research/${entry.slug}/`}>{entry.title}</a></h2><p class="status">{art.credit}</p><a href={art.src}>View full illustration</a> · <a href={`/research/${entry.slug}/`}>Read study</a></div></article>;})}</div></section>
+<section class="wrap archive"><p class="eyebrow">THE ILLUSTRATED ARCHIVE</p><h1>Explore the gallery</h1><p class="lead">Discover the unseen realm through original illustrations inspired by Scripture and ancient literature.</p><p>All artwork is interpretative, not historical evidence or a verified depiction of spiritual beings.</p>
+<div class="gallery-controls" hidden><label for="gallery-search">Search illustrations</label><input id="gallery-search" type="search" placeholder="Search subject or caption"/><label for="gallery-kind">Collection</label><select id="gallery-kind"><option value="all">All illustrations</option><option value="entity">Encyclopaedia</option><option value="study">Biblical studies</option></select><p id="gallery-count" role="status"></p></div>
+<div class="entity-grid gallery-grid">{artwork.map(art=>{const entry=entries.find(e=>e.id===art.entryId)!;return <article class="entity-card media-card" data-gallery-card data-kind={entry.id.startsWith('DEM-')?'entity':'study'} data-search={[entry.title,entry.summary,art.caption,art.alt].join(' ').toLowerCase()}><ArticleArt slug={art.slug}/><div class="entity-card-copy"><h2><a href={`/research/${entry.slug}/`}>{entry.title}</a></h2><p class="status">{art.credit}</p><a href={art.src} data-view-art data-title={entry.title} data-alt={art.alt} data-caption={art.caption}>View full illustration</a> · <a href={`/research/${entry.slug}/`}>Read study</a></div></article>;})}</div><p id="gallery-empty" hidden>No illustrations match your selection.</p>
+<dialog id="art-viewer" aria-labelledby="viewer-title"><div class="viewer-head"><h2 id="viewer-title">Illustration</h2><form method="dialog"><button type="submit">Close</button></form></div><img id="viewer-image" alt=""/><p id="viewer-caption"></p><p class="status">AI-generated illustration - not historical evidence.</p></dialog>
+</section>
+<script>
+const controls=document.querySelector<HTMLElement>('.gallery-controls');
+const search=document.querySelector<HTMLInputElement>('#gallery-search');
+const kind=document.querySelector<HTMLSelectElement>('#gallery-kind');
+const count=document.querySelector<HTMLElement>('#gallery-count');
+const empty=document.querySelector<HTMLElement>('#gallery-empty');
+const cards=Array.from(document.querySelectorAll<HTMLElement>('[data-gallery-card]'));
+if(controls&&search&&kind&&count&&empty){controls.hidden=false;const update=()=>{const terms=search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);for(const card of cards)card.hidden=!(kind.value==='all'||kind.value===card.dataset.kind)||!terms.every(t=>(card.dataset.search??'').includes(t));const n=cards.filter(c=>!c.hidden).length;count.textContent=n+' of '+cards.length+' illustrations';empty.hidden=n!==0;};search.addEventListener('input',update);kind.addEventListener('change',update);update();}
+const viewer=document.querySelector<HTMLDialogElement>('#art-viewer');
+const image=document.querySelector<HTMLImageElement>('#viewer-image');
+const title=document.querySelector<HTMLElement>('#viewer-title');
+const caption=document.querySelector<HTMLElement>('#viewer-caption');
+if(viewer&&image&&title&&caption&&typeof viewer.showModal==='function'){let opener:HTMLAnchorElement|null=null;for(const link of document.querySelectorAll<HTMLAnchorElement>('[data-view-art]'))link.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();opener=link;image.src=link.href;image.alt=link.dataset.alt??'';title.textContent=link.dataset.title??'Illustration';caption.textContent=link.dataset.caption??'';viewer.showModal();});viewer.addEventListener('close',()=>{image.removeAttribute('src');opener?.focus();});}
+</script>
 </Site>

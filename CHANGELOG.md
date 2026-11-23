@@ -38,4 +38,8 @@
 - Added Biblical studies of divination and the medium at Endor.
 - Refined the connection atlas with relationship filters and a fullscreen option on supported devices.
 
+- Illustrated all current encyclopaedia profiles with individually attributed interpretative artwork.
+- Introduced an illustrated homepage, visual related reading, gallery search and full-size image viewing.
+- Added a study of sorcery and spiritual authority in Acts.
+
 The archive remains under development and awaits final editorial approval.

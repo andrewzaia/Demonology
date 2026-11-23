@@ -22,7 +22,7 @@
     ],
     "attestation": "Matthew 12:24; Mark 3:22; Luke 11:15",
     "identity": "Relationship to Satan and Baalzebub requires interpretation",
-    "artSlug": null
+    "artSlug": "beelzebul"
   },
   {
     "entryId": "DEM-0003",
@@ -43,7 +43,7 @@
     ],
     "attestation": "Revelation 9:11",
     "identity": "Same figure under two names; wider identity disputed",
-    "artSlug": null
+    "artSlug": "abaddon-apollyon"
   },
   {
     "entryId": "DEM-0005",
@@ -54,7 +54,7 @@
     ],
     "attestation": "Leviticus 16:8-10; 1 Enoch 9-10 (ancient literature)",
     "identity": "Meaning in Leviticus disputed; personally named in Enoch",
-    "artSlug": null
+    "artSlug": "azazel"
   },
   {
     "entryId": "DEM-0006",
@@ -65,7 +65,7 @@
     ],
     "attestation": "Deuteronomy 13:13; 2 Corinthians 6:15",
     "identity": "Relationship to Satan interpreted rather than explicitly defined",
-    "artSlug": null
+    "artSlug": "belial"
   },
   {
     "entryId": "DEM-0007",
@@ -75,7 +75,7 @@
     ],
     "attestation": "Daniel 10:13; 10:20",
     "identity": "Personal name and wider hierarchy not stated",
-    "artSlug": null
+    "artSlug": "prince-of-persia"
   },
   {
     "entryId": "DEM-0008",
@@ -85,7 +85,7 @@
     ],
     "attestation": "1 Enoch 6:3-8; 10:11-15 (ancient literature)",
     "identity": "Named in 1 Enoch; not named in Genesis 6 or Jude 6",
-    "artSlug": null
+    "artSlug": "semjaza"
   },
   {
     "entryId": "DEM-0009",
@@ -96,7 +96,7 @@
     ],
     "attestation": "Daniel 10:20-21",
     "identity": "Personal name and wider hierarchy not stated",
-    "artSlug": null
+    "artSlug": "prince-of-greece"
   },
   {
     "entryId": "DEM-0010",
@@ -106,7 +106,7 @@
     ],
     "attestation": "Tobit 3:8, 17; 8:3",
     "identity": "Attested in Tobit; canonical reception differs across traditions",
-    "artSlug": null
+    "artSlug": "asmodeus"
   },
   {
     "entryId": "DEM-0011",
@@ -116,7 +116,7 @@
     ],
     "attestation": "1 Enoch 6:7-8; 8:3",
     "identity": "Named in Enochic literature; not named in Genesis 6",
-    "artSlug": null
+    "artSlug": "armaros"
   },
   {
     "entryId": "DEM-0012",
@@ -126,6 +126,6 @@
     ],
     "attestation": "1 Enoch 6:7-8; 8:3",
     "identity": "Named in Enochic literature; manuscript spelling comparison pending",
-    "artSlug": null
+    "artSlug": "baraqijal"
   }
 ]
