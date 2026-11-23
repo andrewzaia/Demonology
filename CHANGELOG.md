@@ -48,4 +48,9 @@
 
 - Simplified homepage collections into compact featured previews with direct links to the full collections.
 
+- Added evidence and source filters to the research archive, with shareable search settings.
+- Organised the Scripture index by Biblical book and introduced passage search.
+- Added encyclopaedia search and classification filters.
+- Added individual studies of the sons of Sceva and the afflicted boy in Mark 9.
+
 The archive remains under development and awaits final editorial approval.
