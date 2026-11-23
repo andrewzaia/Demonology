@@ -1,0 +1,11 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+import terms from '../../data/terminology.json';
+import refs from '../../data/references.json';
+const languages=['Hebrew','Aramaic','Greek','English translation'];
+---
+<Site title="Original-language terminology" description="Explore attested Biblical names, transliterations and textual variants.">
+<section class="wrap archive methodology"><p class="eyebrow">LANGUAGES AND TEXTS</p><h1>Names and terminology</h1><p class="lead">Compare source-language forms, English transliterations and contextual meanings. A name's spelling does not establish a spiritual rank or a complete identity.</p><p>Hebrew and Aramaic forms omit cantillation marks; some forms are given without surrounding grammatical prefixes as noted. Transliterations are reader aids, not a reconstruction of ancient pronunciation. English forms from Enoch are identified separately.</p>
+{languages.map(language=><section><h2>{language}</h2>{terms.filter(t=>t.language===language).map(t=>{const entry=entries.find(e=>e.id===t.entryId)!;return <article class="claim lexical-record"><p class="status">{entry.id} · <a href={`/research/${entry.slug}/`}>{entry.title}</a></p>{t.script&&<p class="lexical-script" lang={language==='Hebrew'?'he':language==='Aramaic'?'arc':'grc'} dir={language==='Greek'?'ltr':'rtl'}>{t.script}</p>}<h3>{t.transliteration} <span class="lexical-gloss">{t.gloss}</span></h3><p>{t.note}</p><p class="citation"><a href={t.url}>{t.locator}</a> · <a href={`/references/#${t.ref}`}>{refs.find(r=>r.id===t.ref)?.title}</a></p></article>})}</section>)}
+</section></Site>
