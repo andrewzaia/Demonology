@@ -87,7 +87,10 @@
       "DOC-0008",
       "DOC-0009",
       "DOC-0010",
-      "DEM-0002"
+      "DEM-0002",
+      "DEM-0006",
+      "DEM-0007",
+      "DOC-0013"
     ]
   },
   {
@@ -191,7 +194,8 @@
     "related": [
       "DOC-0002",
       "DOC-0006",
-      "DEM-0001"
+      "DEM-0001",
+      "DEM-0006"
     ]
   },
   {
@@ -405,6 +409,267 @@
     ]
   },
   {
+    "id": "DEM-0005",
+    "slug": "azazel",
+    "title": "Azazel",
+    "summary": "The disputed designation in Leviticus 16 and the rebellious figure called Azazel in the Book of Enoch.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Leviticus 16:7-10 describes two goats presented before the Lord. One is designated for the Lord and the other for Azazel in the ESV; the KJV uses scapegoat. The second animal is sent into the wilderness alive.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Leviticus 16:7-10",
+            "url": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A7-10&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Leviticus 16:7-10",
+            "url": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A7-10&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "The subsequent passage associates the sending away of the live goat with the removal of Israel's iniquities. The rite belongs to the Day of Atonement and is directed by God's instructions to Aaron.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Leviticus 16:20-22",
+            "url": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A20-22&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The ESV footnote acknowledges uncertainty over the meaning of Azazel, including a place or a demonic being as possibilities, alongside the traditional rendering scapegoat. Leviticus alone does not establish a personal biography, angelic rank or independent cult.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0003",
+            "locator": "Leviticus 16:8-10",
+            "url": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A8-10&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "In 1 Enoch 9-10, Azazel is named in connection with wrongdoing and receives a sentence of confinement. The Enochic narrative presents a personal figure in a way that Leviticus does not explicitly develop.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 9:6-7; 10:4-8",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          }
+        ]
+      },
+      {
+        "text": "The Enochic account should not be used to resolve the disputed Levitical term by assumption. The two texts need to be examined independently before proposing a historical or theological relationship.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0003",
+            "locator": "Leviticus 16:8-10",
+            "url": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A8-10&version=ESV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 10:4-8",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0004",
+      "DOC-0014",
+      "TXT-0001"
+    ]
+  },
+  {
+    "id": "DEM-0006",
+    "slug": "belial",
+    "title": "Belial (Beliar)",
+    "summary": "A term associated with wickedness in the Old Testament and contrasted with Christ in Paul's correspondence.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "In Deuteronomy 13:13 and 1 Samuel 2:12, the KJV uses expressions involving Belial for wicked people. The ESV renders the relevant descriptions in terms of worthlessness rather than a named spiritual being.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 13:13",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 Samuel 2:12",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%202%3A12&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Deuteronomy 13:13",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A13&version=ESV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "1 Samuel 2:12",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%202%3A12&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "In 2 Corinthians 6:14-16, Paul places Belial in contrast with Christ amid a sequence of contrasts involving righteousness, darkness, faith and idolatry. The NIV footnote identifies Beliar as a Greek variant of Belial.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 6:14-16",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%206%3A14-16&version=KJV"
+          },
+          {
+            "ref": "REF-0002",
+            "locator": "2 Corinthians 6:15",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%206%3A15&version=NIV"
+          }
+        ]
+      },
+      {
+        "text": "The contrast in Paul's letter supports an understanding of Belial as a designation of opposition to Christ, rather than establishing that every Old Testament occurrence refers to a named demon.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 13:13",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 6:14-16",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%206%3A14-16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The New Testament passage does not supply a separate genealogy, physical appearance, territorial assignment or rank for Belial. Identification with Satan is an interpretative question and is not a separately established entity biography.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 6:14-16",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%206%3A14-16&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A9&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DEM-0002",
+      "DOC-0008"
+    ]
+  },
+  {
+    "id": "DEM-0007",
+    "slug": "prince-of-persia",
+    "title": "The prince of Persia",
+    "summary": "The opposing prince described in Daniel 10, considered within the angelic conflict of the vision.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Daniel 10:13 records the heavenly messenger's explanation that the prince of the kingdom of Persia resisted him for twenty-one days, until Michael, described as one of the chief princes, came to assist him.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:10-14",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A10-14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The messenger later speaks of returning to fight the prince of Persia, of the coming prince of Greece, and of Michael as Daniel's people's prince.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:20-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A20-21&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The visionary context and Michael's involvement strongly support a spiritual interpretation of the opposing prince. Nevertheless, the passage supplies a title rather than a personal name, and the term prince is not intrinsically a demonic rank.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:13-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A13-21&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 12:1",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2012%3A1&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Daniel 10 does not provide a universal map of territorial spirits, a method of identifying modern national demons or a mandate to diagnose geopolitical events as demonic activity.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:10-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A10-21&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative emphasises God's answer to Daniel and the revelation of events concerning his people. It should not be reduced to speculative charts of the unseen realm.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:12-14",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A12-14&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:19-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A19-21&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0004",
+      "DOC-0006",
+      "DEM-0001"
+    ]
+  },
+  {
     "id": "DOC-0001",
     "slug": "spiritual-warfare",
     "title": "Spiritual warfare in Ephesians 6",
@@ -594,7 +859,8 @@
       "DOC-0007",
       "DOC-0005",
       "DOC-0012",
-      "DEM-0003"
+      "DEM-0003",
+      "DEM-0005"
     ]
   },
   {
@@ -664,7 +930,11 @@
       "DOC-0011",
       "DOC-0009",
       "DOC-0012",
-      "DEM-0004"
+      "DEM-0004",
+      "DEM-0005",
+      "DEM-0007",
+      "DOC-0013",
+      "DOC-0014"
     ]
   },
   {
@@ -753,7 +1023,9 @@
     "related": [
       "DOC-0003",
       "DOC-0004",
-      "DOC-0011"
+      "DOC-0011",
+      "DOC-0014",
+      "TXT-0001"
     ]
   },
   {
@@ -854,7 +1126,8 @@
       "DOC-0010",
       "DOC-0004",
       "DEM-0002",
-      "DEM-0004"
+      "DEM-0004",
+      "DEM-0007"
     ]
   },
   {
@@ -992,7 +1265,8 @@
       "DOC-0001",
       "DOC-0002",
       "DOC-0012",
-      "DEM-0001"
+      "DEM-0001",
+      "DEM-0006"
     ]
   },
   {
@@ -1235,7 +1509,9 @@
     ],
     "related": [
       "DOC-0005",
-      "DOC-0004"
+      "DOC-0004",
+      "DOC-0014",
+      "TXT-0001"
     ]
   },
   {
@@ -1305,7 +1581,305 @@
       "DOC-0008",
       "DOC-0009",
       "DOC-0010",
-      "DEM-0001"
+      "DEM-0001",
+      "DOC-0013"
+    ]
+  },
+  {
+    "id": "DOC-0013",
+    "slug": "lucifer-isaiah-fourteen",
+    "title": "Lucifer and Isaiah 14",
+    "summary": "The morning-star imagery in Isaiah's taunt against Babylon and its traditional interpretation in relation to Satan.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Isaiah 14:4 introduces a taunt against the king of Babylon. The following poetic passage describes his downfall and the collapse of his claims to exalted power.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Isaiah 14:4-15",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A4-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The KJV uses Lucifer in Isaiah 14:12, whereas the NIV uses morning star with the associated dawn imagery. These renderings belong to the same verse.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Isaiah 14:12",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A12&version=KJV"
+          },
+          {
+            "ref": "REF-0002",
+            "locator": "Isaiah 14:12",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A12&version=NIV"
+          }
+        ]
+      },
+      {
+        "text": "The New Testament separately depicts Satan's fall in Luke 10:18 and identifies the ancient serpent and dragon with Satan in Revelation 12. It does not explicitly quote Isaiah 14:12 as a personal name for Satan.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 10:18",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A18&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "A traditional Satanic interpretation reads the ruler's pride and descent as an image of supernatural rebellion. The direct literary referent remains the king of Babylon; any further application requires theological argument.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Isaiah 14:4-15",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A4-15&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 10:18",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2010%3A18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Lucifer is therefore indexed here as a disputed traditional designation, rather than a separate independently established demon. A chronological narrative of Satan's origin cannot be derived from this passage alone.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Isaiah 14:4-21",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A4-21&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0012",
+      "DOC-0004"
+    ]
+  },
+  {
+    "id": "DOC-0014",
+    "slug": "watchers",
+    "title": "The Watchers in Daniel and Enoch",
+    "summary": "A comparative study distinguishing the holy messengers in Daniel from the rebellious Watchers of ancient Enochic literature.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Nebuchadnezzar's dream in Daniel 4 describes a watcher and holy one who descends from heaven and announces judgement. Verse 17 associates the proclamation of the watchers with the sovereignty of the Most High.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 4:13-17",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%204%3A13-17&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 4:23",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%204%3A23&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Genesis 6:1-4 describes the sons of God and daughters of men, without naming the sons Watchers or specifying Mount Hermon.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 6 describes heavenly beings who agree to descend and take human wives. The Charles translation identifies Semjaza among the leaders and places the descent on Mount Hermon.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8",
+            "url": "https://sacredatlas.org/read/enoch/6/"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 9-10 develops a narrative of accusation and judgement involving the rebellious heavenly beings, including Azazel and Semjaza. This account supplies details beyond Genesis.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 9:6-10; 10:4-15",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          }
+        ]
+      },
+      {
+        "text": "Daniel's holy watchers should not be identified automatically with the rebellious group in Enoch. The comparison establishes a shared conceptual vocabulary, not identical conduct or a universal angelic classification.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 4:13-17",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%204%3A13-17&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8",
+            "url": "https://sacredatlas.org/read/enoch/6/"
+          }
+        ]
+      },
+      {
+        "text": "Jude 6 and 2 Peter 2:4 attest sinful angels and judgement. A connection with the Enochic narrative can be investigated, but those verses do not themselves supply its names, numbers or locations.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Peter 2:4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Peter%202%3A4&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8",
+            "url": "https://sacredatlas.org/read/enoch/6/"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0004",
+      "DOC-0005",
+      "DOC-0011",
+      "DEM-0005",
+      "TXT-0001"
+    ]
+  },
+  {
+    "id": "TXT-0001",
+    "slug": "book-of-enoch",
+    "title": "1 Enoch: the Book of the Watchers",
+    "summary": "An introduction to the opening section of Ethiopic Enoch, its account of angelic rebellion and its place in Christian reception.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "The 1917 English translation by R. H. Charles presents chapters 1-36 as the opening division of 1 Enoch. This entry focuses on the narratives in chapters 6-10 rather than treating every section of the composite work as one continuous account.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 1-36",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          }
+        ]
+      },
+      {
+        "text": "Chapters 6-10 describe the descent of heavenly beings, human corruption, the accusation of the transgressors and divine judgement. The narrative includes personal names and locations not given in Genesis 6.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8; 9:6-10; 10:4-15",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          }
+        ]
+      },
+      {
+        "text": "Daniel Assefa's 2022 study documents the inclusion of Enoch in the Ethiopian Orthodox Tewahedo Church's canon, including its 2007 Amharic Bible. Other Christian traditions do not necessarily accord the book the same canonical status.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0005",
+            "locator": "Antiquity; The Ethiopian Canon in the Twentieth and the Twenty-First Centuries",
+            "url": "https://doi.org/10.1093/oxfordhb/9780190948658.013.22"
+          }
+        ]
+      },
+      {
+        "text": "This archive distinguishes the historical evidence for the text and its reception from the truth status of the supernatural claims it contains. Its details are not automatically treated as explicit Biblical teaching under the archive's editorial framework.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          },
+          {
+            "ref": "REF-0005",
+            "locator": "Antiquity; The Ethiopian Canon in the Twentieth and the Twenty-First Centuries",
+            "url": "https://doi.org/10.1093/oxfordhb/9780190948658.013.22"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The connection between Enochic traditions and the New Testament deserves separate study. Jude 14-15 attributes a prophetic statement to Enoch; this does not by itself resolve the canonical status of every part of the surviving work.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A14-15&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 1:9",
+            "url": "https://classicslaunch.org/works/book-of-enoch/read/"
+          },
+          {
+            "ref": "REF-0005",
+            "locator": "Antiquity; The Ethiopian Canon in the Twentieth and the Twenty-First Centuries",
+            "url": "https://doi.org/10.1093/oxfordhb/9780190948658.013.22"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0014",
+      "DOC-0011",
+      "DOC-0005",
+      "DEM-0005"
     ]
   }
 ]

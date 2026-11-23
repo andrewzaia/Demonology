@@ -24,7 +24,9 @@
     "description": "Examine the difficult passages of Genesis and their competing interpretations.",
     "ids": [
       "DOC-0005",
-      "DOC-0011"
+      "DOC-0011",
+      "DOC-0013",
+      "DOC-0014"
     ]
   },
   {
@@ -42,7 +44,17 @@
       "DEM-0001",
       "DEM-0002",
       "DEM-0003",
-      "DEM-0004"
+      "DEM-0004",
+      "DEM-0005",
+      "DEM-0006",
+      "DEM-0007"
+    ]
+  },
+  {
+    "title": "Ancient literature",
+    "description": "Read historical texts alongside Scripture, with their source traditions and authority clearly distinguished.",
+    "ids": [
+      "TXT-0001"
     ]
   }
 ]
