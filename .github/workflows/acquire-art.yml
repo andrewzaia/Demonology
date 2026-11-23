@@ -1,0 +1,17 @@
+name: Acquire public-domain historical illustrations
+on:
+  push:
+    branches: [media/historical-art-acquisition]
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+      - run: npm ci --no-audit
+      - run: node scripts/acquire-historical-art.mjs
