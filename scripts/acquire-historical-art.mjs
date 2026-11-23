@@ -1,20 +1,18 @@
 import sharp from 'sharp';
 import {createHash} from 'node:crypto';
-const targets=[['michael-and-spiritual-conflict',386222],['beast-from-the-sea',397141],['serpent-in-genesis',387388],['final-judgement-of-evil',382414],['victory-over-evil',670697]];
-for(const [slug,id] of targets){
- try{
-  const record=await fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+id,{signal:AbortSignal.timeout(20000)});
-  if(!record.ok)throw new Error('Catalogue '+record.status);
-  const obj=await record.json();
-  if(!obj.isPublicDomain||!obj.primaryImageSmall)throw new Error('Not cleared or unavailable');
-  const url=new URL(obj.primaryImageSmall);
-  if(url.protocol!=='https:'||!['images.metmuseum.org','collectionapi.metmuseum.org'].includes(url.hostname))throw new Error('Unexpected image host');
-  const response=await fetch(url,{signal:AbortSignal.timeout(25000)});
-  if(!response.ok)throw new Error('Image '+response.status);
-  const buf=Buffer.from(await response.arrayBuffer());
-  const {data,info}=await sharp(buf,{limitInputPixels:25000000}).rotate().resize({width:1100,height:1100,fit:'inside',withoutEnlargement:true}).webp({quality:74}).toBuffer({resolveWithObject:true});
-  if(data.length>245000)throw new Error('Image exceeds budget');
-  console.log('ARTMETA '+JSON.stringify({slug,id,title:obj.title,artist:obj.artistDisplayName,date:obj.objectDate,medium:obj.medium,credit:obj.creditLine,accession:obj.objectNumber,source:obj.objectURL,width:info.width,height:info.height,bytes:data.length,sha256:createHash('sha256').update(data).digest('hex'),git:createHash('sha1').update('blob '+data.length+'\0').update(data).digest('hex')}));
-  const b64=data.toString('base64');for(let i=0;i<b64.length;i+=768)console.log('ARTDATA '+slug+' '+b64.slice(i,i+768));
- }catch(e){console.log('ARTFAIL '+slug+' '+e.message);}
-}
+const targets=[
+['michael-and-spiritual-conflict','https://collectionapi.metmuseum.org/api/collection/v1/iiif/386222/765784/main-image'],
+['beast-from-the-sea','https://collectionapi.metmuseum.org/api/collection/v1/iiif/397141/767073/main-image'],
+['serpent-in-genesis','https://collectionapi.metmuseum.org/api/collection/v1/iiif/387388/749233/main-image'],
+['final-judgement-of-evil','https://collectionapi.metmuseum.org/api/collection/v1/iiif/382414/763606/main-image'],
+['victory-over-evil','https://images.metmuseum.org/CRDImages/dp/original/DP849928.jpg'],
+['augustine-city-of-god','https://iiif.wellcomecollection.org/image/V0031638/full/760%2C/0/default.jpg']
+];
+for(const [slug,url] of targets){try{
+const res=await fetch(url,{headers:{Accept:'image/jpeg,image/png,image/*;q=0.9'},signal:AbortSignal.timeout(25000)});if(!res.ok)throw Error('HTTP '+res.status);
+const bytes=Buffer.from(await res.arrayBuffer());
+const {data,info}=await sharp(bytes,{limitInputPixels:25000000}).rotate().resize({width:1100,height:1100,fit:'inside',withoutEnlargement:true}).webp({quality:70}).toBuffer({resolveWithObject:true});
+if(data.length>245000)throw Error('Image exceeds budget');
+console.log('ARTMETA '+JSON.stringify({slug,width:info.width,height:info.height,bytes:data.length,sha256:createHash('sha256').update(data).digest('hex'),git:createHash('sha1').update('blob '+data.length+'\0').update(data).digest('hex')}));
+const b64=data.toString('base64');for(let i=0;i<b64.length;i+=768)console.log('ARTDATA '+slug+' '+b64.slice(i,i+768));
+}catch(e){console.log('ARTFAIL '+slug+' '+e.message);}}
