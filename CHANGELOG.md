@@ -64,4 +64,7 @@
 - Gave Satan a dedicated historical illustration and added distinct covers to two more homepage collections.
 - Distinguished later artistic traditions from the Biblical narratives they accompany.
 
+- Introduced three illustrated historical records for medieval manuscript illuminations, with institutional provenance and Biblical context.
+- Added a dedicated illuminated-manuscript collection, gallery filter and illustrated chronology.
+
 The archive remains under development and awaits final editorial approval.

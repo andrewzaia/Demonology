@@ -97,7 +97,8 @@
       "DOC-0021",
       "DOC-0022",
       "TXT-0004",
-      "TXT-0005"
+      "TXT-0005",
+      "HIS-0005"
     ]
   },
   {
@@ -1764,7 +1765,9 @@
       "DEM-0004",
       "DOC-0018",
       "DOC-0019",
-      "DOC-0020"
+      "DOC-0020",
+      "HIS-0003",
+      "HIS-0004"
     ]
   },
   {
@@ -2603,7 +2606,8 @@
       "DOC-0009",
       "DOC-0017",
       "DOC-0019",
-      "DOC-0020"
+      "DOC-0020",
+      "HIS-0003"
     ]
   },
   {
@@ -2690,7 +2694,8 @@
       "DOC-0017",
       "DOC-0018",
       "DOC-0020",
-      "DOC-0023"
+      "DOC-0023",
+      "HIS-0003"
     ]
   },
   {
@@ -2866,7 +2871,8 @@
       "DEM-0007",
       "DEM-0009",
       "DOC-0004",
-      "DOC-0006"
+      "DOC-0006",
+      "HIS-0005"
     ]
   },
   {
@@ -3610,6 +3616,168 @@
       "TXT-0001"
     ],
     "reviewStatus": "draft - owner review pending"
+  },
+  {
+    "id": "HIS-0003",
+    "slug": "beatus-manuscript",
+    "title": "The Beatus Apocalypse: an illuminated manuscript leaf",
+    "summary": "A medieval Spanish witness to the artistic interpretation of Revelation 8.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "The Metropolitan Museum of Art catalogues this parchment leaf as Spanish, dating it to approximately 1180. It is painted in tempera with gold and ink, and is identified by accession number 1991.232.9.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0024",
+            "locator": "Object information, accession 1991.232.9",
+            "url": "https://www.metmuseum.org/art/collection/search/466204"
+          }
+        ]
+      },
+      {
+        "text": "The museum connects the leaf with the illustrated tradition of Beatus of Liebana, an eighth-century Asturian monk whose commentary on Revelation informed medieval Spanish Apocalypse manuscripts. The original manuscript from which this leaf comes was disassembled in the nineteenth century.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0024",
+            "locator": "Object information, accession 1991.232.9",
+            "url": "https://www.metmuseum.org/art/collection/search/466204"
+          }
+        ]
+      },
+      {
+        "text": "The fourth trumpet and the eagle's warning provide the Biblical subject of the image. The artistic forms belong to the manuscript's medieval interpretative setting; they do not establish the literal appearances of heavenly beings.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0024",
+            "locator": "Object information, accession 1991.232.9",
+            "url": "https://www.metmuseum.org/art/collection/search/466204"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 8:12-13",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%208%3A12-13&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0018",
+      "DOC-0019",
+      "DOC-0009"
+    ]
+  },
+  {
+    "id": "HIS-0004",
+    "slug": "last-judgement-book-of-hours",
+    "title": "Final judgement in a medieval Book of Hours",
+    "summary": "A Parisian manuscript miniature documenting medieval devotional representations of judgement.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "The Metropolitan Museum of Art dates this French miniature to approximately 1400 and locates its production in Paris. The work is painted in tempera and gold on parchment and catalogued as accession 1998.179.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0025",
+            "locator": "Object information, accession 1998.179",
+            "url": "https://www.metmuseum.org/art/collection/search/469963"
+          }
+        ]
+      },
+      {
+        "text": "According to the museum, the miniature introduced a set of French devotional prayers. It represents Christ seated above the resurrected dead, with angels and accompanying supplicants.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0025",
+            "locator": "Object information, accession 1998.179",
+            "url": "https://www.metmuseum.org/art/collection/search/469963"
+          }
+        ]
+      },
+      {
+        "text": "Revelation describes the dead standing before the throne and being judged. The additional figures, poses and devotional setting of this miniature are artistic and historical interpretations, not additional details supplied by Revelation.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0025",
+            "locator": "Object information, accession 1998.179",
+            "url": "https://www.metmuseum.org/art/collection/search/469963"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:11-15",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A11-15&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0009"
+    ]
+  },
+  {
+    "id": "HIS-0005",
+    "slug": "michael-choir-book",
+    "title": "The Archangel Michael in a medieval choir book",
+    "summary": "A Lombard manuscript cutting illustrating the historical reception of Michael as a heavenly warrior.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "The Metropolitan Museum of Art identifies the cutting as a choir-book illumination produced in Lombardy in the second half of the fifteenth century. The decorated initial is made with tempera, gold, silver and ink on parchment, accession 23.21.11.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0026",
+            "locator": "Object information, accession 23.21.11",
+            "url": "https://www.metmuseum.org/art/collection/search/32839"
+          }
+        ]
+      },
+      {
+        "text": "The museum interprets the silver armour as reflecting Michael's association with knights and warriors in late medieval devotion.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0026",
+            "locator": "Object information, accession 23.21.11",
+            "url": "https://www.metmuseum.org/art/collection/search/32839"
+          }
+        ]
+      },
+      {
+        "text": "Revelation describes Michael and his angels fighting the dragon. It does not prescribe the armour, face or physical features displayed in the cutting, which belongs to the history of Christian art.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0026",
+            "locator": "Object information, accession 23.21.11",
+            "url": "https://www.metmuseum.org/art/collection/search/32839"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-9&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0021",
+      "DEM-0001"
+    ]
   },
   {
     "id": "TXT-0001",

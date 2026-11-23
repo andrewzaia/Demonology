@@ -33,5 +33,26 @@
     "kind": "Manuscript witness",
     "ref": "REF-0015",
     "locator": "Date range"
+  },
+  {
+    "entryId": "HIS-0003",
+    "period": "Around 1180 CE",
+    "kind": "Manuscript illumination",
+    "ref": "REF-0024",
+    "locator": "Object information, date"
+  },
+  {
+    "entryId": "HIS-0004",
+    "period": "Around 1400 CE",
+    "kind": "Manuscript illumination",
+    "ref": "REF-0025",
+    "locator": "Object information, date"
+  },
+  {
+    "entryId": "HIS-0005",
+    "period": "Second half of the 15th century CE",
+    "kind": "Manuscript illumination",
+    "ref": "REF-0026",
+    "locator": "Object information, date"
   }
 ]
