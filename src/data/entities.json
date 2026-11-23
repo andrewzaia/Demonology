@@ -97,5 +97,35 @@
     "attestation": "Daniel 10:20-21",
     "identity": "Personal name and wider hierarchy not stated",
     "artSlug": null
+  },
+  {
+    "entryId": "DEM-0010",
+    "classification": "Demon named in deuterocanonical Scripture",
+    "names": [
+      "Asmodeus"
+    ],
+    "attestation": "Tobit 3:8, 17; 8:3",
+    "identity": "Attested in Tobit; canonical reception differs across traditions",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0011",
+    "classification": "Enochic Watcher",
+    "names": [
+      "Armaros"
+    ],
+    "attestation": "1 Enoch 6:7-8; 8:3",
+    "identity": "Named in Enochic literature; not named in Genesis 6",
+    "artSlug": null
+  },
+  {
+    "entryId": "DEM-0012",
+    "classification": "Enochic Watcher",
+    "names": [
+      "Baraqijal"
+    ],
+    "attestation": "1 Enoch 6:7-8; 8:3",
+    "identity": "Named in Enochic literature; manuscript spelling comparison pending",
+    "artSlug": null
   }
 ]

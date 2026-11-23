@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 const entries=JSON.parse(readFileSync('src/data/entries.json','utf8'));
 test('all generated pages exist and prohibit indexing',()=>{
-  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/',...entries.map(e=>'research/'+e.slug+'/')];
+  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/','atlas/',...entries.map(e=>'research/'+e.slug+'/')];
   for(const p of paths){const html=readFileSync('dist/'+p+'index.html','utf8');assert.match(html,/<meta[^>]+name="robots"[^>]+content="noindex,nofollow"/);}
   assert.match(readFileSync('dist/_headers','utf8'),/X-Robots-Tag: noindex, nofollow/);
   assert.match(readFileSync('dist/robots.txt','utf8'),/Disallow: \//);
@@ -19,3 +19,5 @@ test('illustrations are local, verified and visibly attributed',()=>{assert.equa
 test('encyclopaedia and gallery link to their corresponding research',()=>{const catalogue=readFileSync('dist/encyclopaedia/index.html','utf8');const gallery=readFileSync('dist/media/index.html','utf8');const entities=JSON.parse(readFileSync('src/data/entities.json','utf8'));for(const p of entities){const e=entries.find(x=>x.id===p.entryId);assert.ok(catalogue.includes('/research/'+e.slug+'/'));assert.ok(readFileSync('dist/research/'+e.slug+'/index.html','utf8').includes('Profile at a glance'));}for(const a of artwork){assert.ok(gallery.includes(a.src));assert.ok(gallery.includes('/research/'+a.slug+'/'));}});
 
 test('Scripture index preserves translation comparisons and excludes ancient literature',()=>{const refs=JSON.parse(readFileSync('src/data/references.json','utf8'));const html=readFileSync('dist/scripture/index.html','utf8');for(const r of refs.filter(r=>r.type!=='Scripture'))assert.ok(!html.includes(r.edition));for(const c of entries.flatMap(e=>e.claims.flatMap(c=>c.citations)).filter(c=>refs.find(r=>r.id===c.ref)?.type==='Scripture'))assert.ok(html.includes('/research/')&&html.includes(c.locator));});
+
+test('connection atlas covers all research entries and links',()=>{const html=readFileSync('dist/atlas/index.html','utf8');assert.ok(html.includes('not a supernatural hierarchy'));for(const e of entries){assert.ok(html.includes('data-atlas="'+e.id+'"'));assert.ok(html.includes('/research/'+e.slug+'/'));for(const id of e.related)assert.ok(html.includes('data-atlas-focus="'+id+'"'));const article=readFileSync('dist/research/'+e.slug+'/index.html','utf8');assert.ok(article.includes('/atlas/?entry='+e.id+'#'+e.id));}});
