@@ -152,5 +152,37 @@
     "edition": "Catholic Encyclopedia, online New Advent edition, Writings section",
     "rightsNote": "Original paraphrase and link.",
     "url": "https://www.newadvent.org/cathen/08580c.htm"
+  },
+  {
+    "id": "REF-0020",
+    "type": "Linguistic reference",
+    "title": "Bible Hub: Hebrew interlinear text",
+    "edition": "Online Hebrew interlinear, passage-level text and morphology",
+    "rightsNote": "Short individual terms and original explanatory glosses only; no full interlinear reproduced.",
+    "url": "https://biblehub.com/interlinear/"
+  },
+  {
+    "id": "REF-0021",
+    "type": "Linguistic reference",
+    "title": "Bible Hub: Greek interlinear text",
+    "edition": "Online Greek interlinear, passage-level text and morphology",
+    "rightsNote": "Short individual terms and original explanatory glosses only.",
+    "url": "https://biblehub.com/interlinear/"
+  },
+  {
+    "id": "REF-0022",
+    "type": "Linguistic reference",
+    "title": "BiblIndex: Septuagint, Tobit",
+    "edition": "Online Greek textual forms in Tobit 3:8 (Tobit and Tobit S)",
+    "rightsNote": "Individual names cited for textual comparison; no continuous passage reproduced.",
+    "url": "https://www.biblindex.org/en/bible/septuaginta/tb-3"
+  },
+  {
+    "id": "REF-0023",
+    "type": "Linguistic reference",
+    "title": "Bible Hub: Biblical Aramaic interlinear text",
+    "edition": "Online Daniel interlinear, passage-level text and morphology",
+    "rightsNote": "Short individual terms and original explanatory glosses only.",
+    "url": "https://biblehub.com/interlinear/daniel/4-13.htm"
   }
 ]

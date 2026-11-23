@@ -53,4 +53,7 @@
 - Added encyclopaedia search and classification filters.
 - Added individual studies of the sons of Sceva and the afflicted boy in Mark 9.
 
+- Added original-language terminology, transliterations and passage-level references to the encyclopaedia.
+- Introduced a terminology index and extended search to include source-language forms.
+
 The archive remains under development and awaits final editorial approval.
