@@ -46,4 +46,6 @@
 - Added studies of Irenaeus and Augustine, alongside catalogued manuscript witnesses to Enoch and Tobit.
 - Linked the institutional manuscript viewers and source records directly to research entries.
 
+- Simplified homepage collections into compact featured previews with direct links to the full collections.
+
 The archive remains under development and awaits final editorial approval.
