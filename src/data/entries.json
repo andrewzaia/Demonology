@@ -95,7 +95,8 @@
       "DOC-0018",
       "DOC-0020",
       "DOC-0021",
-      "DOC-0022"
+      "DOC-0022",
+      "TXT-0004"
     ]
   },
   {
@@ -1162,7 +1163,8 @@
       "DEM-0002",
       "DEM-0003",
       "DEM-0010",
-      "DOC-0022"
+      "DOC-0022",
+      "DOC-0024"
     ]
   },
   {
@@ -1265,7 +1267,10 @@
       "DEM-0003",
       "DEM-0005",
       "DOC-0015",
-      "DEM-0010"
+      "DEM-0010",
+      "TXT-0002",
+      "TXT-0003",
+      "TXT-0004"
     ]
   },
   {
@@ -1433,7 +1438,8 @@
       "DOC-0011",
       "DOC-0014",
       "TXT-0001",
-      "DOC-0015"
+      "DOC-0015",
+      "TXT-0003"
     ]
   },
   {
@@ -1603,7 +1609,8 @@
       "DOC-0002",
       "DOC-0003",
       "DEM-0003",
-      "DEM-0010"
+      "DEM-0010",
+      "DOC-0024"
     ]
   },
   {
@@ -1682,7 +1689,8 @@
       "DOC-0017",
       "DOC-0019",
       "DOC-0022",
-      "DOC-0023"
+      "DOC-0023",
+      "DOC-0025"
     ]
   },
   {
@@ -2208,7 +2216,8 @@
       "DEM-0008",
       "DOC-0015",
       "DEM-0011",
-      "DEM-0012"
+      "DEM-0012",
+      "TXT-0002"
     ]
   },
   {
@@ -2304,7 +2313,10 @@
       "DOC-0003",
       "DOC-0005",
       "DOC-0014",
-      "TXT-0001"
+      "TXT-0001",
+      "TXT-0002",
+      "TXT-0003",
+      "TXT-0004"
     ]
   },
   {
@@ -3059,7 +3071,168 @@
       "DOC-0008",
       "DOC-0017",
       "DOC-0019",
-      "DOC-0020"
+      "DOC-0020",
+      "DOC-0024",
+      "DOC-0025"
+    ]
+  },
+  {
+    "id": "DOC-0024",
+    "slug": "divination",
+    "title": "Divination and the spirit of divination",
+    "summary": "Biblical prohibitions of divination and the account of the exploited woman in Acts 16.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Deuteronomy 18:9-14 prohibits divination and related practices within Israel's covenant setting. The passage contrasts seeking such knowledge with faithfulness to the Lord.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 18:9-14",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2018%3A9-14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Acts 16:16-18 describes an enslaved woman whose fortune-telling brought income to her owners. Paul addresses the spirit in the name of Jesus Christ, and the narrative records its departure.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 16:16-18",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A16-18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The owners react to the loss of their income by seizing Paul and Silas. The narrative connects their subsequent imprisonment with that commercial loss and accusations before the magistrates.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 16:19-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A19-24&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The woman's exploitation is significant to the account. It presents a person in need of liberation, not a spiritual technique for readers to imitate. Accurate-sounding religious language does not by itself establish divine authority.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 16:16-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A16-24&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 13:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The passage records a specific spiritual attribution. It does not establish that every modern claim of fortune-telling has a supernatural cause, nor does it justify diagnosing individuals.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 16:16-18",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2016%3A16-18&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0023",
+      "DOC-0025"
+    ]
+  },
+  {
+    "id": "DOC-0025",
+    "slug": "necromancy-and-endor",
+    "title": "Necromancy and the medium at Endor",
+    "summary": "The consultation at Endor in 1 Samuel 28, its judgement in Chronicles and the dispute over the apparition.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "First Samuel 28 places Saul's consultation with the medium at Endor in the context of military fear, Samuel's death and the absence of an answer from the Lord.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 Samuel 28:3-7",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2028%3A3-7&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narrative identifies the figure addressed by Saul and the subsequent speaker as Samuel. The message announces judgement and the coming defeat of Saul and Israel.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 Samuel 28:11-19",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2028%3A11-19&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "First Chronicles 10:13-14 connects Saul's death with his unfaithfulness and consultation of a medium, placing the episode within divine judgement.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 Chronicles 10:13-14",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Chronicles%2010%3A13-14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "A reading in which Samuel actually appears follows the narrator's identification. Other interpretations propose deception or a spiritual impersonation. The narrative does not describe the figure as a demon or explicitly explain the mechanism of the appearance.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 Samuel 28:11-19",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Samuel%2028%3A11-19&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The event is not presented as permission to consult the dead. The explicit prohibition in Deuteronomy and the judgement in Chronicles are the governing theological context.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 18:9-14",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2018%3A9-14&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 Chronicles 10:13-14",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Chronicles%2010%3A13-14&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0024",
+      "DOC-0008",
+      "DOC-0023"
     ]
   },
   {
@@ -3158,7 +3331,238 @@
       "DEM-0008",
       "DOC-0015",
       "DEM-0011",
-      "DEM-0012"
+      "DEM-0012",
+      "TXT-0002",
+      "TXT-0003"
+    ]
+  },
+  {
+    "id": "TXT-0002",
+    "slug": "justin-martyr-second-apology",
+    "title": "Justin Martyr: the Second Apology",
+    "summary": "An early Christian account of angelic rebellion and the origin of demons, written in an apologetic context.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "In chapter 5, Justin explains human wickedness partly through a narrative of angels failing in their appointed responsibilities. He describes their unions with women and identifies their offspring as demons.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          }
+        ]
+      },
+      {
+        "text": "Justin applies this account to pagan mythology, arguing that acts attributed to the gods were in fact the work of transgressing angels and their offspring. This serves his defence of Christianity before a non-Christian audience.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          }
+        ]
+      },
+      {
+        "text": "The account resembles the Enochic tradition in distinguishing the offending angels from their offspring. Justin's formulation does not explicitly state in chapter 5 that the offspring first die and then become disembodied spirits; the distinction from 1 Enoch 15 must be preserved.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:8-12",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "The work establishes that this origin interpretation was expressed by an early Christian apologist. It does not establish a unanimous teaching of the early Church or supply an explicit genealogy of demons in Genesis.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0014",
+      "DOC-0015",
+      "TXT-0001",
+      "TXT-0003",
+      "TXT-0004"
+    ]
+  },
+  {
+    "id": "TXT-0003",
+    "slug": "athenagoras-plea-for-christians",
+    "title": "Athenagoras: A Plea for the Christians",
+    "summary": "The early Christian distinction between fallen angels and the wandering souls of the giants.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Chapter 24 argues that angels possess freedom of choice and that some abandoned their appointed responsibilities. It describes the giants as the offspring of transgressing heavenly beings and women.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 24-25",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          }
+        ]
+      },
+      {
+        "text": "Chapter 25 explicitly distinguishes fallen angels from the souls of the giants, which the author identifies as demons. His explanation assigns different origins and motives to the two classes.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 24-25",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          }
+        ]
+      },
+      {
+        "text": "In chapter 26, Athenagoras connects demonic activity with idolatry. This is part of his argument against accusations of atheism and his defence of Christian worship.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 15-17, 26",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          }
+        ]
+      },
+      {
+        "text": "Athenagoras provides clear historical evidence that a distinction resembling the Enochic origin account circulated among early Christians. This is evidence of an interpretation, not independent verification of the claimed supernatural genealogy.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 24-25",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:8-12",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0005",
+      "DOC-0015",
+      "TXT-0001",
+      "TXT-0002",
+      "TXT-0004"
+    ]
+  },
+  {
+    "id": "TXT-0004",
+    "slug": "tertullian-apology",
+    "title": "Tertullian: Apology",
+    "summary": "A study of Tertullian's attributed origins of demons in the context of his defence of Christians.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Chapter 22 discusses angels and demons as spiritual beings and describes a demonic offspring arising from angels who fell through their own choice.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0011",
+            "locator": "Apology, ch. 22",
+            "url": "https://www.newadvent.org/fathers/0301.htm"
+          }
+        ]
+      },
+      {
+        "text": "Tertullian also describes Satan as the chief of demons in this chapter. This records the author's terminology, rather than a complete list of ranks or positions.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0011",
+            "locator": "Apology, ch. 22",
+            "url": "https://www.newadvent.org/fathers/0301.htm"
+          }
+        ]
+      },
+      {
+        "text": "The argument resembles Justin's account of angelic offspring, while Athenagoras more explicitly identifies the demons as souls of giants. Their distinct formulations should not be compressed into a single quotation or doctrine.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0011",
+            "locator": "Apology, ch. 22",
+            "url": "https://www.newadvent.org/fathers/0301.htm"
+          },
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          },
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 24-25",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          }
+        ]
+      },
+      {
+        "text": "These authors provide historical witnesses to early Christian interpretations of spiritual evil. Their writings do not independently establish the supernatural origin of demons, and their assertions must be considered alongside Biblical testimony.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0011",
+            "locator": "Apology, ch. 22",
+            "url": "https://www.newadvent.org/fathers/0301.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 25:41",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A41&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0015",
+      "DEM-0001",
+      "TXT-0002",
+      "TXT-0003"
     ]
   }
 ]

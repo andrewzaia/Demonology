@@ -34,4 +34,8 @@
 - Added an original illustration of Christ's temptation.
 - Introduced a connection atlas with related reading and shared source links.
 
+- Introduced separate studies of Justin Martyr, Athenagoras and Tertullian, with references to their original works.
+- Added Biblical studies of divination and the medium at Endor.
+- Refined the connection atlas with relationship filters and a fullscreen option on supported devices.
+
 The archive remains under development and awaits final editorial approval.
