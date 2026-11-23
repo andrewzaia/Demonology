@@ -1,0 +1,9 @@
+---
+import Site from '../../layouts/Site.astro';
+import ArticleArt from '../../components/ArticleArt.astro';
+import artwork from '../../data/artwork.json';
+import entries from '../../data/entries.json';
+---
+<Site title="Illustration gallery" description="Original interpretative artwork for the Demonology research archive.">
+<section class="wrap archive"><p class="eyebrow">THE ILLUSTRATED ARCHIVE</p><h1>Illustration gallery</h1><p class="lead">Art can help readers reflect on a Biblical narrative, but it cannot establish historical facts or the appearance of unseen beings.</p><p class="status">{artwork.length} original AI-generated illustrations · Each image links to its research context.</p><div class="entity-grid">{artwork.map(art=>{const entry=entries.find(e=>e.id===art.entryId)!;return <article class="entity-card media-card"><ArticleArt slug={art.slug}/><div class="entity-card-copy"><h2><a href={`/research/${entry.slug}/`}>{entry.title}</a></h2><p class="status">{art.credit}</p><a href={art.src}>View full illustration</a> · <a href={`/research/${entry.slug}/`}>Read study</a></div></article>;})}</div></section>
+</Site>

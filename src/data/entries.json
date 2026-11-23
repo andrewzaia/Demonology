@@ -1,5 +1,410 @@
 [
   {
+    "id": "DEM-0001",
+    "slug": "satan",
+    "title": "Satan",
+    "summary": "The adversary, devil and accuser identified in Scripture, whose power remains subject to God's authority.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Job 1:6-12 presents Satan questioning the motives of a righteous man in the heavenly assembly. God permits a limited test but does not grant unrestricted authority. The Hebrew title in this passage is explained as the adversary or accuser in the ESV translation note.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6-12&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Job 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 12:9-10 explicitly identifies the dragon as the ancient serpent, the devil and Satan, and depicts the accuser being cast down. These are connected designations within that particular vision.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "In the temptation narrative, Jesus rejects the devil's demands and answers from Scripture. The Gospel account presents the tempter as an opponent, not a rival deity.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:1-11",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation's account of Satan's final punishment precludes treating him as an independent sovereign of hell. His actions and judgement are described in relation to divine authority.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:7-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A7-10&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Job 1:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Job%201%3A6-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Scripture provides descriptions of conduct and symbolic imagery rather than an exhaustive physical portrait, fixed rank within a later occult hierarchy or complete chronology of origin. The traditional identification of Lucifer with Satan requires separate study of Isaiah 14 and is not assumed here.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Isaiah 14:4-15",
+            "url": "https://www.biblegateway.com/passage/?search=Isaiah%2014%3A4-15&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0012",
+      "DOC-0008",
+      "DOC-0009",
+      "DOC-0010",
+      "DEM-0002"
+    ]
+  },
+  {
+    "id": "DEM-0002",
+    "slug": "beelzebul",
+    "title": "Beelzebul (Beelzebub)",
+    "summary": "A designation used in accusations against Jesus, with a debated relationship to the god of Ekron and to Satan.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Matthew records the Pharisees attributing Jesus' exorcisms to Beelzebub. Mark attributes a similar charge to scribes from Jerusalem, and Luke records an accusation by some of those present. The King James Version uses Beelzebub while the NIV uses Beelzebul.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:22-30",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A22-30&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 3:22-27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%203%3A22-27&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:14-23",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A14-23&version=KJV"
+          },
+          {
+            "ref": "REF-0002",
+            "locator": "Matthew 12:24",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A24&version=NIV"
+          }
+        ]
+      },
+      {
+        "text": "In answering the accusation, Jesus argues that Satan cannot sustain a kingdom divided against itself. He attributes his works to God's power and connects their accomplishment with the kingdom of God.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:25-29",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A25-29&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 11:17-22",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%2011%3A17-22&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Second Kings describes Ahaziah seeking an answer about his injuries from Baalzebub, identified in the narrative as the deity of Ekron. Elijah condemns the king's turning away from the God of Israel.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Kings 1:2-6",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Kings%201%3A2-6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jesus' answer connects the Beelzebul accusation with Satan's kingdom. This supports interpreting the designation in relation to Satan, but the passage does not provide a separately named biography or establish a second-in-command within a demonic hierarchy.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:24-29",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A24-29&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 3:22-27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%203%3A22-27&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The similarity between the name in Second Kings and its New Testament forms warrants linguistic and historical research. The Biblical texts do not explicitly establish the precise etymological development or whether every historical use refers to one individual being.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Kings 1:2-6",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Kings%201%3A2-6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 12:24-29",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2012%3A24-29&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0006",
+      "DEM-0001"
+    ]
+  },
+  {
+    "id": "DEM-0003",
+    "slug": "legion",
+    "title": "Legion",
+    "summary": "The collective designation of many demons in the Gospel accounts of the man restored by Jesus near the Sea of Galilee.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Mark describes a man living among tombs, whom Jesus encounters after crossing the sea. In the narrative, the response to Jesus' question about the spirit's name identifies a plurality of beings under the designation Legion.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:1-9",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A1-9&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Luke's parallel account explains the designation by reference to the many demons that had entered the man. The spirits petition Jesus not to send them into the deep.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:26-31",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A26-31&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narratives describe Jesus permitting the spirits to enter a herd of pigs, followed by the herd's destruction. Mark reports a herd of approximately two thousand animals.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:10-14",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A10-14&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:32-34",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A32-34&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The number of animals is not a stated count of the demons. Legion functions here as a collective designation; the texts do not give names, ranks or numbers for individual members or identify a commander.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:9-13",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A9-13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:30-33",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A30-33&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The account concludes with the man restored, clothed and sitting in his right mind. Jesus directs him to return to his people and tell them what God has done for him.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:15-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A15-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:35-39",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A35-39&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The dignity and restoration of the afflicted man are central to the narratives. This ancient account does not provide a diagnostic method for contemporary mental or physical distress.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:15-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A15-20&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 8:35-39",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%208%3A35-39&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0003",
+      "DOC-0007"
+    ]
+  },
+  {
+    "id": "DEM-0004",
+    "slug": "abaddon-apollyon",
+    "title": "Abaddon (Apollyon)",
+    "summary": "The angel of the abyss named in Revelation 9:11, whose designation and role must be read within the fifth trumpet vision.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Revelation 9 introduces a fallen star given a key to the abyss. Smoke emerges and visionary locusts are released. Their power is expressly limited in its duration and its permitted effects.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 9:1-6",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%209%3A1-6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 9:11 names the angel of the abyss as king over the locusts. It supplies the Hebrew name Abaddon and the Greek name Apollyon for the same figure; the ESV footnote glosses the names as destruction and destroyer respectively.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 9:11",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%209%3A11&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Revelation 9:11",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%209%3A11&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "Job 26:6 and Proverbs 15:11 use the Hebrew term Abaddon in expressions concerning destruction or the realm of the dead. The KJV renders it as destruction, while the ESV preserves the term Abaddon.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Job 26:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%2026%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Proverbs 15:11",
+            "url": "https://www.biblegateway.com/passage/?search=Proverbs%2015%3A11&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Job 26:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%2026%3A6&version=ESV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Proverbs 15:11",
+            "url": "https://www.biblegateway.com/passage/?search=Proverbs%2015%3A11&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "The Old Testament uses do not automatically identify a personal angel in those passages. Revelation applies the designation to a figure in a particular apocalyptic vision; its literary context therefore matters.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Job 26:6",
+            "url": "https://www.biblegateway.com/passage/?search=Job%2026%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Proverbs 15:11",
+            "url": "https://www.biblegateway.com/passage/?search=Proverbs%2015%3A11&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 9:11",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%209%3A11&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The text explicitly describes kingship over the visionary locusts. It does not say that Abaddon rules every demon, is Satan, or occupies a fixed rank in a universal spiritual hierarchy. Whether the fallen star of verse 1 and the angel of verse 11 should be identified is not explicitly resolved.",
+        "evidence": "Theological Interpretation",
+        "confidence": "disputed",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 9:1-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%209%3A1-12&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0004",
+      "DOC-0006",
+      "DOC-0009"
+    ]
+  },
+  {
     "id": "DOC-0001",
     "slug": "spiritual-warfare",
     "title": "Spiritual warfare in Ephesians 6",
@@ -87,7 +492,9 @@
       "DOC-0010",
       "DOC-0003",
       "DOC-0007",
-      "DOC-0008"
+      "DOC-0008",
+      "DEM-0002",
+      "DEM-0003"
     ]
   },
   {
@@ -186,7 +593,8 @@
       "DOC-0004",
       "DOC-0007",
       "DOC-0005",
-      "DOC-0012"
+      "DOC-0012",
+      "DEM-0003"
     ]
   },
   {
@@ -255,7 +663,8 @@
       "DOC-0006",
       "DOC-0011",
       "DOC-0009",
-      "DOC-0012"
+      "DOC-0012",
+      "DEM-0004"
     ]
   },
   {
@@ -443,7 +852,9 @@
     "related": [
       "DOC-0001",
       "DOC-0010",
-      "DOC-0004"
+      "DOC-0004",
+      "DEM-0002",
+      "DEM-0004"
     ]
   },
   {
@@ -507,7 +918,8 @@
     ],
     "related": [
       "DOC-0002",
-      "DOC-0003"
+      "DOC-0003",
+      "DEM-0003"
     ]
   },
   {
@@ -579,7 +991,8 @@
     "related": [
       "DOC-0001",
       "DOC-0002",
-      "DOC-0012"
+      "DOC-0012",
+      "DEM-0001"
     ]
   },
   {
@@ -641,7 +1054,9 @@
     "related": [
       "DOC-0004",
       "DOC-0010",
-      "DOC-0012"
+      "DOC-0012",
+      "DEM-0001",
+      "DEM-0004"
     ]
   },
   {
@@ -716,7 +1131,8 @@
       "DOC-0004",
       "DOC-0006",
       "DOC-0009",
-      "DOC-0012"
+      "DOC-0012",
+      "DEM-0001"
     ]
   },
   {
@@ -888,7 +1304,8 @@
       "DOC-0004",
       "DOC-0008",
       "DOC-0009",
-      "DOC-0010"
+      "DOC-0010",
+      "DEM-0001"
     ]
   }
 ]

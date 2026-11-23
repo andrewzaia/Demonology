@@ -5,5 +5,19 @@
     "title": "The Holy Bible",
     "edition": "King James Version",
     "rightsNote": "Use passage links and original paraphrases; verify jurisdiction-specific quotation rights before release."
+  },
+  {
+    "id": "REF-0002",
+    "type": "Scripture",
+    "title": "The Holy Bible",
+    "edition": "New International Version (NIV)",
+    "rightsNote": "Translation consulted for spelling and passage comparison. Copyright Biblica; link and paraphrase rather than reproducing passages."
+  },
+  {
+    "id": "REF-0003",
+    "type": "Scripture",
+    "title": "The Holy Bible",
+    "edition": "English Standard Version (ESV)",
+    "rightsNote": "Translation and translation footnotes consulted for terminology. Copyright Crossway; link and paraphrase rather than reproducing passages."
   }
 ]

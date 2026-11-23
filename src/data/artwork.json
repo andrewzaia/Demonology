@@ -76,5 +76,18 @@
     "alt": "A shadowed accuser points towards a grieving man, with scenes evoking temptation in the background.",
     "caption": "A symbolic composite of accusation and temptation in Job, Genesis and the Gospels, not a literal single event or verified portrait of Satan.",
     "sha256": "49d8be2d5e4dfe14edccecd2575175deec5e5554f8f37484d9898ce5d3b1575e"
+  },
+  {
+    "entryId": "DEM-0003",
+    "slug": "legion",
+    "src": "/media/legion.webp",
+    "width": 1279,
+    "height": 720,
+    "origin": "AI-generated illustration",
+    "created": "2026-11-23",
+    "credit": "Created for Demonology",
+    "alt": "Jesus sits beside a restored man near a rocky lakeshore, with disciples and tombs behind them.",
+    "caption": "An imaginative rendering of the restored man in Mark 5:15-20 and Luke 8:35-39. The setting, gesture and lighting are artistic interpretations.",
+    "sha256": "6f149afa018121d83828a4f3cbf34d0fa2802ec61f7454218b162c8d373c60fc"
   }
 ]

@@ -1,0 +1,9 @@
+---
+import Site from '../../layouts/Site.astro';
+import ArticleArt from '../../components/ArticleArt.astro';
+import entries from '../../data/entries.json';
+import entities from '../../data/entities.json';
+---
+<Site title="Demonic encyclopaedia" description="Biblical profiles of named spiritual beings and collective designations, with evidence and interpretative distinctions.">
+<section class="wrap archive"><p class="eyebrow">THE ENCYCLOPAEDIA</p><h1>Names of the unseen realm</h1><p class="lead">Explore the entities and designations found in Scripture. A name in this catalogue does not imply an independent demon, established rank or settled identity.</p><p class="status">{entities.length} profiles in development · Editorial review pending</p><div class="entity-grid">{entities.map(entity=>{const e=entries.find(item=>item.id===entity.entryId)!;return <article class="entity-card"><ArticleArt slug={entity.artSlug??e.slug} compact /><div class="entity-card-copy"><p class="status">{e.id} · {entity.classification}</p><h2><a href={`/research/${e.slug}/`}>{e.title}</a></h2><p>{e.summary}</p><p class="citation">{entity.attestation}</p><p class="status">{entity.identity}</p><a href={`/research/${e.slug}/`}>Read profile &rarr;</a></div></article>;})}</div><p><a href="/research/">Explore all research</a> · <a href="/methodology/">Evidence methodology</a></p></section>
+</Site>

@@ -34,5 +34,15 @@
       "DOC-0008",
       "DOC-0009"
     ]
+  },
+  {
+    "title": "Demonic encyclopaedia",
+    "description": "Explore named beings and collective designations without assuming disputed identities or invented ranks.",
+    "ids": [
+      "DEM-0001",
+      "DEM-0002",
+      "DEM-0003",
+      "DEM-0004"
+    ]
   }
 ]
