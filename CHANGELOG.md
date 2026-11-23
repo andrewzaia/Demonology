@@ -42,4 +42,8 @@
 - Introduced an illustrated homepage, visual related reading, gallery search and full-size image viewing.
 - Added a study of sorcery and spiritual authority in Acts.
 
+- Introduced the historical source library and chronology of manuscript witnesses and early Christian writings.
+- Added studies of Irenaeus and Augustine, alongside catalogued manuscript witnesses to Enoch and Tobit.
+- Linked the institutional manuscript viewers and source records directly to research entries.
+
 The archive remains under development and awaits final editorial approval.

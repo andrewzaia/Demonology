@@ -96,7 +96,8 @@
       "DOC-0020",
       "DOC-0021",
       "DOC-0022",
-      "TXT-0004"
+      "TXT-0004",
+      "TXT-0005"
     ]
   },
   {
@@ -922,7 +923,8 @@
     "related": [
       "DOC-0002",
       "DOC-0007",
-      "DOC-0003"
+      "DOC-0003",
+      "HIS-0002"
     ]
   },
   {
@@ -1439,7 +1441,8 @@
       "DOC-0014",
       "TXT-0001",
       "DOC-0015",
-      "TXT-0003"
+      "TXT-0003",
+      "TXT-0006"
     ]
   },
   {
@@ -1834,7 +1837,8 @@
       "DOC-0006",
       "DOC-0009",
       "DOC-0012",
-      "DEM-0001"
+      "DEM-0001",
+      "TXT-0005"
     ]
   },
   {
@@ -1939,7 +1943,8 @@
       "DOC-0005",
       "DOC-0004",
       "DOC-0014",
-      "TXT-0001"
+      "TXT-0001",
+      "TXT-0006"
     ]
   },
   {
@@ -2218,7 +2223,8 @@
       "DOC-0015",
       "DEM-0011",
       "DEM-0012",
-      "TXT-0002"
+      "TXT-0002",
+      "HIS-0001"
     ]
   },
   {
@@ -2317,7 +2323,8 @@
       "TXT-0001",
       "TXT-0002",
       "TXT-0003",
-      "TXT-0004"
+      "TXT-0004",
+      "HIS-0001"
     ]
   },
   {
@@ -2395,7 +2402,8 @@
       "DEM-0001",
       "DOC-0012",
       "DOC-0008",
-      "DOC-0022"
+      "DOC-0022",
+      "TXT-0005"
     ]
   },
   {
@@ -2972,7 +2980,8 @@
       "DEM-0001",
       "DOC-0002",
       "DOC-0008",
-      "DOC-0016"
+      "DOC-0016",
+      "TXT-0005"
     ]
   },
   {
@@ -3240,6 +3249,205 @@
     ]
   },
   {
+    "id": "DOC-0026",
+    "slug": "sorcery-in-acts",
+    "title": "Sorcery and the gift of God in Acts",
+    "summary": "The encounters with Simon and Elymas and the abandonment of magic in Ephesus.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Acts 8 describes Simon's former sorcery and the attention it attracted in Samaria. After hearing Philip's proclamation, Simon is baptised and later offers money for the ability associated with the apostles' ministry.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:9-19",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-19&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Peter rejects Simon's offer and calls him to repentance rather than treating the gift of God as a commodity.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:20-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A20-24&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Acts 13 describes Elymas opposing the proclamation to the proconsul. Paul rebukes him and the narrative records a temporary loss of sight.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 13:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Acts 19 describes believers confessing their former practices and some publicly destroying books connected with magic.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:17-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "These episodes contrast manipulation, deception and the buying of spiritual authority with the Christian proclamation and repentance. They do not establish the efficacy of every practice described as sorcery or authorise coercion against its practitioners.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 8:9-24",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-24&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 13:6-12",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:17-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0023",
+      "DOC-0024",
+      "DOC-0025",
+      "DOC-0008"
+    ]
+  },
+  {
+    "id": "HIS-0001",
+    "slug": "qumran-enoch-4q201",
+    "title": "4Q201: an Aramaic Enoch manuscript",
+    "summary": "An ancient material witness to Enochic literature from Qumran Cave 4.",
+    "claims": [
+      {
+        "text": "The Israel Antiquities Authority identifies 4Q201 as an Enoch manuscript from Qumran Cave 4. Its catalogue describes Aramaic writing in square script on parchment and assigns the material to the Hasmonean period.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0014",
+            "locator": "4Q201, manuscript description",
+            "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q201-1?locale=en_US"
+          }
+        ]
+      },
+      {
+        "text": "The digital archive offers photographs of the surviving fragments, including colour and infrared views. These are photographs of material evidence, not artistic reconstructions of the events narrated by the text.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0014",
+            "locator": "4Q201, image catalogue",
+            "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q201-1?locale=en_US"
+          }
+        ]
+      },
+      {
+        "text": "The manuscript establishes the antiquity of an Aramaic Enochic textual witness. Its existence does not verify the supernatural events narrated in Enoch or establish the date of every section of the later Ethiopic collection.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0014",
+            "locator": "4Q201, manuscript description",
+            "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q201-1?locale=en_US"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "TXT-0001",
+      "DOC-0014",
+      "DOC-0015"
+    ],
+    "reviewStatus": "draft - owner review pending"
+  },
+  {
+    "id": "HIS-0002",
+    "slug": "codex-sinaiticus-tobit",
+    "title": "Codex Sinaiticus: the witness to Tobit",
+    "summary": "A fourth-century Greek manuscript witness to the book that names Asmodeus.",
+    "claims": [
+      {
+        "text": "The British Library catalogues its Old Testament portion of Codex Sinaiticus under Add MS 43725, ff 1r-199v and dates it to the second to third quarters of the fourth century CE. The catalogue includes Tobit 2:2-14:15 in that portion.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0015",
+            "locator": "Add MS 43725, ff 1r-199v, scope and date",
+            "url": "https://searcharchives.bl.uk/catalog/040-002169712"
+          }
+        ]
+      },
+      {
+        "text": "The Codex Sinaiticus Project makes the Greek witness to Tobit accessible through a manuscript viewer and transcription. This record links to the institutional presentation rather than reproducing the photographs.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0016",
+            "locator": "Tobit, book 10, manuscript viewer",
+            "url": "https://www.codexsinaiticus.org/en/manuscript.aspx?book=10"
+          }
+        ]
+      },
+      {
+        "text": "The manuscript demonstrates the inclusion of Tobit in this ancient Christian Biblical codex. It does not, by itself, establish a universally agreed canon across Christian traditions or independently verify the events described in Tobit.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0015",
+            "locator": "Add MS 43725, ff 1r-199v, scope and date",
+            "url": "https://searcharchives.bl.uk/catalog/040-002169712"
+          },
+          {
+            "ref": "REF-0016",
+            "locator": "Tobit, book 10, manuscript viewer",
+            "url": "https://www.codexsinaiticus.org/en/manuscript.aspx?book=10"
+          },
+          {
+            "ref": "REF-0007",
+            "locator": "Paragraph 120",
+            "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/article_3/iv_the_canon_of_scripture.html"
+          },
+          {
+            "ref": "REF-0008",
+            "locator": "Answer: the longer canon",
+            "url": "https://www.oca.org/questions/scripture/canon-of-scripture"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0010",
+      "TXT-0001"
+    ],
+    "reviewStatus": "draft - owner review pending"
+  },
+  {
     "id": "TXT-0001",
     "slug": "book-of-enoch",
     "title": "1 Enoch: the Book of the Watchers",
@@ -3337,7 +3545,9 @@
       "DEM-0011",
       "DEM-0012",
       "TXT-0002",
-      "TXT-0003"
+      "TXT-0003",
+      "HIS-0001",
+      "HIS-0002"
     ]
   },
   {
@@ -3412,7 +3622,8 @@
       "DOC-0015",
       "TXT-0001",
       "TXT-0003",
-      "TXT-0004"
+      "TXT-0004",
+      "TXT-0006"
     ]
   },
   {
@@ -3482,7 +3693,8 @@
       "DOC-0015",
       "TXT-0001",
       "TXT-0002",
-      "TXT-0004"
+      "TXT-0004",
+      "TXT-0006"
     ]
   },
   {
@@ -3570,88 +3782,135 @@
     ]
   },
   {
-    "id": "DOC-0026",
-    "slug": "sorcery-in-acts",
-    "title": "Sorcery and the gift of God in Acts",
-    "summary": "The encounters with Simon and Elymas and the abandonment of magic in Ephesus.",
-    "reviewStatus": "draft - owner review pending",
+    "id": "TXT-0005",
+    "slug": "irenaeus-against-heresies",
+    "title": "Irenaeus: Christ's victory over the serpent",
+    "summary": "The interpretation of Christ's temptation and victory in Against Heresies, book V.",
     "claims": [
       {
-        "text": "Acts 8 describes Simon's former sorcery and the attention it attracted in Samaria. After hearing Philip's proclamation, Simon is baptised and later offers money for the ability associated with the apostles' ministry.",
-        "evidence": "Scripturally Attested",
+        "text": "Irenaeus connects the promise in Genesis 3:15 with Christ's incarnation and defeat of the adversary. His argument understands Christ as taking up the human struggle in which Adam had failed.",
+        "evidence": "Historical Source",
         "confidence": "high",
         "citations": [
           {
+            "ref": "REF-0012",
+            "locator": "Against Heresies, book V, ch. 21, sections 1-3",
+            "url": "https://www.newadvent.org/fathers/0103521.htm"
+          },
+          {
             "ref": "REF-0001",
-            "locator": "Acts 8:9-19",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-19&version=KJV"
+            "locator": "Genesis 3:15",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A15&version=KJV"
           }
         ]
       },
       {
-        "text": "Peter rejects Simon's offer and calls him to repentance rather than treating the gift of God as a commodity.",
-        "evidence": "Scripturally Attested",
+        "text": "The chapter reads the wilderness temptations as the reversal of human disobedience. Irenaeus draws attention to the devil's misuse of Scripture and Christ's faithful answers.",
+        "evidence": "Historical Source",
         "confidence": "high",
         "citations": [
           {
+            "ref": "REF-0012",
+            "locator": "Against Heresies, book V, ch. 21, sections 1-3",
+            "url": "https://www.newadvent.org/fathers/0103521.htm"
+          },
+          {
             "ref": "REF-0001",
-            "locator": "Acts 8:20-24",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A20-24&version=KJV"
+            "locator": "Matthew 4:1-11",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV"
           }
         ]
       },
       {
-        "text": "Acts 13 describes Elymas opposing the proclamation to the proconsul. Paul rebukes him and the narrative records a temporary loss of sight.",
-        "evidence": "Scripturally Attested",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "Acts 13:6-12",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
-          }
-        ]
-      },
-      {
-        "text": "Acts 19 describes believers confessing their former practices and some publicly destroying books connected with magic.",
-        "evidence": "Scripturally Attested",
-        "confidence": "high",
-        "citations": [
-          {
-            "ref": "REF-0001",
-            "locator": "Acts 19:17-20",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
-          }
-        ]
-      },
-      {
-        "text": "These episodes contrast manipulation, deception and the buying of spiritual authority with the Christian proclamation and repentance. They do not establish the efficacy of every practice described as sorcery or authorise coercion against its practitioners.",
+        "text": "The account places the defeat of evil within the work of the incarnate Son rather than presenting the adversary as an independent divine power. This is a patristic theological interpretation of Scripture, not an exhaustive biography of Satan.",
         "evidence": "Theological Interpretation",
         "confidence": "high",
         "citations": [
           {
-            "ref": "REF-0001",
-            "locator": "Acts 8:9-24",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%208%3A9-24&version=KJV"
+            "ref": "REF-0012",
+            "locator": "Against Heresies, book V, ch. 21, sections 1-3",
+            "url": "https://www.newadvent.org/fathers/0103521.htm"
           },
           {
             "ref": "REF-0001",
-            "locator": "Acts 13:6-12",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%2013%3A6-12&version=KJV"
-          },
-          {
-            "ref": "REF-0001",
-            "locator": "Acts 19:17-20",
-            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+            "locator": "Hebrews 2:14-15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews%202%3A14-15&version=KJV"
           }
         ]
       }
     ],
     "related": [
-      "DOC-0023",
-      "DOC-0024",
-      "DOC-0025",
-      "DOC-0008"
-    ]
+      "DOC-0022",
+      "DOC-0010",
+      "DOC-0016",
+      "DEM-0001"
+    ],
+    "reviewStatus": "draft - owner review pending"
+  },
+  {
+    "id": "TXT-0006",
+    "slug": "augustine-city-of-god",
+    "title": "Augustine: the sons of God in Genesis 6",
+    "summary": "A distinct patristic interpretation of Genesis 6 in The City of God, book XV.",
+    "claims": [
+      {
+        "text": "In chapter 23, Augustine discusses the question of angels appearing in bodily form. He does not claim that Genesis 6 establishes a union between spiritual angels and women.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0013",
+            "locator": "The City of God, book XV, ch. 23",
+            "url": "https://www.newadvent.org/fathers/120115.htm"
+          }
+        ]
+      },
+      {
+        "text": "Augustine reads the sons of God in the Genesis passage as the descendants of Seth and the daughters of men as belonging to the opposing human line. He argues that the occurrence of giants does not require angelic parentage.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0013",
+            "locator": "The City of God, book XV, ch. 23",
+            "url": "https://www.newadvent.org/fathers/120115.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "This interpretation differs materially from the accounts in Justin and Athenagoras. The comparison demonstrates diversity in historical Christian readings of Genesis 6; it does not imply that any one author settles the passage independently of Scripture.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0013",
+            "locator": "The City of God, book XV, ch. 23",
+            "url": "https://www.newadvent.org/fathers/120115.htm"
+          },
+          {
+            "ref": "REF-0009",
+            "locator": "Second Apology, ch. 5",
+            "url": "https://www.newadvent.org/fathers/0127.htm"
+          },
+          {
+            "ref": "REF-0010",
+            "locator": "A Plea for the Christians, chs. 24-25",
+            "url": "https://www.newadvent.org/fathers/0205.htm"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0011",
+      "DOC-0005",
+      "TXT-0002",
+      "TXT-0003"
+    ],
+    "reviewStatus": "draft - owner review pending"
   }
 ]

@@ -86,5 +86,71 @@
     "edition": "S. Thelwall, trans., Ante-Nicene Fathers, Vol. 3, edited by Alexander Roberts, James Donaldson and A. Cleveland Coxe (Buffalo, NY: Christian Literature Publishing Co., 1885). Online edition revised by New Advent.",
     "rightsNote": "Historical translation; original paraphrase and chapter references. Online editorial material retains its own rights.",
     "url": "https://www.newadvent.org/fathers/0301.htm"
+  },
+  {
+    "id": "REF-0012",
+    "type": "Patristic writing",
+    "title": "Irenaeus: Against Heresies",
+    "author": "Irenaeus of Lyons",
+    "edition": "Alexander Roberts and William Rambaut, trans., Ante-Nicene Fathers, vol. 1 (1885); online edition revised by New Advent",
+    "rightsNote": "Original paraphrase; link to the edition.",
+    "url": "https://www.newadvent.org/fathers/0103521.htm"
+  },
+  {
+    "id": "REF-0013",
+    "type": "Patristic writing",
+    "title": "Augustine: The City of God",
+    "author": "Augustine of Hippo",
+    "edition": "Marcus Dods, trans., Nicene and Post-Nicene Fathers, First Series, vol. 2, Philip Schaff, ed. (1887); online edition revised by New Advent",
+    "rightsNote": "Original paraphrase; link to the edition.",
+    "url": "https://www.newadvent.org/fathers/120115.htm"
+  },
+  {
+    "id": "REF-0014",
+    "type": "Manuscript catalogue",
+    "title": "4Q Enoch (4Q201 - 4Q En a)",
+    "edition": "Leon Levy Dead Sea Scrolls Digital Library, Israel Antiquities Authority; manuscript 4Q201",
+    "rightsNote": "Institutional photographs remain subject to the archive's terms. Link to the original viewer; images not reproduced.",
+    "url": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q201-1?locale=en_US"
+  },
+  {
+    "id": "REF-0015",
+    "type": "Manuscript catalogue",
+    "title": "Codex Sinaiticus, Old Testament volume",
+    "edition": "British Library Archives and Manuscripts Catalogue, Add MS 43725, ff 1r-199v",
+    "rightsNote": "Catalogue and digitised images remain subject to institutional rights.",
+    "url": "https://searcharchives.bl.uk/catalog/040-002169712"
+  },
+  {
+    "id": "REF-0016",
+    "type": "Digital manuscript edition",
+    "title": "Codex Sinaiticus: Tobit",
+    "edition": "Codex Sinaiticus Project, online manuscript viewer, book 10",
+    "rightsNote": "Link to original photographs and transcription; no images reproduced.",
+    "url": "https://www.codexsinaiticus.org/en/manuscript.aspx?book=10"
+  },
+  {
+    "id": "REF-0017",
+    "type": "Historical reference",
+    "title": "Irenaeus",
+    "edition": "Encyclopaedia Britannica, 11th edition (1911), online transcription",
+    "rightsNote": "Original paraphrase and link.",
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Irenaeus"
+  },
+  {
+    "id": "REF-0018",
+    "type": "Scholarship",
+    "title": "Early Christian Fathers: Athenagoras, introduction",
+    "edition": "Cyril C. Richardson, ed., Early Christian Fathers, introduction to Athenagoras, Date section; CCEL online edition",
+    "rightsNote": "Original paraphrase and link.",
+    "url": "https://ccel.org/ccel/richardson/fathers.x.iii.i.html"
+  },
+  {
+    "id": "REF-0019",
+    "type": "Historical reference",
+    "title": "Justin Martyr",
+    "edition": "Catholic Encyclopedia, online New Advent edition, Writings section",
+    "rightsNote": "Original paraphrase and link.",
+    "url": "https://www.newadvent.org/cathen/08580c.htm"
   }
 ]

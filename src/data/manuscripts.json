@@ -1,0 +1,22 @@
+[
+  {
+    "entryId": "HIS-0001",
+    "shelfmark": "4Q201",
+    "period": "Hasmonean period",
+    "language": "Aramaic",
+    "material": "Parchment",
+    "collection": "Israel Antiquities Authority, Leon Levy Dead Sea Scrolls Digital Library",
+    "ref": "REF-0014",
+    "viewerRef": "REF-0014"
+  },
+  {
+    "entryId": "HIS-0002",
+    "shelfmark": "Add MS 43725, ff 1r-199v",
+    "period": "Fourth century CE (325-374, catalogue range)",
+    "language": "Greek",
+    "material": "Parchment",
+    "collection": "British Library; Codex Sinaiticus Project",
+    "ref": "REF-0015",
+    "viewerRef": "REF-0016"
+  }
+]

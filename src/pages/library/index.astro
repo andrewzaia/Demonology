@@ -1,0 +1,10 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+import refs from '../../data/references.json';
+import manuscripts from '../../data/manuscripts.json';
+const texts=entries.filter(e=>e.id.startsWith('TXT-'));
+---
+<Site title="Historical source library" description="Explore ancient manuscripts, historical Christian texts and their original source editions.">
+<section class="wrap archive"><p class="eyebrow">HISTORICAL SOURCE LIBRARY</p><h1>Witnesses through the centuries</h1><p class="lead">Explore surviving manuscripts and historical writings. Their existence establishes textual testimony, not independent proof of supernatural events.</p><p><a href="/timeline/">Explore the historical timeline</a> · <a href="/references/">Full reference register</a></p><h2>Manuscript collection</h2><div class="entity-grid">{manuscripts.map(m=>{const entry=entries.find(e=>e.id===m.entryId)!;const source=refs.find(r=>r.id===m.ref)!;const viewer=refs.find(r=>r.id===m.viewerRef)!;return <article class="entity-card manuscript-card" id={m.entryId}><div class="manuscript-heading"><p class="eyebrow">MANUSCRIPT WITNESS</p><strong>{m.shelfmark}</strong><p>{m.period}</p></div><div class="entity-card-copy"><h3><a href={`/research/${entry.slug}/`}>{entry.title}</a></h3><p>{entry.summary}</p><dl class="manuscript-details"><dt>Language</dt><dd>{m.language}</dd><dt>Material</dt><dd>{m.material}</dd><dt>Collection</dt><dd>{m.collection}</dd></dl><p><a href={'url' in viewer?viewer.url:undefined}>Explore original manuscript photographs and viewer</a></p><p><a href={'url' in source?source.url:undefined}>Institutional catalogue</a> · <a href={`/references/#${m.ref}`}>Source details</a></p><p class="status">External institutional viewer; photographs are not reproduced here.</p></div></article>})}</div><h2>Ancient and early Church texts</h2><div class="document-list">{texts.map(e=><article class="claim"><p class="status">{e.id} · {e.reviewStatus}</p><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p></article>)}</div></section>
+</Site>
