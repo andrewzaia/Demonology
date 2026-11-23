@@ -28,3 +28,5 @@
 
 /* Preserve the proportions and full composition of historical artworks. */
 .historical-art img{aspect-ratio:auto;width:100%;max-height:720px;object-fit:contain;background:#17171c}.historical-art.article-art-compact img{aspect-ratio:16/9;max-height:none;object-fit:contain;background:#17171c}.historical-art:not(.article-art-compact) img{height:auto}.gallery-grid .historical-art img{max-height:520px}.collection-preview .historical-art figcaption{line-height:1.5}.historical-art .art-origin{color:#e6d0a0}
+
+.history-timeline .article-art{max-width:360px;margin:16px 0}.history-timeline .historical-art img{aspect-ratio:auto;max-height:440px;object-fit:contain}
