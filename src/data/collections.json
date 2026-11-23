@@ -76,5 +76,22 @@
       "DOC-0019",
       "DOC-0020"
     ]
+  },
+  {
+    "title": "Early Church writings",
+    "description": "Read individual Christian authors in their historical and apologetic contexts.",
+    "ids": [
+      "TXT-0002",
+      "TXT-0003",
+      "TXT-0004"
+    ]
+  },
+  {
+    "title": "Discernment and prohibited practices",
+    "description": "Explore Biblical prohibitions and narrative examples without reproducing occult practices as instructions.",
+    "ids": [
+      "DOC-0024",
+      "DOC-0025"
+    ]
   }
 ]

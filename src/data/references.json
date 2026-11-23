@@ -59,5 +59,32 @@
     "edition": "Orthodox Church in America, Questions & Answers",
     "rightsNote": "Official denominational explanation; link and paraphrase.",
     "url": "https://www.oca.org/questions/scripture/canon-of-scripture"
+  },
+  {
+    "id": "REF-0009",
+    "type": "Patristic writing",
+    "title": "Justin Martyr: Second Apology",
+    "author": "Justin Martyr",
+    "edition": "Marcus Dods and George Reith, trans., Ante-Nicene Fathers, Vol. 1, edited by Alexander Roberts, James Donaldson and A. Cleveland Coxe (Buffalo, NY: Christian Literature Publishing Co., 1885). Online edition revised by New Advent.",
+    "rightsNote": "Historical translation; original paraphrase and chapter references. Online editorial material retains its own rights.",
+    "url": "https://www.newadvent.org/fathers/0127.htm"
+  },
+  {
+    "id": "REF-0010",
+    "type": "Patristic writing",
+    "title": "Athenagoras of Athens: A Plea for the Christians",
+    "author": "Athenagoras of Athens",
+    "edition": "B. P. Pratten, trans., Ante-Nicene Fathers, Vol. 2, edited by Alexander Roberts, James Donaldson and A. Cleveland Coxe (Buffalo, NY: Christian Literature Publishing Co., 1885). Online edition revised by New Advent.",
+    "rightsNote": "Historical translation; original paraphrase and chapter references. Online editorial material retains its own rights.",
+    "url": "https://www.newadvent.org/fathers/0205.htm"
+  },
+  {
+    "id": "REF-0011",
+    "type": "Patristic writing",
+    "title": "Tertullian: Apology",
+    "author": "Tertullian",
+    "edition": "S. Thelwall, trans., Ante-Nicene Fathers, Vol. 3, edited by Alexander Roberts, James Donaldson and A. Cleveland Coxe (Buffalo, NY: Christian Literature Publishing Co., 1885). Online edition revised by New Advent.",
+    "rightsNote": "Historical translation; original paraphrase and chapter references. Online editorial material retains its own rights.",
+    "url": "https://www.newadvent.org/fathers/0301.htm"
   }
 ]

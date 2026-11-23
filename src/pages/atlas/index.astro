@@ -15,22 +15,51 @@ const connections=entries.map(entry=>{
 });
 ---
 <Site title="Connection atlas" description="Explore linked studies and shared sources, without assuming a hierarchy of spiritual beings.">
-<section class="wrap archive"><p class="eyebrow">THE CONNECTION ATLAS</p><h1>Follow the connections</h1><p class="lead">Explore how research entries relate through cited passages and editorial cross-references.</p><p>Connections describe research relationships, not a supernatural hierarchy. A shared citation is not proof that two identities are the same.</p>
-<div class="atlas-controls" hidden><label for="atlas-entry">Choose a study</label><select id="atlas-entry">{connections.map(({entry})=><option value={entry.id} selected={entry.id==='DOC-0002'}>{entry.title}</option>)}</select><p id="atlas-status" role="status"></p></div>
+<section class="wrap archive atlas-shell"><p class="eyebrow">THE CONNECTION ATLAS</p><h1>Follow the connections</h1><p class="lead">Explore how research entries relate through cited passages and editorial cross-references.</p><p>Connections describe research relationships, not a supernatural hierarchy. A shared citation is not proof that two identities are the same.</p>
+<div class="atlas-controls" hidden><label for="atlas-entry">Choose a study</label><select id="atlas-entry">{connections.map(({entry})=><option value={entry.id} selected={entry.id==='DOC-0002'}>{entry.title}</option>)}</select><label for="atlas-filter">Show connections</label><select id="atlas-filter"><option value="all">All research connections</option><option value="shared">Shared exact citations</option><option value="editorial">Editorial cross-references</option></select><button id="atlas-fullscreen" type="button" hidden>Explore fullscreen</button><p id="atlas-status" role="status"></p></div>
 <div class="atlas-legend"><span><i class="atlas-line"></i> Shared exact citation in the same edition</span><span><i class="atlas-line editorial"></i> Related reading without an exact shared citation</span></div>
 {connections.map(({entry,related})=><section class="atlas-panel" data-atlas={entry.id} id={entry.id}><h2>{entry.title}</h2><p><a href={`/research/${entry.slug}/`}>Read this study</a> · {related.length} related entries</p>
 <svg class="atlas-graph" viewBox="0 0 640 380" aria-hidden="true" focusable="false">
-{related.map(r=><line x1="320" y1="190" x2={r.x} y2={r.y} class:list={['atlas-edge',{'editorial':!r.shared.length}]}/>)}
+{related.map(r=><line x1="320" y1="190" x2={r.x} y2={r.y} data-kind={r.shared.length?"shared":"editorial"} class:list={['atlas-edge',{'editorial':!r.shared.length}]}/>)}
 <circle cx="320" cy="190" r="41" class="atlas-centre"/><text x="320" y="194" text-anchor="middle" class="atlas-label">{entry.id}</text>
-{related.map(r=><g><circle cx={r.x} cy={r.y} r="34" class="atlas-node"/><text x={r.x} y={r.y+4} text-anchor="middle" class="atlas-label">{r.target.id}</text></g>)}
+{related.map(r=><g data-kind={r.shared.length?"shared":"editorial"}><title>{r.target.title}</title><circle cx={r.x} cy={r.y} r="34" class="atlas-node"/><text x={r.x} y={r.y+4} text-anchor="middle" class="atlas-label">{r.target.id}</text></g>)}
 </svg>
-<div class="atlas-links">{related.map(r=><article class="claim"><p class="status">{r.target.id} · {r.shared.length?'Shared citation':'Editorial cross-reference'}</p><h3><a href={`/research/${r.target.slug}/`}>{r.target.title}</a></h3>{r.shared.length>0&&<ul>{r.shared.map(c=><li><a href={c.url}>{c.locator}</a> · {refs.find(s=>s.id===c.ref)?.edition}</li>)}</ul>}<a href={`/atlas/?entry=${r.target.id}#${r.target.id}`} data-atlas-focus={r.target.id}>Explore connections for {r.target.id}</a></article>)}</div></section>)}
+<div class="atlas-links">{related.map(r=><article class="claim" data-kind={r.shared.length?"shared":"editorial"}><p class="status">{r.target.id} · {r.shared.length?'Shared citation':'Editorial cross-reference'}</p><h3><a href={`/research/${r.target.slug}/`}>{r.target.title}</a></h3>{r.shared.length>0&&<ul>{r.shared.map(c=><li><a href={c.url}>{c.locator}</a> · {refs.find(s=>s.id===c.ref)?.edition}</li>)}</ul>}<a href={`/atlas/?entry=${r.target.id}#${r.target.id}`} data-atlas-focus={r.target.id}>Explore connections for {r.target.id}</a></article>)}</div></section>)}
 </section>
 <script>
 const controls=document.querySelector<HTMLElement>('.atlas-controls');
 const select=document.querySelector<HTMLSelectElement>('#atlas-entry');
+const filter=document.querySelector<HTMLSelectElement>('#atlas-filter');
 const status=document.querySelector<HTMLElement>('#atlas-status');
+const shell=document.querySelector<HTMLElement>('.atlas-shell');
+const fullscreen=document.querySelector<HTMLButtonElement>('#atlas-fullscreen');
 const panels=Array.from(document.querySelectorAll<HTMLElement>('[data-atlas]'));
-if(controls&&select&&status){controls.hidden=false;const update=(id:string)=>{if(!panels.some(p=>p.dataset.atlas===id))id='DOC-0002';select.value=id;for(const p of panels)p.hidden=p.dataset.atlas!==id;status.textContent='Showing '+(select.selectedOptions[0]?.textContent??id);};const params=new URLSearchParams(location.search);update(params.get('entry')??location.hash.slice(1)??'DOC-0002');select.addEventListener('change',()=>{update(select.value);history.replaceState(null,'','?entry='+encodeURIComponent(select.value));});for(const link of document.querySelectorAll<HTMLAnchorElement>('[data-atlas-focus]'))link.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();const id=link.dataset.atlasFocus??'';update(id);history.replaceState(null,'','?entry='+encodeURIComponent(id));select.focus();});}
+if(controls&&select&&filter&&status){
+ controls.hidden=false;
+ const update=(id:string)=>{
+  if(!panels.some(p=>p.dataset.atlas===id))id='DOC-0002';
+  select.value=id;
+  for(const p of panels){
+   p.hidden=p.dataset.atlas!==id;
+   for(const item of p.querySelectorAll<HTMLElement|SVGElement>('[data-kind]'))item.classList.toggle('atlas-filtered',filter.value!=='all'&&item.dataset.kind!==filter.value);
+  }
+  const active=panels.find(p=>!p.hidden);
+  const count=active?.querySelectorAll('.atlas-links [data-kind]:not(.atlas-filtered)').length??0;
+  status.textContent='Showing '+(select.selectedOptions[0]?.textContent??id)+' - '+count+' connections';
+ };
+ const params=new URLSearchParams(location.search);
+ const initialFilter=params.get('kind');
+ if(initialFilter==='shared'||initialFilter==='editorial')filter.value=initialFilter;
+ update(params.get('entry')||location.hash.slice(1)||'DOC-0002');
+ const sync=()=>{const next=new URLSearchParams();next.set('entry',select.value);if(filter.value!=='all')next.set('kind',filter.value);history.replaceState(null,'','?'+next.toString());};
+ select.addEventListener('change',()=>{update(select.value);sync();});
+ filter.addEventListener('change',()=>{update(select.value);sync();});
+ for(const link of document.querySelectorAll<HTMLAnchorElement>('[data-atlas-focus]'))link.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();update(link.dataset.atlasFocus??'');sync();select.focus();});
+}
+if(shell&&fullscreen&&document.fullscreenEnabled&&typeof shell.requestFullscreen==='function'){
+ fullscreen.hidden=false;
+ fullscreen.addEventListener('click',async()=>{try{if(document.fullscreenElement===shell)await document.exitFullscreen();else await shell.requestFullscreen();}catch{if(status)status.textContent='Fullscreen is unavailable in this browser.';}});
+ document.addEventListener('fullscreenchange',()=>{fullscreen.textContent=document.fullscreenElement===shell?'Exit fullscreen':'Explore fullscreen';});
+}
 </script>
 </Site>
