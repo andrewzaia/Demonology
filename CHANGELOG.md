@@ -71,4 +71,6 @@
 - Refreshed the roadmap to distinguish delivered features from ongoing research.
 - Added corrections and contributions guidance.
 
+- Added individual studies of Origen, Weyer and Collin de Plancy, with a dedicated historical literature collection.
+
 The archive continues to expand under publication authorisation.

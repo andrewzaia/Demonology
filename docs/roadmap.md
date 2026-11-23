@@ -28,9 +28,9 @@ Next: Deepen comparative readings and Aramaic manuscript research.
 
 ## v0.5.0: Historical research archive
 
-**In development.** Manuscript records, historical timeline and illuminated manuscripts are available.
+**In development.** Manuscript records, historical timeline and critical later-literature studies are available.
 
-Next: Add historical literature and documented historical accounts.
+Next: Expand documented historical encounters and independent corroboration.
 
 ## v0.6.0: Ancient literature and early Church
 

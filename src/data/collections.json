@@ -85,7 +85,8 @@
       "TXT-0003",
       "TXT-0004",
       "TXT-0005",
-      "TXT-0006"
+      "TXT-0006",
+      "TXT-0007"
     ]
   },
   {
@@ -120,6 +121,14 @@
       "HIS-0003",
       "HIS-0004",
       "HIS-0005"
+    ]
+  },
+  {
+    "title": "Historical demonological literature",
+    "description": "Study later catalogues, illustrations and their historical reception without endorsing their supernatural assertions.",
+    "ids": [
+      "TXT-0008",
+      "TXT-0009"
     ]
   }
 ]

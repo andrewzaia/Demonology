@@ -416,7 +416,8 @@
     "related": [
       "DOC-0004",
       "DOC-0006",
-      "DOC-0009"
+      "DOC-0009",
+      "TXT-0009"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -596,7 +597,8 @@
     "related": [
       "DEM-0001",
       "DEM-0002",
-      "DOC-0008"
+      "DOC-0008",
+      "TXT-0008"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -934,7 +936,8 @@
       "DOC-0002",
       "DOC-0007",
       "DOC-0003",
-      "HIS-0002"
+      "HIS-0002",
+      "TXT-0009"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1122,7 +1125,8 @@
       "DOC-0002",
       "DOC-0010",
       "DOC-0006",
-      "DOC-0008"
+      "DOC-0008",
+      "TXT-0007"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1289,7 +1293,8 @@
       "DEM-0010",
       "TXT-0002",
       "TXT-0003",
-      "TXT-0004"
+      "TXT-0004",
+      "TXT-0007"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1566,7 +1571,10 @@
       "DEM-0004",
       "DEM-0007",
       "DEM-0009",
-      "DOC-0021"
+      "DOC-0021",
+      "TXT-0007",
+      "TXT-0008",
+      "TXT-0009"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -1717,7 +1725,8 @@
       "DOC-0022",
       "DOC-0023",
       "DOC-0025",
-      "DOC-0026"
+      "DOC-0026",
+      "TXT-0009"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -3210,7 +3219,8 @@
       "DOC-0023",
       "DOC-0025",
       "DOC-0026",
-      "DOC-0027"
+      "DOC-0027",
+      "TXT-0007"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -3378,7 +3388,8 @@
       "DOC-0024",
       "DOC-0025",
       "DOC-0008",
-      "DOC-0027"
+      "DOC-0027",
+      "TXT-0008"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -4073,7 +4084,8 @@
       "TXT-0001",
       "TXT-0002",
       "TXT-0004",
-      "TXT-0006"
+      "TXT-0006",
+      "TXT-0007"
     ],
     "reviewDate": "2026-11-23"
   },
@@ -4295,5 +4307,267 @@
     ],
     "reviewStatus": "Owner approved",
     "reviewDate": "2026-11-23"
+  },
+  {
+    "id": "TXT-0007",
+    "slug": "origen-contra-celsum",
+    "title": "Origen: demons, worship and divine authority",
+    "summary": "Origen's response to Celsus on worship, the distinction between angels and demons, and reliance upon God.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "In book VIII, chapter 2, Origen answers Celsus' argument for the worship of intermediary spirits. He directs Christian worship towards God and his Son, rejecting the service of beings he calls demons.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0027",
+            "locator": "Contra Celsum, VIII.2",
+            "url": "https://www.newadvent.org/fathers/04168.htm"
+          }
+        ]
+      },
+      {
+        "text": "Chapter 25 distinguishes loyal angels from angels who have fallen into sin. Origen treats demons as wicked, rather than accepting Celsus' claim that they should be honoured as divine servants.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0027",
+            "locator": "Contra Celsum, VIII.25",
+            "url": "https://www.newadvent.org/fathers/04168.htm"
+          }
+        ]
+      },
+      {
+        "text": "In chapters 26 and 33, Origen rejects attempts to propitiate demons and argues that creation's ordinary provisions are received from God, not from demonic governors.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0027",
+            "locator": "Contra Celsum, VIII.26, 33",
+            "url": "https://www.newadvent.org/fathers/04168.htm"
+          }
+        ]
+      },
+      {
+        "text": "Chapter 61 criticises the pursuit of demonic names and purported powers when undertaken to obtain worldly benefits. Origen places devotion to God above attempts to manipulate spiritual beings.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0027",
+            "locator": "Contra Celsum, VIII.61",
+            "url": "https://www.newadvent.org/fathers/04168.htm"
+          }
+        ]
+      },
+      {
+        "text": "Origen's apologetic argument is a historical Christian interpretation, not a new Scriptural revelation. The archive's catalogue serves critical study, not the pursuit of spiritual bargains or occult techniques.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0027",
+            "locator": "Contra Celsum, VIII.61, 64",
+            "url": "https://www.newadvent.org/fathers/04168.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:10",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A10&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 Corinthians 10:20-21",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2010%3A20-21&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0003",
+      "DOC-0006",
+      "DOC-0001",
+      "DOC-0024",
+      "TXT-0003"
+    ]
+  },
+  {
+    "id": "TXT-0008",
+    "slug": "pseudomonarchia-daemonum",
+    "title": "Johann Weyer: Pseudomonarchia Daemonum",
+    "summary": "A critical introduction to a Renaissance catalogue of attributed spirits and its polemical context.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "The digital edition edited by Joseph H. Peterson identifies this catalogue as an appendix added to the fifth edition of Weyer's De praestigiis daemonum in 1577. Peterson locates it within an older and variable manuscript tradition.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0028",
+            "locator": "Editor's introduction",
+            "url": "https://esotericarchives.com/solomon/weyer.htm"
+          }
+        ]
+      },
+      {
+        "text": "Weyer's reader's note gives a polemical reason for presenting the material: exposing what he regarded as the deceit, folly and blasphemy of people claiming magical expertise. He presents the catalogue within his larger work on alleged demonic practices.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0028",
+            "locator": "Lectoris (To the reader)",
+            "url": "https://esotericarchives.com/solomon/weyer.htm"
+          }
+        ]
+      },
+      {
+        "text": "The editor distinguishes the Latin text from a later English translation printed in Reginald Scot's Discoverie of Witchcraft (1584), as well as from additions and editorial comments. These textual layers should not be treated as a single original witness.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0028",
+            "locator": "Editor's introduction; translation note at the opening of the text",
+            "url": "https://esotericarchives.com/solomon/weyer.htm"
+          }
+        ]
+      },
+      {
+        "text": "A named spirit in a Renaissance catalogue is an attestation of historical terminology, not evidence of an actual supernatural identity or rank. Biblical teaching concerning spiritual powers does not establish the catalogue's titles or alleged capabilities.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0028",
+            "locator": "Contents; Lectoris",
+            "url": "https://esotericarchives.com/solomon/weyer.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Ephesians 6:12",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%206%3A12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Colossians 1:16",
+            "url": "https://www.biblegateway.com/passage/?search=Colossians%201%3A16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The source is studied as historical literature. The archive does not reproduce its practical instructions or present its attributed capabilities as verified facts.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0028",
+            "locator": "Lectoris",
+            "url": "https://esotericarchives.com/solomon/weyer.htm"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 18:9-14",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2018%3A9-14&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0006",
+      "DOC-0026",
+      "DEM-0006",
+      "TXT-0009"
+    ]
+  },
+  {
+    "id": "TXT-0009",
+    "slug": "dictionnaire-infernal",
+    "title": "Collin de Plancy: Dictionnaire infernal",
+    "summary": "A historical examination of the illustrated nineteenth-century dictionary and the authority of its attributed depictions.",
+    "reviewStatus": "Publication authorised",
+    "claims": [
+      {
+        "text": "The Bibliothèque nationale de France catalogues the sixth edition of Collin de Plancy's Dictionnaire infernal as an illustrated volume published by H. Plon in Paris in 1863, with eight preliminary pages and 723 numbered pages.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0030",
+            "locator": "Bibliographic notice FRBNF36576801",
+            "url": "https://catalogue.bnf.fr/ark:/12148/cb36576801h"
+          }
+        ]
+      },
+      {
+        "text": "The title page advertises 550 engravings, including 72 depictions of demons attributed to L. Breton. This establishes how the edition presents its illustrations, not the provenance or accuracy of the supernatural appearances pictured.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0029",
+            "locator": "Title page, sixth edition",
+            "url": "https://fr.wikisource.org/wiki/Dictionnaire_infernal/6e_%C3%A9d.%2C_1863/Texte_entier"
+          }
+        ]
+      },
+      {
+        "text": "The preface describes the work as a compilation of extraordinary and erroneous beliefs and explicitly presents the Church as a guide for evaluating the material. The 1862 episcopal approbation printed with the edition is also part of its historical religious context.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0029",
+            "locator": "Preface, pp. vii-viii; preliminary approbation",
+            "url": "https://fr.wikisource.org/wiki/Dictionnaire_infernal/6e_%C3%A9d.%2C_1863/Texte_entier"
+          }
+        ]
+      },
+      {
+        "text": "The dictionary's alphabetic organisation includes figures, religious terms, superstitions and literature. Inclusion of a term does not establish a distinct demonic entity, and the illustrations cannot be used as verified portraits.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0029",
+            "locator": "Title page; preface",
+            "url": "https://fr.wikisource.org/wiki/Dictionnaire_infernal/6e_%C3%A9d.%2C_1863/Texte_entier"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Corinthians 11:14",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Corinthians%2011%3A14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The work is useful for studying the history of demonological imagery and reception, provided its assertions are assessed against their own cited traditions rather than substituted for Scripture.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0029",
+            "locator": "Preface",
+            "url": "https://fr.wikisource.org/wiki/Dictionnaire_infernal/6e_%C3%A9d.%2C_1863/Texte_entier"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "TXT-0008",
+      "DOC-0008",
+      "DOC-0006",
+      "DEM-0004",
+      "DEM-0010"
+    ]
   }
 ]

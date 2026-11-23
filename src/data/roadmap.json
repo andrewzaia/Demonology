@@ -30,9 +30,9 @@
   {
     "version": "0.5.0",
     "title": "Historical research archive",
-    "description": "Manuscript records, historical timeline and illuminated manuscripts are available.",
+    "description": "Manuscript records, historical timeline and critical later-literature studies are available.",
     "status": "In development",
-    "next": "Add historical literature and documented historical accounts."
+    "next": "Expand documented historical encounters and independent corroboration."
   },
   {
     "version": "0.6.0",
