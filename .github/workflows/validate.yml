@@ -15,7 +15,9 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version-file: .nvmrc
-      - run: npm ci
+      - run: npm ci --no-audit
+      - name: Dependency safety
+        run: npm audit --audit-level=high --json > /tmp/dependency-review.json
       - run: npm test
       - run: npm run check
       - run: npm run build

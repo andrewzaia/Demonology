@@ -1,0 +1,7 @@
+---
+import artwork from '../data/artwork.json';
+interface Props {slug: string; compact?: boolean; eager?: boolean;}
+const {slug,compact=false,eager=false}=Astro.props;
+const art=artwork.find(a=>a.slug===slug);
+---
+{art && <figure class:list={['article-art',{'article-art-compact':compact}]}><img src={art.src} width={art.width} height={art.height} alt={art.alt} loading={eager?'eager':'lazy'} decoding="async" /><figcaption><span class="art-origin">{art.origin}</span>{!compact && <span> · {art.caption} Illustrative artwork, not historical evidence.</span>}</figcaption></figure>}
