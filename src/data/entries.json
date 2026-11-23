@@ -90,7 +90,10 @@
       "DEM-0002",
       "DEM-0006",
       "DEM-0007",
-      "DOC-0013"
+      "DOC-0013",
+      "DOC-0016",
+      "DOC-0018",
+      "DOC-0020"
     ]
   },
   {
@@ -490,7 +493,8 @@
       "DOC-0003",
       "DOC-0004",
       "DOC-0014",
-      "TXT-0001"
+      "TXT-0001",
+      "DEM-0008"
     ]
   },
   {
@@ -666,7 +670,158 @@
     "related": [
       "DOC-0004",
       "DOC-0006",
-      "DEM-0001"
+      "DEM-0001",
+      "DEM-0009"
+    ]
+  },
+  {
+    "id": "DEM-0008",
+    "slug": "semjaza",
+    "title": "Semjaza",
+    "summary": "The leader named in the Enochic account of the Watchers' descent, distinguished from figures explicitly named in Scripture.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "First Enoch 6 presents Semjaza as the leader of heavenly beings who desire human wives. He fears bearing the consequences alone; the others agree to share responsibility. The narrative locates their descent at Mount Hermon and describes a company of two hundred.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:1-8",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 10 places the judgement of Semjaza and his associates in a divine commission to Michael. The text describes confinement following the death of their children and anticipates final judgement.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 10:11-15",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "Within this account, Semjaza's leadership concerns the particular group of Watchers. It does not establish leadership over all rebellious angels, the devil, or every evil spirit.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:3-8",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 10:11-15",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "Genesis 6 and Jude 6 do not name Semjaza. The name and individual role in this profile are attested in ancient literature, not established by those Biblical passages.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:6",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A6&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:3-8",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0014",
+      "TXT-0001",
+      "DEM-0005",
+      "DOC-0015"
+    ]
+  },
+  {
+    "id": "DEM-0009",
+    "slug": "prince-of-greece",
+    "title": "The prince of Greece",
+    "summary": "The second opposing prince mentioned in Daniel 10 and the limits of identifying spiritual counterparts to earthly kingdoms.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "At the end of Daniel 10, the heavenly messenger announces renewed conflict with the prince of Persia and the coming of the prince of Greece (Grecia in the KJV). The following verse names Michael as Daniel's people's prince.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:20-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A20-21&version=KJV"
+          },
+          {
+            "ref": "REF-0002",
+            "locator": "Daniel 10:20",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A20&version=NIV"
+          }
+        ]
+      },
+      {
+        "text": "The parallel with Persia's prince and the messenger's earlier description of heavenly assistance support a spiritual reading of the figure. The passage does not identify a personal name, rank beyond the title, or an exact relationship with a historical ruler.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:13-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A13-21&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The announcement belongs to Daniel's prophetic setting. It does not establish that a corresponding spirit governs modern Greece or provide a method of identifying spirits assigned to contemporary nations.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:20-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A20-21&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The princes of Persia and Greece should be indexed as separate designations because Daniel mentions them separately. Their relationship to a wider hierarchy remains unspecified.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:13",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:20-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A20-21&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0007",
+      "DOC-0006",
+      "DOC-0004"
     ]
   },
   {
@@ -860,7 +1015,8 @@
       "DOC-0005",
       "DOC-0012",
       "DEM-0003",
-      "DEM-0005"
+      "DEM-0005",
+      "DOC-0015"
     ]
   },
   {
@@ -934,7 +1090,8 @@
       "DEM-0005",
       "DEM-0007",
       "DOC-0013",
-      "DOC-0014"
+      "DOC-0014",
+      "DEM-0009"
     ]
   },
   {
@@ -1025,7 +1182,8 @@
       "DOC-0004",
       "DOC-0011",
       "DOC-0014",
-      "TXT-0001"
+      "TXT-0001",
+      "DOC-0015"
     ]
   },
   {
@@ -1127,7 +1285,8 @@
       "DOC-0004",
       "DEM-0002",
       "DEM-0004",
-      "DEM-0007"
+      "DEM-0007",
+      "DEM-0009"
     ]
   },
   {
@@ -1266,7 +1425,10 @@
       "DOC-0002",
       "DOC-0012",
       "DEM-0001",
-      "DEM-0006"
+      "DEM-0006",
+      "DOC-0016",
+      "DOC-0017",
+      "DOC-0019"
     ]
   },
   {
@@ -1330,7 +1492,10 @@
       "DOC-0010",
       "DOC-0012",
       "DEM-0001",
-      "DEM-0004"
+      "DEM-0004",
+      "DOC-0018",
+      "DOC-0019",
+      "DOC-0020"
     ]
   },
   {
@@ -1582,7 +1747,8 @@
       "DOC-0009",
       "DOC-0010",
       "DEM-0001",
-      "DOC-0013"
+      "DOC-0013",
+      "DOC-0016"
     ]
   },
   {
@@ -1784,7 +1950,543 @@
       "DOC-0005",
       "DOC-0011",
       "DEM-0005",
+      "TXT-0001",
+      "DEM-0008",
+      "DOC-0015"
+    ]
+  },
+  {
+    "id": "DOC-0015",
+    "slug": "enochic-origin-of-evil-spirits",
+    "title": "The Enochic account of the origin of evil spirits",
+    "summary": "A study of 1 Enoch 15-16 as an ancient explanation of evil spirits, compared with the limits of Biblical testimony.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "First Enoch 15:3-7 contrasts the heavenly Watchers' former spiritual condition with their unions with mortal women. The narrative treats their conduct as a transgression of the boundaries of their appointed existence.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:3-7",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 15:8-12 attributes the origin of earthly evil spirits to the offspring of the Watchers and human women. Its account distinguishes these spirits from their heavenly progenitors and depicts them as afflicting earthly inhabitants.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:8-12",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 16:1 connects their continued destructive activity with the deaths of the giants and anticipates its termination at final judgement.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 16:1",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "This is a distinct ancient origin account, rather than merely another name for the fallen-angel interpretation. The Enochic tradition distinguishes rebellious heavenly beings from the spirits associated with their offspring.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 10:11-15",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:8-12",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 16:1",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "Genesis 6 mentions the Nephilim but does not describe their postmortem spirits becoming demons. The Gospel narratives attest unclean spirits, without supplying this genealogy. The Enochic explanation is therefore recorded as tradition rather than explicit Biblical doctrine.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 5:1-20",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%205%3A1-20&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 15:8-12",
+            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0008",
+      "DOC-0003",
+      "DOC-0005",
+      "DOC-0014",
       "TXT-0001"
+    ]
+  },
+  {
+    "id": "DOC-0016",
+    "slug": "serpent-in-genesis",
+    "title": "The serpent in Genesis",
+    "summary": "The temptation narrative in Genesis 3 and the identification of the ancient serpent with Satan in Revelation.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Genesis 3 describes the serpent questioning God's command, contradicting the warning of death and presenting disobedience as desirable. The narrative subsequently records human disobedience and God's judgement.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 3:1-19",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A1-19&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 12:9 identifies the dragon with the ancient serpent, the devil and Satan. Revelation therefore makes explicit an association that is not stated by the name Satan in Genesis 3 itself.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A9&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 3:1-6",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A1-6&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Reading the passages together supports the Christian identification of Satan with the adversarial serpent imagery. It does not establish a separate demonic individual called the serpent.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 3:1-6",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A1-6&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A9&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The theological emphasis is deception and human disobedience under God's judgement. The texts do not explain the physical mechanism of the serpent's speech or provide a basis for regarding ordinary snakes as demonic beings.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 3:1-19",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%203%3A1-19&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A9&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0012",
+      "DOC-0008"
+    ]
+  },
+  {
+    "id": "DOC-0017",
+    "slug": "antichrist",
+    "title": "Antichrist in the Johannine letters",
+    "summary": "The Biblical meaning of antichrist, its present manifestations and the distinction between Satan and eschatological opposition to Christ.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "First John 2:18 speaks both of an anticipated antichrist and of many antichrists already present. Verse 22 associates the designation with denial of Jesus as the Christ and denial of the Father and Son.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:18",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A18&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:22",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A22&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "First John 4:1-3 places discernment of spirits alongside confession of Jesus Christ's coming in the flesh. Second John 7 identifies deceivers who deny that confession with antichrist.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1-3",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1-3&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 John 1:7",
+            "url": "https://www.biblegateway.com/passage/?search=2%20John%201%3A7&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The Johannine language is not confined to an individual appearing at the end of history. It describes a recognisable form of opposition to Christ already present among the letter's readers.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:18-23",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A18-23&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 John 1:7",
+            "url": "https://www.biblegateway.com/passage/?search=2%20John%201%3A7&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The designation should not be conflated automatically with Satan himself, Revelation's beasts or the man of lawlessness. These comparisons may inform eschatological interpretation but the passages use distinct terminology.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:18-22",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A18-22&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:3-12",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A3-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:1-18",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A1-18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Doctrinal discernment does not justify identifying particular contemporary figures as the final Antichrist on the basis of political dislike, numerical speculation or unsupported rumours.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1-3",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1-3&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "2 John 1:7",
+            "url": "https://www.biblegateway.com/passage/?search=2%20John%201%3A7&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0008",
+      "DOC-0018",
+      "DOC-0019",
+      "DOC-0020"
+    ]
+  },
+  {
+    "id": "DOC-0018",
+    "slug": "beast-from-the-sea",
+    "title": "The beast from the sea",
+    "summary": "A study of Revelation 13:1-10, including its distinction between the dragon and the beast.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Revelation 13 describes a beast rising from the sea, combining features of several animals and receiving authority from the dragon. The text presents the dragon and the recipient of its authority as distinct figures within the vision.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The beast utters blasphemies and makes war on the saints. The vision assigns a limited duration to its authority and calls the saints to endurance and faith.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:5-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A5-10&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The imagery invites comparison with the beasts in Daniel 7, but this does not by itself settle the beast's historical, symbolic or future identity. The presence of heads, horns and animal features belongs to the visionary description.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 7:1-8",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%207%3A1-8&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:1-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A1-10&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation does not use the Johannine term antichrist for the sea beast. Their identification within an eschatological system must be presented as interpretation, not as an explicit textual equation.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:1-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A1-10&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:18-22",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A18-22&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 19 describes the defeat of the beast and false prophet, while Revelation 20 describes the devil's subsequent judgement. The narrative distinguishes the opponents rather than portraying them as interchangeable names.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 19:19-21",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2019%3A19-21&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 20:10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2020%3A10&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0009",
+      "DOC-0017",
+      "DOC-0019",
+      "DOC-0020"
+    ]
+  },
+  {
+    "id": "DOC-0019",
+    "slug": "beast-from-the-earth",
+    "title": "The beast from the earth and the false prophet",
+    "summary": "A study of deceptive religious authority in Revelation 13 and the later description of the false prophet.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Revelation 13:11-15 introduces a second beast, rising from the earth, with lamb-like horns and a voice likened to a dragon. Its signs direct inhabitants towards worship of the first beast.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:11-15",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A11-15&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The vision associates the second beast's coercive measures with the mark and the first beast's name or number, including restrictions on buying and selling.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:16-18",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A16-18&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 19:20 recounts the false prophet performing signs on behalf of the beast and deceiving people who received its mark. These shared functions strongly support identifying the false prophet with the second beast, although the comparison is drawn across passages.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:11-18",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A11-18&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 19:20",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2019%3A20&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Revelation 16:13-14 distinguishes the dragon, beast and false prophet, and separately describes unclean spirits going out from them. It characterises these spirits by deceptive signs.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 16:13-14",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2016%3A13-14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The apocalyptic figures should not be represented as a catalogue of named demons. The emphasis is deceptive authority and opposition to God, culminating in divine judgement.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:11-18",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A11-18&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 19:20",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2019%3A20&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0008",
+      "DOC-0009",
+      "DOC-0017",
+      "DOC-0018",
+      "DOC-0020"
+    ]
+  },
+  {
+    "id": "DOC-0020",
+    "slug": "man-of-lawlessness",
+    "title": "The man of lawlessness",
+    "summary": "Paul's description of the adversary in 2 Thessalonians 2, distinguished from Satan and compared with other eschatological texts.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Second Thessalonians 2:3-4 describes a figure associated with rebellion, self-exaltation and opposition to what is worshipped. The KJV renders the designation man of sin; the NIV uses man of lawlessness and notes the variant reading.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:3-4",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A3-4&version=KJV"
+          },
+          {
+            "ref": "REF-0002",
+            "locator": "2 Thessalonians 2:3",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A3&version=NIV"
+          }
+        ]
+      },
+      {
+        "text": "Verses 8-12 associate the lawless one's appearance with Satan's activity, deceptive signs and the rejection of truth. The Lord's coming brings the adversary's defeat.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:8-12",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A8-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Paul's distinction between the figure and the activity of Satan argues against treating these designations as identical in this passage. The figure is opposed to God and dependent on satanic activity, not an equal rival to Christ.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:3-12",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A3-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Connections with John's antichrist language and Revelation's beast are important interpretative questions. Paul does not use either designation in this account, and the passage does not supply enough information to identify a contemporary individual conclusively.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:3-12",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A3-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 2:18-22",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%202%3A18-22&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 13:1-10",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2013%3A1-10&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0009",
+      "DOC-0017",
+      "DOC-0018",
+      "DOC-0019"
     ]
   },
   {
@@ -1879,7 +2581,9 @@
       "DOC-0014",
       "DOC-0011",
       "DOC-0005",
-      "DEM-0005"
+      "DEM-0005",
+      "DEM-0008",
+      "DOC-0015"
     ]
   }
 ]
