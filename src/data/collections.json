@@ -83,7 +83,9 @@
     "ids": [
       "TXT-0002",
       "TXT-0003",
-      "TXT-0004"
+      "TXT-0004",
+      "TXT-0005",
+      "TXT-0006"
     ]
   },
   {
@@ -93,6 +95,14 @@
       "DOC-0024",
       "DOC-0025",
       "DOC-0026"
+    ]
+  },
+  {
+    "title": "Manuscripts and historical witnesses",
+    "description": "Explore physical evidence and institutional manuscript catalogues.",
+    "ids": [
+      "HIS-0001",
+      "HIS-0002"
     ]
   }
 ]

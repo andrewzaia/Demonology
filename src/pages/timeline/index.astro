@@ -1,0 +1,9 @@
+---
+import Site from '../../layouts/Site.astro';
+import entries from '../../data/entries.json';
+import refs from '../../data/references.json';
+import timeline from '../../data/timeline.json';
+---
+<Site title="Historical timeline" description="Dated manuscript witnesses and Christian writings in chronological context.">
+<section class="wrap archive methodology"><p class="eyebrow">HISTORICAL TIMELINE</p><h1>Across the centuries</h1><p class="lead">Follow the historical transmission and interpretation of texts relating to the unseen realm.</p><p>Dates concern physical manuscripts or the approximate composition of writings, not dates of spiritual events. This is a selective chronology, not an attempt to date angelic rebellion.</p><p><a href="/library/">Historical source library</a></p><ol class="history-timeline">{timeline.map(item=>{const e=entries.find(x=>x.id===item.entryId)!;const r=refs.find(x=>x.id===item.ref)!;return <li id={item.entryId}><p class="history-date">{item.period}</p><p class="status">{item.kind}</p><h2><a href={`/research/${e.slug}/`}>{e.title}</a></h2><p>{e.summary}</p><p class="citation">Date source: <a href={'url' in r?r.url:undefined}>{r.title}, {item.locator}</a> · <a href={`/references/#${item.ref}`}>{item.ref}</a></p></li>})}</ol></section>
+</Site>

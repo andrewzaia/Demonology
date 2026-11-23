@@ -1,0 +1,37 @@
+[
+  {
+    "entryId": "HIS-0001",
+    "period": "Hasmonean period",
+    "kind": "Manuscript witness",
+    "ref": "REF-0014",
+    "locator": "Manuscript description"
+  },
+  {
+    "entryId": "TXT-0002",
+    "period": "Mid-second century CE (approximate)",
+    "kind": "Christian writing",
+    "ref": "REF-0019",
+    "locator": "Writings / Apologies"
+  },
+  {
+    "entryId": "TXT-0003",
+    "period": "Late 176 to early 177 CE (approximate)",
+    "kind": "Christian writing",
+    "ref": "REF-0018",
+    "locator": "Date"
+  },
+  {
+    "entryId": "TXT-0005",
+    "period": "Around 180 CE",
+    "kind": "Christian writing",
+    "ref": "REF-0017",
+    "locator": "Against Heresies"
+  },
+  {
+    "entryId": "HIS-0002",
+    "period": "325-374 CE (catalogue range)",
+    "kind": "Manuscript witness",
+    "ref": "REF-0015",
+    "locator": "Date range"
+  }
+]

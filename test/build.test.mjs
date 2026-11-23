@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 const entries=JSON.parse(readFileSync('src/data/entries.json','utf8'));
 test('all generated pages exist and prohibit indexing',()=>{
-  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/','atlas/',...entries.map(e=>'research/'+e.slug+'/')];
+  const paths=['','methodology/','about/','research/','references/','scripture/','encyclopaedia/','media/','atlas/','library/','timeline/',...entries.map(e=>'research/'+e.slug+'/')];
   for(const p of paths){const html=readFileSync('dist/'+p+'index.html','utf8');assert.match(html,/<meta[^>]+name="robots"[^>]+content="noindex,nofollow"/);}
   assert.match(readFileSync('dist/_headers','utf8'),/X-Robots-Tag: noindex, nofollow/);
   assert.match(readFileSync('dist/robots.txt','utf8'),/Disallow: \//);
@@ -25,3 +25,5 @@ test('connection atlas covers all research entries and links',()=>{const html=re
 test('atlas offers connection filters and fullscreen controls',()=>{const html=readFileSync('dist/atlas/index.html','utf8');assert.ok(html.includes('id="atlas-filter"'));assert.ok(html.includes('id="atlas-fullscreen"'));assert.ok(html.includes('data-kind="shared"'));assert.ok(html.includes('data-kind="editorial"'));});
 
 test('the illustrated archive exposes gallery and article discovery controls',()=>{const catalogue=readFileSync('dist/encyclopaedia/index.html','utf8');const archive=readFileSync('dist/research/index.html','utf8');const gallery=readFileSync('dist/media/index.html','utf8');const home=readFileSync('dist/index.html','utf8');const entities=JSON.parse(readFileSync('src/data/entities.json','utf8'));for(const e of entities){const a=artwork.find(x=>x.slug===e.artSlug);assert.ok(a);assert.ok(catalogue.includes(a.src));assert.ok(archive.includes(a.src));const entry=entries.find(x=>x.id===e.entryId);assert.ok(readFileSync('dist/research/'+entry.slug+'/index.html','utf8').includes(a.src));}assert.ok(gallery.includes('id="art-viewer"'));assert.ok(gallery.includes('id="gallery-kind"'));assert.ok(archive.includes('id="illustrated-only"'));assert.ok(home.includes('class="hero-art"'));});
+
+test('historical library and timeline link to the cited records',()=>{const library=readFileSync('dist/library/index.html','utf8'),timeline=readFileSync('dist/timeline/index.html','utf8');for(const m of JSON.parse(readFileSync('src/data/manuscripts.json','utf8'))){assert.ok(library.includes('/research/'+entries.find(e=>e.id===m.entryId).slug+'/'));assert.ok(library.includes('/references/#'+m.ref));}for(const t of JSON.parse(readFileSync('src/data/timeline.json','utf8'))){assert.ok(timeline.includes('/research/'+entries.find(e=>e.id===t.entryId).slug+'/'));assert.ok(timeline.includes('/references/#'+t.ref));}});
