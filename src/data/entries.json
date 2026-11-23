@@ -1166,7 +1166,9 @@
       "DEM-0003",
       "DEM-0010",
       "DOC-0022",
-      "DOC-0024"
+      "DOC-0024",
+      "DOC-0027",
+      "DOC-0028"
     ]
   },
   {
@@ -1613,7 +1615,8 @@
       "DOC-0003",
       "DEM-0003",
       "DEM-0010",
-      "DOC-0024"
+      "DOC-0024",
+      "DOC-0028"
     ]
   },
   {
@@ -3165,7 +3168,8 @@
       "DOC-0007",
       "DOC-0023",
       "DOC-0025",
-      "DOC-0026"
+      "DOC-0026",
+      "DOC-0027"
     ]
   },
   {
@@ -3330,7 +3334,167 @@
       "DOC-0023",
       "DOC-0024",
       "DOC-0025",
-      "DOC-0008"
+      "DOC-0008",
+      "DOC-0027"
+    ]
+  },
+  {
+    "id": "DOC-0027",
+    "slug": "sons-of-sceva",
+    "title": "The sons of Sceva and the authority of Christ",
+    "summary": "The unsuccessful attempt to invoke Jesus' name in Acts 19 and its contrast with the Christian proclamation.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Acts 19:13-14 identifies itinerant Jewish exorcists, including the seven sons of Sceva, who attempted to invoke Jesus' name with reference to Paul's preaching.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:13-14",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A13-14&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The account describes the spirit responding to the exorcists and the afflicted man overpowering them. Their attempt ends with injury and flight rather than deliverance.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:15-16",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A15-16&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Luke connects the public report of the incident with reverence for Jesus' name and the confession and abandonment of former magical practices.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:17-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A17-20&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The episode distinguishes Christ's authority from an attempt to appropriate a religious name as an instrument of control. The narrative does not present a verbal formula as a guarantee of spiritual power.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:13-20",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A13-20&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Sceva's sons are particular actors in an ancient narrative. Their conduct does not justify accusations about Jewish people generally, nor does the account authorise readers to attempt exorcisms or physically restrain distressed individuals.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Acts 19:13-16",
+            "url": "https://www.biblegateway.com/passage/?search=Acts%2019%3A13-16&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0026",
+      "DOC-0002",
+      "DOC-0024",
+      "DOC-0028"
+    ]
+  },
+  {
+    "id": "DOC-0028",
+    "slug": "deliverance-in-mark-nine",
+    "title": "Christ and the afflicted boy in Mark 9",
+    "summary": "A study of Christ's compassion, the disciples' inability and the textual variation concerning prayer in Mark 9:29.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Mark 9 describes a father bringing his son to Jesus after the disciples were unable to help him. The narrative presents the father's plea in terms of compassion, faith and his struggle with unbelief.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 9:14-24",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A14-24&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jesus rebukes the spirit and afterwards raises the boy by the hand. The narrative presents the boy's restoration as the outcome of Christ's intervention.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 9:25-27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A25-27&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "In the ensuing private exchange, Jesus refers to prayer. The KJV includes fasting in verse 29, while the ESV places the additional wording in a manuscript-variant footnote.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 9:28-29",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A28-29&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Mark 9:29",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A29&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "The textual difference should be acknowledged rather than used to construct a fixed hierarchy of spirits or a guaranteed procedure for deliverance. The episode centres on dependence upon God and the authority of Christ.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 9:25-29",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A25-29&version=KJV"
+          },
+          {
+            "ref": "REF-0003",
+            "locator": "Mark 9:29",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A29&version=ESV"
+          }
+        ]
+      },
+      {
+        "text": "Symptoms described in the narrative do not establish a method of identifying possession in contemporary children or adults. Seizures, loss of consciousness and related symptoms require appropriate medical assessment; the Biblical account should not be used to delay care.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 9:17-27",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%209%3A17-27&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0027"
     ]
   },
   {

@@ -5,20 +5,35 @@ import entries from '../../data/entries.json';
 import collections from '../../data/collections.json';
 import entities from '../../data/entities.json';
 import artwork from '../../data/artwork.json';
+import refs from '../../data/references.json';
+const evidenceTypes=['Scripturally Attested','Historical Source','Theological Interpretation','Extra-Biblical Tradition','Unverified Report'];
+const sourceTypes=Array.from(new Set(refs.map(r=>r.type))).sort();
 const artSlug=(e:{id:string;slug:string})=>entities.find(x=>x.entryId===e.id)?.artSlug??e.slug;
 ---
 <Site title="Research archive" description="Explore Biblical demonology by theme, passage and research topic.">
 <section class="wrap archive"><p class="eyebrow">THE READING ROOM</p><h1>Research archive</h1><p class="lead">Explore the unseen realm through Scripture, one subject at a time.</p><p class="status">{entries.length} studies · Editorial drafts awaiting review</p><p><a href="/encyclopaedia/">Browse entity profiles</a> · <a href="/media/">Explore the illustration gallery</a></p>
-<div class="archive-search" hidden><label for="entry-search">Find a study</label><input type="search" id="entry-search" placeholder="Search titles, topics or Scripture passages"/><label class="illustrated-toggle"><input type="checkbox" id="illustrated-only"/> Illustrated studies only</label><p id="search-count" role="status" aria-live="polite"></p></div>
-{collections.map(g=><section class="reading-group" data-collection id={`collection-${g.ids[0]}`}><h2>{g.title}</h2><p class="muted">{g.description}</p><div class="reading-list">{entries.filter(e=>g.ids.includes(e.id)).map(e=><article class="reading-entry" data-entry data-illustrated={artwork.some(a=>a.slug===artSlug(e))?"yes":"no"} data-search={[e.title,e.summary,e.id,...e.claims.flatMap(c=>c.citations.map(s=>s.locator))].join(' ').toLowerCase()}><ArticleArt slug={artSlug(e)} compact /><div class="reading-entry-copy"><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p></div><span class="status">{e.id} · {e.claims.length} claims</span></article>)}</div></section>)}
+<div class="archive-search" hidden><label for="entry-search">Find a study</label><input type="search" id="entry-search" placeholder="Search titles, topics or Scripture passages"/><div class="filter-grid"><div><label for="evidence-filter">Contains evidence type</label><select id="evidence-filter"><option value="">All evidence types</option>{evidenceTypes.map(t=><option value={t}>{t}</option>)}</select></div><div><label for="source-filter">Cites source type</label><select id="source-filter"><option value="">All source types</option>{sourceTypes.map(t=><option value={t}>{t}</option>)}</select></div></div><label class="illustrated-toggle"><input type="checkbox" id="illustrated-only"/> Illustrated studies only</label><button type="button" id="reset-filters" class="filter-reset">Reset filters</button><p class="status">Filters identify studies containing matching claims or sources, not the authority of the whole article.</p><p id="search-count" role="status" aria-live="polite"></p></div>
+{collections.map(g=><section class="reading-group" data-collection id={`collection-${g.ids[0]}`}><h2>{g.title}</h2><p class="muted">{g.description}</p><div class="reading-list">{entries.filter(e=>g.ids.includes(e.id)).map(e=><article class="reading-entry" data-entry data-evidence={JSON.stringify(Array.from(new Set(e.claims.map(c=>c.evidence))))} data-sources={JSON.stringify(Array.from(new Set(e.claims.flatMap(c=>c.citations.map(s=>refs.find(r=>r.id===s.ref)?.type??"")))))} data-illustrated={artwork.some(a=>a.slug===artSlug(e))?"yes":"no"} data-search={[e.title,e.summary,e.id,...e.claims.flatMap(c=>[c.text,...c.citations.map(s=>s.locator)]),...(entities.find(x=>x.entryId===e.id)?.names??[])].join(' ').toLowerCase()}><ArticleArt slug={artSlug(e)} compact /><div class="reading-entry-copy"><h3><a href={`/research/${e.slug}/`}>{e.title}</a></h3><p>{e.summary}</p></div><span class="status">{e.id} · {e.claims.length} claims</span></article>)}</div></section>)}
 <p id="empty-results" hidden>No studies match your search. Try another term or Scripture reference.</p></section>
 <script>
 const box=document.querySelector<HTMLElement>('.archive-search');
 const input=document.querySelector<HTMLInputElement>('#entry-search');
 const illustrated=document.querySelector<HTMLInputElement>('#illustrated-only');
+const evidence=document.querySelector<HTMLSelectElement>('#evidence-filter');
+const source=document.querySelector<HTMLSelectElement>('#source-filter');
+const reset=document.querySelector<HTMLButtonElement>('#reset-filters');
 const count=document.querySelector<HTMLElement>('#search-count');
 const empty=document.querySelector<HTMLElement>('#empty-results');
 const cards=Array.from(document.querySelectorAll<HTMLElement>('[data-entry]'));
-if(box&&input&&count&&empty&&illustrated){box.hidden=false;const update=()=>{const terms=input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);let visible=0;for(const card of cards){card.hidden=!terms.every(term=>(card.dataset.search??'').includes(term))||(illustrated.checked&&card.dataset.illustrated!=='yes');if(!card.hidden)visible++;}for(const group of document.querySelectorAll<HTMLElement>('[data-collection]'))group.hidden=!group.querySelector('[data-entry]:not([hidden])');count.textContent=visible+' of '+cards.length+' studies';empty.hidden=visible!==0;};input.addEventListener('input',update);illustrated.addEventListener('change',update);update();}
+if(box&&input&&count&&empty&&illustrated&&evidence&&source&&reset){
+ box.hidden=false;
+ const update=()=>{const terms=input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);let visible=0;
+ for(const card of cards){card.hidden=!terms.every(term=>(card.dataset.search??'').includes(term))||(illustrated.checked&&card.dataset.illustrated!=='yes')||(!!evidence.value&&!JSON.parse(card.dataset.evidence??'[]').includes(evidence.value))||(!!source.value&&!JSON.parse(card.dataset.sources??'[]').includes(source.value));if(!card.hidden)visible++;}
+ for(const group of document.querySelectorAll<HTMLElement>('[data-collection]'))group.hidden=!group.querySelector('[data-entry]:not([hidden])');
+ count.textContent=visible+' of '+cards.length+' studies';empty.hidden=visible!==0;};
+ const sync=()=>{const p=new URLSearchParams(location.search);for(const k of ['q','evidence','source','illustrated'])p.delete(k);if(input.value.trim())p.set('q',input.value.trim());if(evidence.value)p.set('evidence',evidence.value);if(source.value)p.set('source',source.value);if(illustrated.checked)p.set('illustrated','1');history.replaceState(null,'',location.pathname+(p.size?'?'+p.toString():'')+location.hash);};
+ const query=new URLSearchParams(location.search);input.value=query.get('q')??'';for(const [select,key] of [[evidence,'evidence'],[source,'source']] as const){const v=query.get(key);if(Array.from(select.options).some(o=>o.value===v))select.value=v??'';}
+ illustrated.checked=query.get('illustrated')==='1';const change=()=>{update();sync();};input.addEventListener('input',change);illustrated.addEventListener('change',change);evidence.addEventListener('change',change);source.addEventListener('change',change);reset.addEventListener('click',()=>{input.value='';illustrated.checked=false;evidence.value='';source.value='';change();input.focus();});update();
+}
 </script>
 </Site>
