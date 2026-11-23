@@ -93,7 +93,9 @@
       "DOC-0013",
       "DOC-0016",
       "DOC-0018",
-      "DOC-0020"
+      "DOC-0020",
+      "DOC-0021",
+      "DOC-0022"
     ]
   },
   {
@@ -467,7 +469,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 9:6-7; 10:4-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -484,7 +486,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 10:4-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       }
@@ -671,7 +673,8 @@
       "DOC-0004",
       "DOC-0006",
       "DEM-0001",
-      "DEM-0009"
+      "DEM-0009",
+      "DOC-0021"
     ]
   },
   {
@@ -689,7 +692,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -701,7 +704,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 10:11-15",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -713,12 +716,12 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:3-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           },
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 10:11-15",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -740,7 +743,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:3-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       }
@@ -749,7 +752,9 @@
       "DOC-0014",
       "TXT-0001",
       "DEM-0005",
-      "DOC-0015"
+      "DOC-0015",
+      "DEM-0011",
+      "DEM-0012"
     ]
   },
   {
@@ -821,7 +826,248 @@
     "related": [
       "DEM-0007",
       "DOC-0006",
-      "DOC-0004"
+      "DOC-0004",
+      "DOC-0021"
+    ]
+  },
+  {
+    "id": "DEM-0010",
+    "slug": "asmodeus",
+    "title": "Asmodeus",
+    "summary": "The demon named in Tobit, studied within the book's narrative and its differing canonical reception.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Tobit 3 identifies Asmodeus as the cause of the deaths of Sarah's seven husbands. The narrative distinguishes this attribution from the unjust accusation made against Sarah and presents her appeal to God in distress.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 3:7-17",
+            "url": "https://bible.usccb.org/bible/tobit/3"
+          }
+        ]
+      },
+      {
+        "text": "In the narrative, God hears both Tobit's and Sarah's prayers and sends Raphael to help them. The account of the demon's flight and restraint in chapter 8 forms part of that divine response.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 3:16-17",
+            "url": "https://bible.usccb.org/bible/tobit/3"
+          },
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 8:1-8",
+            "url": "https://bible.usccb.org/bible/tobit/8"
+          }
+        ]
+      },
+      {
+        "text": "The Catholic Church explicitly includes Tobit in its canon, and the Orthodox Church in America identifies it as part of the longer Old Testament canon. Protestant editions generally distinguish such books from their Old Testament canon.",
+        "evidence": "Historical Source",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0007",
+            "locator": "Paragraph 120",
+            "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/article_3/iv_the_canon_of_scripture.html"
+          },
+          {
+            "ref": "REF-0008",
+            "locator": "Answer: the longer canon",
+            "url": "https://www.oca.org/questions/scripture/canon-of-scripture"
+          }
+        ]
+      },
+      {
+        "text": "The source is therefore identified as deuterocanonical Scripture, not treated as a universally accepted addition to the archive's shared Biblical corpus. The account concerns a particular named demon; it does not establish a universal rank or a domain over a class of human behaviour.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 3:8, 17",
+            "url": "https://bible.usccb.org/bible/tobit/3"
+          },
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 8:3",
+            "url": "https://bible.usccb.org/bible/tobit/8"
+          }
+        ]
+      },
+      {
+        "text": "The story emphasises divine providence and prayer. Its particular narrative actions should not be extracted as an instruction for contemporary diagnosis, treatment or exorcism.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 3:16-17",
+            "url": "https://bible.usccb.org/bible/tobit/3"
+          },
+          {
+            "ref": "REF-0006",
+            "locator": "Tobit 8:4-8",
+            "url": "https://bible.usccb.org/bible/tobit/8"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0002",
+      "DOC-0007",
+      "DOC-0003"
+    ]
+  },
+  {
+    "id": "DEM-0011",
+    "slug": "armaros",
+    "title": "Armaros",
+    "summary": "A named Watcher in the Book of Enoch, examined through the text's limited attributed role.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "The leaders listed in 1 Enoch 6 include Armaros. The narrative identifies the group as leaders of the company of heavenly beings that descends in the days of Jared.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:6-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "First Enoch 8 attributes to Armaros knowledge associated with undoing enchantments. This is an attributed role in the text, not a verified ability or an endorsement of the practice.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 8:3",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "The passage provides neither a detailed biography nor an independent rank beyond the group leadership described earlier. Later claims about the figure require separate documentary evidence.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:7-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 8:3",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "Genesis 6 does not identify Armaros. The name is recorded as part of the Enochic narrative rather than as an explicit Biblical designation.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:7-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0008",
+      "DOC-0014",
+      "TXT-0001",
+      "DEM-0012"
+    ]
+  },
+  {
+    "id": "DEM-0012",
+    "slug": "baraqijal",
+    "title": "Baraqijal",
+    "summary": "A Watcher named in Enochic literature and associated there with knowledge of astrology.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Baraqijal is named among the leaders in 1 Enoch 6:7. The Charles translation subsequently associates the name with astrology in chapter 8.",
+        "evidence": "Extra-Biblical Tradition",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:7-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 8:3",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "The text presents the attributed teaching within its larger account of corruption and judgement. It does not establish the supernatural effectiveness of astrology, nor does it provide a detailed biography of the named figure.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 8:1-4",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "The Biblical record of the sons of God in Genesis 6 does not supply this name or attributed teaching. A reader should distinguish the narrative's named leaders from the less specific Biblical testimony.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Genesis 6:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis%206%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:7-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      },
+      {
+        "text": "This profile uses the spelling of the Charles edition. Comparison of alternative manuscript spellings and etymologies remains a separate philological task.",
+        "evidence": "Theological Interpretation",
+        "confidence": "moderate",
+        "citations": [
+          {
+            "ref": "REF-0004",
+            "locator": "1 Enoch 6:7-8",
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0008",
+      "DEM-0011",
+      "DOC-0014",
+      "TXT-0001"
     ]
   },
   {
@@ -914,7 +1160,9 @@
       "DOC-0007",
       "DOC-0008",
       "DEM-0002",
-      "DEM-0003"
+      "DEM-0003",
+      "DEM-0010",
+      "DOC-0022"
     ]
   },
   {
@@ -1016,7 +1264,8 @@
       "DOC-0012",
       "DEM-0003",
       "DEM-0005",
-      "DOC-0015"
+      "DOC-0015",
+      "DEM-0010"
     ]
   },
   {
@@ -1091,7 +1340,8 @@
       "DEM-0007",
       "DOC-0013",
       "DOC-0014",
-      "DEM-0009"
+      "DEM-0009",
+      "DOC-0021"
     ]
   },
   {
@@ -1286,7 +1536,8 @@
       "DEM-0002",
       "DEM-0004",
       "DEM-0007",
-      "DEM-0009"
+      "DEM-0009",
+      "DOC-0021"
     ]
   },
   {
@@ -1351,7 +1602,8 @@
     "related": [
       "DOC-0002",
       "DOC-0003",
-      "DEM-0003"
+      "DEM-0003",
+      "DEM-0010"
     ]
   },
   {
@@ -1428,7 +1680,9 @@
       "DEM-0006",
       "DOC-0016",
       "DOC-0017",
-      "DOC-0019"
+      "DOC-0019",
+      "DOC-0022",
+      "DOC-0023"
     ]
   },
   {
@@ -1889,7 +2143,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -1901,7 +2155,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 9:6-10; 10:4-15",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -1918,7 +2172,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -1940,7 +2194,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       }
@@ -1952,7 +2206,9 @@
       "DEM-0005",
       "TXT-0001",
       "DEM-0008",
-      "DOC-0015"
+      "DOC-0015",
+      "DEM-0011",
+      "DEM-0012"
     ]
   },
   {
@@ -1970,7 +2226,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 15:3-7",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -1982,7 +2238,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 15:8-12",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -1994,7 +2250,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 16:1",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -2006,17 +2262,17 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 10:11-15",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           },
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 15:8-12",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           },
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 16:1",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -2038,7 +2294,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 15:8-12",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       }
@@ -2125,7 +2381,8 @@
     "related": [
       "DEM-0001",
       "DOC-0012",
-      "DOC-0008"
+      "DOC-0008",
+      "DOC-0022"
     ]
   },
   {
@@ -2230,7 +2487,8 @@
       "DOC-0008",
       "DOC-0018",
       "DOC-0019",
-      "DOC-0020"
+      "DOC-0020",
+      "DOC-0023"
     ]
   },
   {
@@ -2407,7 +2665,8 @@
       "DOC-0009",
       "DOC-0017",
       "DOC-0018",
-      "DOC-0020"
+      "DOC-0020",
+      "DOC-0023"
     ]
   },
   {
@@ -2486,7 +2745,321 @@
       "DOC-0009",
       "DOC-0017",
       "DOC-0018",
-      "DOC-0019"
+      "DOC-0019",
+      "DOC-0023"
+    ]
+  },
+  {
+    "id": "DOC-0021",
+    "slug": "michael-and-spiritual-conflict",
+    "title": "Michael and spiritual conflict",
+    "summary": "The Biblical descriptions of Michael's assistance, contention and role in the heavenly conflict.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Daniel 10 names Michael among the chief princes and describes his intervention on behalf of the heavenly messenger. Daniel 12 associates him with protection of Daniel's people in a time of distress.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:13-21",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A13-21&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 12:1",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2012%3A1&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jude describes Michael as an archangel and reports his contention with the devil concerning Moses' body. Michael invokes the Lord's rebuke rather than pronouncing a condemnatory judgement on his own authority.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:9",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A9&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "In Revelation 12, Michael and his angels oppose the dragon and its angels. The vision identifies the dragon with Satan and depicts the adversary's expulsion.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-12",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "These passages give Michael specific roles without offering an exhaustive system of angelic ranks. He is a faithful heavenly opponent of evil and must not be classified as a demon in the encyclopaedia.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Daniel 10:13",
+            "url": "https://www.biblegateway.com/passage/?search=Daniel%2010%3A13&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Jude 1:9",
+            "url": "https://www.biblegateway.com/passage/?search=Jude%201%3A9&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:7-9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A7-9&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The account of conflict remains subordinate to God's sovereignty. Revelation's wider explanation locates the victory of the faithful in the Lamb rather than encouraging worship of angels.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 12:10-11",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2012%3A10-11&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Revelation 22:8-9",
+            "url": "https://www.biblegateway.com/passage/?search=Revelation%2022%3A8-9&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DEM-0007",
+      "DEM-0009",
+      "DOC-0004",
+      "DOC-0006"
+    ]
+  },
+  {
+    "id": "DOC-0022",
+    "slug": "temptation-of-christ",
+    "title": "The temptation of Jesus Christ",
+    "summary": "A comparative study of the wilderness temptation accounts and Christ's rejection of the adversary's offers.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Matthew and Luke describe Jesus fasting and being tempted in the wilderness. The tempter challenges his sonship in connection with physical hunger and proposes a demonstration of divine protection.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:1-11",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:1-13",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A1-13&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Both narratives record an offer of earthly dominion conditional upon worship of the devil. Jesus rejects the demand and affirms that worship belongs to God alone.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:8-10",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A8-10&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:5-8",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A5-8&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The Gospel accounts arrange the temptations differently: Matthew places the temple scene before the offer of kingdoms, while Luke places it afterwards. Both conclude with Jesus resisting the tempter.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:1-11",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:1-13",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A1-13&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The tempter's appeal to Scripture in the temple episode demonstrates that quoting a Biblical passage does not establish the truth of the use made of it. Jesus' response rejects the proposed test of God.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:5-7",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A5-7&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:9-12",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A9-12&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The devil's claim of delegated authority in Luke is a reported assertion within the dialogue. It must not be read in isolation as proof of unlimited sovereignty over creation.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:5-8",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A5-8&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:8-10",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A8-10&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "The narratives direct attention to Christ's faithfulness and the rightful worship of God rather than to the tempter's outward appearance or supposed magical powers.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 4:1-11",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%204%3A1-11&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Luke 4:1-13",
+            "url": "https://www.biblegateway.com/passage/?search=Luke%204%3A1-13&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DEM-0001",
+      "DOC-0002",
+      "DOC-0008",
+      "DOC-0016"
+    ]
+  },
+  {
+    "id": "DOC-0023",
+    "slug": "false-prophets-and-signs",
+    "title": "False prophets and deceptive signs",
+    "summary": "Biblical criteria for discernment when religious claims are accompanied by extraordinary signs.",
+    "reviewStatus": "draft - owner review pending",
+    "claims": [
+      {
+        "text": "Deuteronomy 13 warns Israel against abandoning God even if a sign announced by a prophet comes to pass. The covenant's demand for faithfulness is not made conditional on the success of a sign.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 13:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-4&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Jesus warns that misleading claimants and false prophets will employ signs to deceive. His warning calls disciples to attentiveness rather than assuming impressive acts prove divine authority.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 24:23-25",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2024%3A23-25&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Mark 13:21-23",
+            "url": "https://www.biblegateway.com/passage/?search=Mark%2013%3A21-23&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Second Thessalonians associates the lawless one's appearance with deceptive signs and Satan's activity, while 1 John directs believers to test claims about spirits and their confession of Christ.",
+        "evidence": "Scripturally Attested",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "2 Thessalonians 2:9-12",
+            "url": "https://www.biblegateway.com/passage/?search=2%20Thessalonians%202%3A9-12&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1-3",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1-3&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Across these passages, the theological content and allegiance of a religious claim matter more than claims of extraordinary power. The comparison does not establish that every alleged miracle is either genuine or demonic.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Deuteronomy 13:1-4",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-4&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 24:23-25",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2024%3A23-25&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1-3",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1-3&version=KJV"
+          }
+        ]
+      },
+      {
+        "text": "Modern reports require independent evidence and ordinary explanations must remain open. Claims about spirits must not be used to diagnose an individual or excuse harm against a supposed false prophet.",
+        "evidence": "Theological Interpretation",
+        "confidence": "high",
+        "citations": [
+          {
+            "ref": "REF-0001",
+            "locator": "Matthew 24:23-25",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2024%3A23-25&version=KJV"
+          },
+          {
+            "ref": "REF-0001",
+            "locator": "1 John 4:1-3",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%204%3A1-3&version=KJV"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "DOC-0008",
+      "DOC-0017",
+      "DOC-0019",
+      "DOC-0020"
     ]
   },
   {
@@ -2504,7 +3077,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 1-36",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -2516,7 +3089,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8; 9:6-10; 10:4-15",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           }
         ]
       },
@@ -2540,7 +3113,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 6:1-8",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           },
           {
             "ref": "REF-0005",
@@ -2567,7 +3140,7 @@
           {
             "ref": "REF-0004",
             "locator": "1 Enoch 1:9",
-            "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+            "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
           },
           {
             "ref": "REF-0005",
@@ -2583,7 +3156,9 @@
       "DOC-0005",
       "DEM-0005",
       "DEM-0008",
-      "DOC-0015"
+      "DOC-0015",
+      "DEM-0011",
+      "DEM-0012"
     ]
   }
 ]

@@ -26,7 +26,7 @@
     "title": "The Book of Enoch",
     "edition": "R. H. Charles, trans., London: Society for Promoting Christian Knowledge, 1917",
     "rightsNote": "Historical translation; cite the relevant chapter and verse. The text is treated as ancient literature in this archive, recognising its canonical status in the Ethiopian Orthodox tradition.",
-    "url": "https://cleartexteditions.com/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
+    "url": "https://cleartexteditions.com/ct/public%20domain/1%20enoch%20-%20translated%20by%20%20R.%20H.%20Charles.pdf"
   },
   {
     "id": "REF-0005",
@@ -35,5 +35,29 @@
     "edition": "Daniel Assefa, The Oxford Handbook of the Bible in Orthodox Christianity, 2022, pp. 211-226",
     "rightsNote": "Oxford University Press. Refer to the published chapter; no reproduction.",
     "url": "https://doi.org/10.1093/oxfordhb/9780190948658.013.22"
+  },
+  {
+    "id": "REF-0006",
+    "type": "Deuterocanonical Scripture",
+    "title": "Book of Tobit",
+    "edition": "New American Bible, Revised Edition (NABRE), USCCB",
+    "rightsNote": "Copyright Confraternity of Christian Doctrine. Canonical in Catholic and Eastern Orthodox traditions; outside the usual Protestant Old Testament canon. Link and paraphrase.",
+    "url": "https://bible.usccb.org/bible/tobit/3"
+  },
+  {
+    "id": "REF-0007",
+    "type": "Church document",
+    "title": "Catechism of the Catholic Church",
+    "edition": "Part One, Section One, Chapter Two, Article 3, paragraph 120",
+    "rightsNote": "Vatican publication. Link and paraphrase.",
+    "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/article_3/iv_the_canon_of_scripture.html"
+  },
+  {
+    "id": "REF-0008",
+    "type": "Church document",
+    "title": "Canon of Scripture",
+    "edition": "Orthodox Church in America, Questions & Answers",
+    "rightsNote": "Official denominational explanation; link and paraphrase.",
+    "url": "https://www.oca.org/questions/scripture/canon-of-scripture"
   }
 ]

@@ -89,5 +89,18 @@
     "alt": "Jesus sits beside a restored man near a rocky lakeshore, with disciples and tombs behind them.",
     "caption": "An imaginative rendering of the restored man in Mark 5:15-20 and Luke 8:35-39. The setting, gesture and lighting are artistic interpretations.",
     "sha256": "6f149afa018121d83828a4f3cbf34d0fa2802ec61f7454218b162c8d373c60fc"
+  },
+  {
+    "entryId": "DOC-0022",
+    "slug": "temptation-of-christ",
+    "src": "/media/temptation-of-christ.webp",
+    "width": 1279,
+    "height": 720,
+    "origin": "AI-generated illustration",
+    "created": "2026-11-23",
+    "credit": "Created for Demonology",
+    "alt": "Jesus stands in a rocky desert as a shadowed figure gestures from a distant ridge beneath a glowing sky.",
+    "caption": "An imaginative depiction of Christ's wilderness temptation in Matthew 4:1-11 and Luke 4:1-13. The tempter's appearance and the landscape are artistic interpretations.",
+    "sha256": "e58742eb02af50e0e67b59c6877bcf71930cb825023a5796158661c0711d3504"
   }
 ]

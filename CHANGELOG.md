@@ -30,4 +30,8 @@
 - Added separate studies of the Genesis serpent, Antichrist, the two beasts of Revelation and the man of lawlessness.
 - Improved source navigation and Scripture translation comparisons.
 
+- Added studies of Asmodeus, Armaros, Baraqijal, Michael, Christ's temptation and deceptive signs.
+- Added an original illustration of Christ's temptation.
+- Introduced a connection atlas with related reading and shared source links.
+
 The archive remains under development and awaits final editorial approval.
